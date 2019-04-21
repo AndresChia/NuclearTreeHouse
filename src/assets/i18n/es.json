@@ -1,0 +1,11 @@
+{
+
+  "Home": {
+    "menu": {
+      "proceso": "Proceso",
+      "proyectos": "Proyectos",
+      "creador": "Creador",
+      "iniciarProyectos": "Iniciar Proyectos"
+    }
+  }
+}

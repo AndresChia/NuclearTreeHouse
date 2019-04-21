@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <div *ngIf="idiomaEsp" class="col-md-4 downImg">
+      <a (click)="cambioIdioma('en')">
+        <img class="img-responsive imgLengua" src="../../../../assets/Home/ESP.png" alt="Lenguaje">
+      </a> </div>
+    <div *ngIf="!idiomaEsp" class="col-md-4 downImg">
+      <a (click)="cambioIdioma('es')">
+        <img class="img-responsive imgLengua" src="../../../../assets/Home/ENG.png" alt="Lenguaje">
+      </a>
+    </div>
+
+    <div class="col-md-4 downImg centerImage">
+      <img class="img-responsive" src="../../../../assets/Home/title.png" alt="Lenguaje">
+    </div>
+    <div class="col-md-4 downImg">
+      <img class="img-responsive" src="../../../../assets/Home/budget.png" alt="Lenguaje" style="width: inherit">
+    </div>
+  </div>
+</div>

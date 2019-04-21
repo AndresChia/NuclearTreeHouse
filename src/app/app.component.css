@@ -1,0 +1,8 @@
+.home {
+  background: url(../assets/Home/FONDO.png);
+  background-size: cover;
+  height: 100vh;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 0 20px 3px black;
+}
