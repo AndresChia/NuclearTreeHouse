@@ -6,6 +6,9 @@
       "proyectos": "Proyectos",
       "creador": "Creador",
       "iniciarProyectos": "Iniciar Proyectos"
+    },
+    "footer": {
+      "por": "Por: "
     }
   }
 }

@@ -1,8 +1,17 @@
 .home {
-  background: url(../assets/Home/FONDO.png);
+  background: url(../assets/componentes/Home/FONDO.png);
+  background-size: cover;
+  height: 100vh;
+  z-index: +5;
+  width: 100%;
+  box-shadow: -1px -9px 20px 15px black;
+  position: relative;
+}
+
+.especificacion {
+  background: url(../assets/componentes/especificacion/Fondo1.png);
   background-size: cover;
   height: 100vh;
   z-index: 3;
   width: 100%;
-  box-shadow: 0 0 20px 3px black;
 }

@@ -1,20 +1,44 @@
 <div class="container-fluid">
   <div class="row">
-    <div *ngIf="idiomaEsp" class="col-md-4 downImg">
-      <a (click)="cambioIdioma('en')">
-        <img class="img-responsive imgLengua" src="../../../../assets/Home/ESP.png" alt="Lenguaje">
-      </a> </div>
-    <div *ngIf="!idiomaEsp" class="col-md-4 downImg">
-      <a (click)="cambioIdioma('es')">
-        <img class="img-responsive imgLengua" src="../../../../assets/Home/ENG.png" alt="Lenguaje">
-      </a>
+    <div class="col-md-4 downImg">
+
+
+      <span style="display: -webkit-inline-box">
+
+        <div *ngIf="idiomaEsp">
+          <a (click)="cambioIdioma('en')">
+            <img class="img-responsive imgLengua" src="../../../../assets/componentes/Home/ESP.png" alt="LenguajeEN">
+          </a> </div>
+        <div *ngIf="!idiomaEsp">
+          <a (click)="cambioIdioma('es')">
+            <img class="img-responsive imgLengua" src="../../../../assets/componentes/Home/ENG.png" alt="LenguajeES">
+          </a>
+        </div>
+
+        <div>
+          <p style="text-align: right;">
+            Nuclear Treehouse: <br> A small, home-made project with nuclear power.
+          </p>
+        </div>
+
+
+      </span>
+
     </div>
 
+
     <div class="col-md-4 downImg centerImage">
-      <img class="img-responsive" src="../../../../assets/Home/title.png" alt="Lenguaje">
+      <img class="img-responsive img-titulo" src="../../../../assets/componentes/Home/title.png" alt="titulo">
+      <div class="autorText">
+        <span style="display: -webkit-inline-box">
+          <h2>{{ 'Home.footer.por' | translate }}</h2>
+          <h1> Sebastian Buenaventura E.</h1>
+        </span>
+      </div>
     </div>
-    <div class="col-md-4 downImg">
-      <img class="img-responsive" src="../../../../assets/Home/budget.png" alt="Lenguaje" style="width: inherit">
+    <div class="col-md-4 downImg rigtImage">
+      <img class="img-responsive budget" src="../../../../assets/componentes/Home/budget.png" alt="medallas"
+        style="width: inherit">
     </div>
   </div>
 </div>

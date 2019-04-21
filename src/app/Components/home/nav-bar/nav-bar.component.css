@@ -10,3 +10,12 @@ h1 {
   font-family: 'brandon-black', 'arial', sans-serif;
   font-size: 16px;
 }
+
+.navBarHome {
+  position: relative;
+  z-index: +999;
+}
+
+.btn {
+  border-radius: 239px;
+}

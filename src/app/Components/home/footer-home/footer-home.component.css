@@ -3,9 +3,65 @@
 }
 
 .imgLengua {
-  max-width: 181px;
+  max-width: 85px;
+  margin-right: 14px;
 }
 
 .centerImage {
   text-align: center;
+}
+
+
+@font-face {
+  font-family: brandon-black;
+  src: url(../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: brandon-light;
+  src: url(../../../../assets/fonts/brandon-grotesque-light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: brandon-bold-italic;
+  src: url(../../../../assets/fonts/brandon-grotesque-bold-italic.otf) format("opentype");
+}
+
+
+h1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-light', 'arial', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-bold-italic', 'arial', sans-serif;
+  font-size: 2vh;
+}
+
+.img-titulo {
+  max-width: 162px;
+}
+
+
+.budget {
+  width: inherit;
+  max-width: 350px;
+}
+
+.rigtImage {
+  text-align: right;
 }
