@@ -14,14 +14,14 @@
   height: 100vh;
   z-index: +4;
   width: 100%;
-  box-shadow: -1px -9px 20px 15px black;
+
 }
 
 .potencial {
-  background: url(../assets/componentes/potencial/Fondo.png);
-  background-size: cover;
-  height: 100%;
+  background: url(../assets/componentes/potencial/Fondo.png) no-repeat center center;
+  background-size: contain;
+  height: 75vw;
   z-index: +3;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
