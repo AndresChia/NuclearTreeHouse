@@ -19,3 +19,9 @@ h1 {
 .btn {
   border-radius: 239px;
 }
+
+
+.cuadro {
+  width: 11px;
+  margin-right: 3vw !important;
+}

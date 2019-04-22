@@ -10,5 +10,25 @@
     "footer": {
       "por": "Por: "
     }
+  },
+  "especificaciones": {
+    "titulo": {
+      "1": "DISEÑO",
+      "2": "CENTRADO EN",
+      "3": " TU USUARIO"
+    },
+    "textoSubencabezado": "Creación de medios digitales y lenguaje de marca con asesoramiento creativo. Pensado desde las necesidades de tu cliente.",
+    "subtitulos": {
+      "branding": "Branding: ",
+      "paginasWeb": "Páginas Web: ",
+      "procesosCreativos": "Procesos Creativos: ",
+      "analisisDeClientes": "Análisis de Clientes: "
+    },
+    "subTextos": {
+      "branding": "logo, lenguaje de marca, colores, piezas gráﬁcas.",
+      "paginasWeb": "landing page, e-commerce, páginas web robustas (programación), UI/UX. ",
+      "procesosCreativos": "design thinking y procesos creativos a la medida de cada marca/idea.",
+      "analisisDeClientes": "proceso de diseño para entender que quieren y que van a querer tus potenciales clientes."
+    }
   }
 }

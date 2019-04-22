@@ -15,6 +15,7 @@ import { FooterHomeComponent } from './Components/home/footer-home/FooterHomeCom
 import { EspecificacionComponent } from './Components/especificacion/especificacion.component';
 import { NavBarComponent } from './Components/home/nav-bar/nav-bar.component';
 import { FondoHomeComponent } from './Components/home/fondo-home/fondo-home.component';
+import { PotencialComponent } from './Components/potencial/potencial.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FondoHomeComponent } from './Components/home/fondo-home/fondo-home.comp
     FooterHomeComponent,
     EspecificacionComponent,
     NavBarComponent,
-    FondoHomeComponent
+    FondoHomeComponent,
+    PotencialComponent
   ],
   imports: [
     HttpClientModule,
