@@ -2,14 +2,33 @@
 
   "Home": {
     "menu": {
-      "proceso": "Procesehion",
-      "proyectos": "Proyecteishion",
-      "creador": "Creadorseishion",
-      "iniciarProyectos": "Iniciseshion Proyectshesion"
+      "proceso": "Design Process",
+      "proyectos": "Projects",
+      "creador": "Creator",
+      "iniciarProyectos": "Start Project"
     },
     "footer": {
-      "por": "Por:"
+      "por": "by: "
     }
-
+  },
+  "especificaciones": {
+    "titulo": {
+      "1": "USER",
+      "2": "CENTERED",
+      "3": "DESIGN"
+    },
+    "textoSubencabezado": "Development of digital media and brand language with a creative process.Thinking from what your client want’s. ",
+    "subtitulos": {
+      "branding": "Branding: ",
+      "paginasWeb": "Web Pages: ",
+      "procesosCreativos": "Creative Processes: ",
+      "analisisDeClientes": "User Design: "
+    },
+    "subTextos": {
+      "branding": "logos, lbrand language, colors, graphic pieces.",
+      "paginasWeb": "landing page, e-commerce, robust web pages (programación), UI/UX. Creative Processes: design thinking",
+      "procesosCreativos": "design thinking y procesos creativos a la medida de cada marca/idea.",
+      "analisisDeClientes": "design process to understand what your potential client want now and in the future."
+    }
   }
 }
