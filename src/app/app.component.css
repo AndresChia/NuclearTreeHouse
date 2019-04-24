@@ -1,5 +1,5 @@
 .home {
-  background: url(../assets/componentes/Home/FONDO.png);
+  background: url(../assets/Home/FONDO.png);
   background-size: cover;
   height: 100vh;
   z-index: +6;
@@ -9,7 +9,7 @@
 }
 
 .especificacion {
-  background: url(../assets/componentes/especificacion/Fondo1.png);
+  background: url(../assets/especificacion/Fondo1.png);
   background-size: cover;
   height: 100vh;
   z-index: +4;
@@ -18,7 +18,7 @@
 }
 
 .potencial {
-  background: url(../assets/componentes/potencial/Fondo.png) no-repeat center center;
+  background: url(../assets/potencial/Fondo.png) no-repeat center center;
   background-size: contain;
   height: 75vw;
   z-index: +3;
