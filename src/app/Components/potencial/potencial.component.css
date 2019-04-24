@@ -15,13 +15,12 @@
   border-radius: 11px;
 
   background-position-y: 0vw;
-  background-size: 30vw 49vw;
-
-
+  background-size: 31vw 49vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position-x: 56vw;
-  background-color: #faf9ff;
+  background-position-x: 54vw;
+
+  background-repeat-y: repeat;
 }
 
 .celular img,
@@ -47,6 +46,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 
-  background-color: #faf9ff;
+
+  background-repeat-y: repeat;
 
 }
