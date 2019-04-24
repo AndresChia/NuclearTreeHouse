@@ -1,11 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-// Cargamos el import del servicio de traducción de la librería
 import { TranslateService } from '@ngx-translate/core';
-// Por default dejamos el inglés
-const defaultLanguage = "en";
-// Y como adicional el español
-const additionalLanguages = ["es"];
-// Combinamos las traducciones disponibles al default.
+const defaultLanguage = "es";
+const additionalLanguages = ["en"];
 const languages: string[] = [defaultLanguage].concat(additionalLanguages);
 @Component({
   selector: 'app-root',

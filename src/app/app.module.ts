@@ -16,6 +16,7 @@ import { NavBarComponent } from './Components/home/nav-bar/nav-bar.component';
 import { FondoHomeComponent } from './Components/home/fondo-home/fondo-home.component';
 import { PotencialComponent } from './Components/potencial/potencial.component';
 import { FooterHomeComponent } from "./Components/home/footer-home/footer-home.component";
+import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,9 @@ import { FooterHomeComponent } from "./Components/home/footer-home/footer-home.c
       }
     })
   ],
-  providers: [],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/' },
+  { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 
 })
