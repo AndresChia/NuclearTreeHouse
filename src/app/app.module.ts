@@ -18,6 +18,10 @@ import { PotencialComponent } from './Components/potencial/potencial.component';
 import { FooterHomeComponent } from "./Components/home/footer-home/footer-home.component";
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
 
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,9 +39,7 @@ import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: (http: HttpClient) => {
-          return new TranslateHttpLoader(http);
-        },
+        useFactory: createTranslateLoader,
         deps: [HttpClient]
       }
     })
