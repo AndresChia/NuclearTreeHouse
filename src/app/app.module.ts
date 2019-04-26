@@ -17,6 +17,7 @@ import { NavBarComponent } from './Components/home/nav-bar/nav-bar.component';
 import { FondoHomeComponent } from './Components/home/fondo-home/fondo-home.component';
 import { PotencialComponent } from './Components/potencial/potencial.component';
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
+import { FooterComponent } from './Components/footer/footer.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -30,7 +31,8 @@ export function createTranslateLoader(http: HttpClient) {
     NavBarComponent,
     FondoHomeComponent,
     PotencialComponent,
-    FooterHomeComponent
+    FooterHomeComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,

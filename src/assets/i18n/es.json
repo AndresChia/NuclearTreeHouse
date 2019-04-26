@@ -30,5 +30,33 @@
       "procesosCreativos": "design thinking y procesos creativos a la medida de cada marca/idea.",
       "analisisDeClientes": "proceso de diseño para entender que quieren y que van a querer tus potenciales clientes."
     }
+  },
+  "potencial": {
+    "titulo": {
+      "1": "DESCUBRE EL",
+      "2": "POTENCIAL DE",
+      "3": "TU MARCA"
+    },
+    "subtitulos": {
+      "1": "89% ",
+      "2": "87% ",
+      "3": "93 %"
+    },
+    "subTextos": {
+      "1": "de las grandes compañias saben que la experiencia de usuario será su ventaja competitiva.",
+      "2": "de las grandes compañias saben que un buen diseño lleva a mayores ventas y afinidad con clientes.",
+      "3": "de las grandes compañias planean incrementar su personal de diseño en los próximos 12 meses.",
+      "4": "Fuente - KPCB Design in Tech Report, NEA Future of Design Report."
+    },
+    "footer": {
+      "quienSoy": "¿Quién soy yo?",
+      "por": "Por",
+      "nombre": "Sebastian Buenaventura E.",
+      "proyecto": "Iniciar Proyecto"
+    }
+  },
+  "footer": {
+    "creadorPor": "Creador por",
+    "nombre": "Sebastian Buenaventura E."
   }
 }
