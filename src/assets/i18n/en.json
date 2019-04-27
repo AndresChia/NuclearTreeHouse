@@ -8,7 +8,7 @@
       "iniciarProyectos": "Start Project"
     },
     "footer": {
-      "por": "by: "
+      "por": "By: "
     }
   },
   "especificaciones": {
@@ -32,9 +32,9 @@
     },
     "potencial": {
       "titulo": {
-        "1": "DESCUBRE EL",
-        "2": "POTENCIAL DE",
-        "3": "TU MARCA"
+        "1": "DISCOVER",
+        "2": "YOUR BRAND’S",
+        "3": "POTENTIAL"
       },
       "subtitulos": {
         "1": "89% ",
@@ -42,20 +42,20 @@
         "3": "93 %"
       },
       "subTextos": {
-        "1": "de las grandes compañias saben que la experiencia de usuario será su ventaja competitiva.",
-        "2": "de las grandes compañias saben que un buen diseño lleva a mayores ventas y afinidad con clientes.",
-        "3": "de las grandes compañias planean incrementar su personal de diseño en los próximos 12 meses.",
-        "4": "Fuente - KPCB Design in Tech Report, NEA Future of Design Report."
+        "1": "of big companies know that user experience will be their competitive advantage.",
+        "2": "of big companies know that a good design leads to more sales and more afnity with their clients.",
+        "3": "of the big companies plan to increase their design staff in the next 12 months.",
+        "4": "Source - KPCB Design in Tech Report, NEA Future of Design Report."
       },
       "footer": {
-        "quienSoy": "¿Quién soy yo?",
-        "por": "Por",
+        "quienSoy": "Who am I?",
+        "por": "By",
         "nombre": "Sebastian Buenaventura E.",
-        "proyecto": "Iniciar Proyecto"
+        "proyecto": "Start Project"
       }
     },
     "footer": {
-      "creadorPor": "Creador por",
+      "creadorPor": "Designed by",
       "nombre": "Sebastian Buenaventura E."
     }
   }
