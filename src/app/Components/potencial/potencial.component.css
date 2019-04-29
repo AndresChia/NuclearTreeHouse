@@ -23,7 +23,7 @@
   left: 36vw;
 }
 
-.computador div {
+.computador div.compu {
   background: url(../../../assets/potencial/parallax-computador.jpg);
   height: 30vw;
   width: 45vw;
@@ -37,6 +37,12 @@
   /* background-repeat-x: no-repeat; */
   background-position-x: 41.6vw;
   background-repeat-y: repeat;
+}
+
+.computador .boton1{
+  top: 46vw;
+  left: 59vw;
+  width: 15vw;
 }
 
 .celular img,
@@ -178,4 +184,16 @@
 
 .tv {
   width: 26vw;
+}
+
+.boton1 input {
+  background: url(../../../assets/potencial/boton2.png);
+  background-size: 14vw 2.8vw;
+  background-position: center;
+  text-align: center;
+  width: 14vw;
+  background-repeat: no-repeat;
+  font-family: 'brando-regular-italic', 'arial', sans-serif;
+  color: white !important;
+  height: 4vw;
 }
