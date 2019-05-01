@@ -19,6 +19,11 @@ import { PotencialComponent } from './Components/potencial/potencial.component';
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
 import { FooterComponent } from './Components/footer/footer.component';
 
+import { MatMenuModule } from '@angular/material/menu';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -38,6 +43,9 @@ export function createTranslateLoader(http: HttpClient) {
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
+    MatIconModule,
+    MatMenuModule,
+    BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

@@ -1,4 +1,4 @@
-<div class="container navBarHome">
+<div class="container navBarHome navDesktop">
   <div class="row">
     <div class="col-md-2">
       <div>
@@ -27,4 +27,64 @@
       </div>
     </div>
   </div>
+</div>
+
+
+<div class="div navMobile">
+
+  <div class="row">
+    <div class="col-xs-4">
+
+      <div class="contenedorIdiomas">
+        <div *ngIf="idiomaEsp">
+          <a (click)="cambioIdioma('en')">
+            <img class="img-responsive imgLengua" src="../../../../assets/Home/ESP.png" alt="LenguajeEN">
+          </a>
+        </div>
+        <div *ngIf="!idiomaEsp">
+          <a (click)="cambioIdioma('es')">
+            <img class="img-responsive imgLengua" src="../../../../assets/Home/ENG.png" alt="LenguajeES">
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-xs-4">
+
+      <img class="imagenTitulo" src="../../../../assets/Home/title.png" alt="">
+      <div class="autorText">
+        <span style="display: -webkit-inline-box">
+          <h2>{{ 'Home.footer.por' | translate }}</h2>
+          <h1> Sebastian Buenaventura E.</h1>
+        </span>
+      </div>
+    </div>
+    <div class="col-xs-4">
+
+      <div class="menuHam">
+        <button mat-button [matMenuTriggerFor]="menu" class="butHAm">
+          <mat-icon>dehaze</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <h1>{{ 'Home.menu.proceso' | translate }}</h1>
+          </button>
+          <button mat-menu-item>
+            <h1>{{ 'Home.menu.proyectos' | translate }}</h1>
+          </button>
+          <button mat-menu-item>
+            <h1>{{ 'Home.menu.creador' | translate }}</h1>
+          </button>
+          <button mat-menu-item>
+            <h1>{{ 'Home.menu.iniciarProyectos' | translate }}</h1>
+          </button>
+
+        </mat-menu>
+      </div>
+
+
+    </div>
+  </div>
+
 </div>

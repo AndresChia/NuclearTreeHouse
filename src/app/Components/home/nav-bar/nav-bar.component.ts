@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  idiomaEsp: boolean = true;
+
+
+  constructor(public appComponent: AppComponent) { }
 
   ngOnInit() {
   }
 
+
+  cambioIdioma(idioma) {
+    this.appComponent.cambiarLenguaje(idioma);
+    this.idiomaEsp = !this.idiomaEsp;
+  }
 }

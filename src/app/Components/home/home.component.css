@@ -1,5 +1,12 @@
 .footerHome {
-  top: calc(100% - 116px);
+  bottom: 1.3em;
   width: 100%;
   position: absolute;
+}
+
+@media only screen and (max-width: 425px) {
+  .footerHome {
+    visibility: hidden;
+  }
+
 }
