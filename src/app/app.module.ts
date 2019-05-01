@@ -22,6 +22,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
 
 
 export function createTranslateLoader(http: HttpClient) {
@@ -45,6 +46,7 @@ export function createTranslateLoader(http: HttpClient) {
     AppRoutingModule,
     MatIconModule,
     MatMenuModule,
+    ParallaxModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
