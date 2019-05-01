@@ -38,3 +38,37 @@
   width: 100%;
   height: 4vw;
 }
+
+@media only screen and (max-width: 425px) {
+
+  .especificacion {
+    height: 85%;
+  }
+
+  .potencial {
+    background: url(../assets/potencial/Fondo.png) no-repeat;
+    margin-bottom: 0vw;
+    height: 78vw;
+    z-index: +3;
+    position: relative;
+    background-position-x: 2vw;
+    background-position-y: 0vw;
+    background-size: 124vw;
+
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .footer {
+    background: rgb(40, 40, 40);
+    position: relative;
+    width: 100%;
+    height: 5vh;
+
+    display: inline-table;
+    height: 6vh;
+
+  }
+
+
+}

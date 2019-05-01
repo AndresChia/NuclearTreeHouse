@@ -39,7 +39,7 @@
   background-repeat-y: repeat;
 }
 
-.computador .boton1{
+.computador .boton1 {
   top: 46vw;
   left: 59vw;
   width: 15vw;
@@ -196,4 +196,81 @@
   font-family: 'brando-regular-italic', 'arial', sans-serif;
   color: white !important;
   height: 4vw;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .row.footer {
+    display: none;
+  }
+
+  .computador div.compu {
+    height: 41vw;
+    width: 45vw;
+    overflow: hidden;
+    left: 75vw;
+    top: 30vw;
+    z-index: +8;
+  }
+
+
+
+  .computador img {
+    position: absolute;
+    width: 80vw;
+    top: 29vw;
+    left: 66vw;
+    z-index: +8;
+  }
+
+  .celular div {
+    top: 12.6vw;
+    height: 25vh;
+    width: 27vw;
+    background-size: 11vw 38vw;
+    background-position-x: 89.5vw;
+    background-position-y: 0vw;
+  }
+
+  .celular img {
+    position: relative;
+    width: 21vw;
+    top: 12vw;
+    left: 88vw;
+    z-index: +7;
+  }
+
+  .contenedorPotencial {
+    width: 63vw;
+    left: 8vw;
+    top: 10vw;
+
+  }
+
+  .contenedorPotencial p.titulo {
+    font-size: 3vh;
+    line-height: 2.4vh;
+  }
+
+  .contenedorPotencial p.titulo span {
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+
+  .subtitulos {
+    margin-bottom: 1vw;
+  }
+
+  .subtitulos p {
+    font-size: 3vw;
+    line-height: 1.95vw;
+  }
+
+  .subFinal {
+    margin-top: 3.5vw;
+  }
+
+  .subFinal p {
+    font-size: 1vw;
+  }
 }

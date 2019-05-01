@@ -14,6 +14,7 @@ p {
   top: 1vw;
   left: 2vw;
   font-family: 'brandon-light', 'arial', sans-serif;
+  margin-bottom: 0px;
 }
 
 p span {

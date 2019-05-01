@@ -41,7 +41,7 @@
   display: inline-block;
 } */
 
-.contenedortitulo .subtitulos p {
+.contenedortitulo .subtitulos-div .subtitulos p {
   color: rgb(134, 134, 134);
   font-size: 1.2vw;
   line-height: 1.4vw;
@@ -51,7 +51,7 @@
   font-family: 'brandon-light', 'arial', sans-serif;
 }
 
-.contenedortitulo .subtitulos p span {
+.contenedortitulo .subtitulos-div .subtitulos p span {
   color: rgb(255, 184, 0) !important;
   box-sizing: border-box;
   margin: 0;
@@ -59,11 +59,13 @@
   font-family: 'brandon-black', 'arial', sans-serif;
 }
 
-.subtitulos{
+
+
+.subtitulos {
   width: 35vw;
 }
 
-.primerSub{
+.primerSub {
   margin-top: 0.5vw;
 }
 
@@ -85,7 +87,74 @@
 
 .imgCelular {
   width: 48vw;
-    height: 80%;
-    top: 10.2vw;
+  height: 80%;
+  top: 10.2vw;
+  position: absolute;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .row {
+    width: auto;
+  }
+
+  .contenedorCelular {
+    position: relative;
+    bottom: -42vh;
+    width: 100vw;
+    height: 51vh;
+  }
+
+  .imgCelular {
+    width: 112vw;
+    height: 54vh;
+    top: -9.8vw;
     position: absolute;
+    overflow-y: visible;
+    z-index: +80;
+    left: -26vw;
+  }
+
+  .contenedortitulo {
+    position: relative;
+    top: -41vh;
+    width: 100vw;
+    height: 50vh;
+    left: 5vw;
+  }
+
+  .contenedortitulo p.titulo {
+    font-size: 12vw;
+    line-height: 9.5vw;
+  }
+
+  .contenedortitulo p.subEnxabezado {
+    width: 47vw;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .subtitulos-div {
+
+    display: inline-block;
+    width: 39vw;
+    position: absolute;
+    right: 4vh;
+    top: 39vw;
+  }
+
+  .contenedortitulo .subtitulos-div .subtitulos p {
+    font-size: 3.2vw;
+    line-height: 3.2vw;
+
+  }
+
+  .contenedortitulo .subtitulos-div .subtitulos p span {
+    font-size: 3vw;
+  }
+
+  .subtitulos {
+    width: 39vw;
+  }
+
 }
