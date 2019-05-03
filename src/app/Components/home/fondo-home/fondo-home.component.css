@@ -9,13 +9,13 @@
 
 .ArbolIMG {
   background: url(../../../../assets/Home/CAPA-2-ARBOL.gif);
-  width: 91vw;
+  width: 70vw;
   height: 119vh;
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 5vw;
-  bottom: 0px;
+  left: 16vw;
+  bottom: -30vh;
 }
 
 .fondoNubes {
@@ -90,7 +90,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     left: -68vw;
-    bottom: 0px;
+    bottom: -18vh;
   }
 
 

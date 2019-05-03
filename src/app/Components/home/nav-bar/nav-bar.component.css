@@ -3,6 +3,11 @@
   src: url(../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
 }
 
+.columna2 {
+  right: 0vw;
+  position: absolute;
+}
+
 .navMobile {
   visibility: hidden;
   display: none;
@@ -19,6 +24,8 @@ h1 {
 .navBarHome {
   position: relative;
   z-index: +999;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .btn {

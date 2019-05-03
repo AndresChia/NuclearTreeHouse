@@ -33,7 +33,7 @@ h1 {
   margin: 0;
   padding: 0;
   font-family: 'brandon-black', 'arial', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
   margin: 0;
   padding: 0;
   font-family: 'brandon-light', 'arial', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 p {
@@ -53,12 +53,12 @@ p {
 }
 
 .img-titulo {
-  width: 19vw;
+  width: 15vw;
 }
 
 
 .budget {
-  width: 26vw;
+  width: 22vw;
 }
 
 .rigtImage {
