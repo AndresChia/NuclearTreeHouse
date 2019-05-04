@@ -9,26 +9,30 @@
 
 .ArbolIMG {
   background: url(../../../../assets/Home/CAPA-2-ARBOL.gif);
-  width: 70vw;
-  height: 119vh;
+  width: 75vw;
+  height: 45vw;
   position: absolute;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  left: 16vw;
-  bottom: -30vh;
+  left: 13vw;
+  bottom: -6%;
 }
+
+/* 616px de alto */
+
+
 
 .fondoNubes {
   position: absolute;
-  left: 0px;
+  left: 0vw;
   width: 100%;
   height: calc(100% - 49px);
   bottom: 0px;
 }
 
 .fondoNubes2 {
-  left: 17vw;
-  width: 74vw;
+  left: 0vw;
+  width: 85vw;
   height: 73vh;
   position: absolute;
   bottom: 0px;

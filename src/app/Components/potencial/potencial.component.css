@@ -50,7 +50,7 @@
   position: relative;
   width: 13vw;
   top: 22vw;
-  left: 78vw;
+  left: 77.2vw;
 }
 
 .celular div {
@@ -60,13 +60,13 @@
   border-radius: 3.5vw;
   position: absolute;
   background-size: 12vw 38vw;
-  background-position-x: 78.5vw;
   background-position-y: 0vw;
   background-attachment: fixed;
+  background-position-x: 77.5vw;
   background-repeat-x: no-repeat;
   background-repeat-y: repeat;
   top: 22.6vw;
-}
+  }
 
 .contenedorPotencial {
   width: 31vw;

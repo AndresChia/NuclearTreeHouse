@@ -116,11 +116,11 @@
   }
 
   .contenedortitulo {
-    position: relative;
-    top: -41vh;
-    width: 100vw;
-    height: 50vh;
-    left: 5vw;
+    position: absolute;
+    top: 107vh;
+    width: 106vw;
+    height: 41vh;
+    left: 2vw;
   }
 
   .contenedortitulo p.titulo {

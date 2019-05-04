@@ -1,5 +1,4 @@
 {
-
   "Home": {
     "menu": {
       "proceso": "Design Process",
@@ -29,34 +28,34 @@
       "paginasWeb": "landing page, e-commerce, robust web pages (programación), UI/UX. Creative Processes: design thinking",
       "procesosCreativos": "design thinking y procesos creativos a la medida de cada marca/idea.",
       "analisisDeClientes": "design process to understand what your potential client want now and in the future."
+    }
+  },
+  "potencial": {
+    "titulo": {
+      "1": "DISCOVER",
+      "2": "YOUR BRAND’S",
+      "3": "POTENTIAL"
     },
-    "potencial": {
-      "titulo": {
-        "1": "DISCOVER",
-        "2": "YOUR BRAND’S",
-        "3": "POTENTIAL"
-      },
-      "subtitulos": {
-        "1": "89% ",
-        "2": "87% ",
-        "3": "93 %"
-      },
-      "subTextos": {
-        "1": "of big companies know that user experience will be their competitive advantage.",
-        "2": "of big companies know that a good design leads to more sales and more afnity with their clients.",
-        "3": "of the big companies plan to increase their design staff in the next 12 months.",
-        "4": "Source - KPCB Design in Tech Report, NEA Future of Design Report."
-      },
-      "footer": {
-        "quienSoy": "Who am I?",
-        "por": "By",
-        "nombre": "Sebastian Buenaventura E.",
-        "proyecto": "Start Project"
-      }
+    "subtitulos": {
+      "1": "89% ",
+      "2": "87% ",
+      "3": "93 %"
+    },
+    "subTextos": {
+      "1": "of big companies know that user experience will be their competitive advantage.",
+      "2": "of big companies know that a good design leads to more sales and more afnity with their clients.",
+      "3": "of the big companies plan to increase their design staff in the next 12 months.",
+      "4": "Source - KPCB Design in Tech Report, NEA Future of Design Report."
     },
     "footer": {
-      "creadorPor": "Designed by",
-      "nombre": "Sebastian Buenaventura E."
+      "quienSoy": "Who am I?",
+      "por": "By",
+      "nombre": "Sebastian Buenaventura E.",
+      "proyecto": "Start Project"
     }
+  },
+  "footer": {
+    "creadorPor": "Designed by",
+    "nombre": "Sebastian Buenaventura E."
   }
 }
