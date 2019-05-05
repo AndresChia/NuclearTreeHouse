@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollParallaxService } from 'src/app/Services/scroll-parallax.service';
 
 @Component({
   selector: 'app-fondo-home',
@@ -7,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FondoHomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _parallax: ScrollParallaxService) { }
 
   ngOnInit() {
   }
+
+
 
 
 }

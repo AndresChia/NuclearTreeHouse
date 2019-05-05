@@ -14,7 +14,8 @@
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  left: 13vw;
+  left: 10vw;
+  max-height: 100%;
   bottom: -6%;
 }
 
@@ -72,10 +73,17 @@
 
   .fondoNubes {
     position: absolute;
-    left: -121px;
-    width: 169%;
-    height: 100%;
-    bottom: 0px;
+    width: 238vw;
+    height: 100vh;
+    left: -19vw;
+    bottom: 0vw;
+  }
+
+  .fondoNubes2 {
+    width: 173vw;
+    height: 78vh;
+    left: -45vw;
+    bottom: 0vw;
   }
 
   .mobile-budget {

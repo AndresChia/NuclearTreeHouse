@@ -70,5 +70,8 @@
 
   }
 
+  .home {
+    overflow: hidden;
+  }
 
 }

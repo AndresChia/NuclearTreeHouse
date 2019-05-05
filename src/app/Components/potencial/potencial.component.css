@@ -66,7 +66,7 @@
   background-repeat-x: no-repeat;
   background-repeat-y: repeat;
   top: 22.6vw;
-  }
+}
 
 .contenedorPotencial {
   width: 31vw;
@@ -153,6 +153,10 @@
   padding: 0;
   font-family: 'brandon-black', 'arial', sans-serif;
   color: black;
+}
+
+.nombre p {
+  font-size: 3vh;
 }
 
 .footerCol.boton2 input {
