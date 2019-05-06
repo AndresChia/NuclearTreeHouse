@@ -12,6 +12,17 @@
 }
 
 
+.row {
+  bottom: 1vh;
+  position: absolute;
+  width: 100%;
+  left: 0vw;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 23px;
+  padding-left: 23px;
+}
+
 @font-face {
   font-family: brandon-black;
   src: url(../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");

@@ -60,8 +60,10 @@ h1 {
 
   .imgLengua {
     position: absolute;
-    top: 4%;
+    width: 24vw;
+    top: 3vw;
     left: 2%;
+
   }
 
   .menuHam {

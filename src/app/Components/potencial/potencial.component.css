@@ -184,6 +184,7 @@
   font-family: 'brando-regular-italic', 'arial', sans-serif;
   color: rgb(40, 40, 40) !important;
   height: 4vw;
+  font-size: 1.3vw;
 }
 
 .tv {
@@ -200,6 +201,7 @@
   font-family: 'brando-regular-italic', 'arial', sans-serif;
   color: white !important;
   height: 4vw;
+  font-size: 1.3vw;
 }
 
 @media only screen and (max-width: 425px) {
