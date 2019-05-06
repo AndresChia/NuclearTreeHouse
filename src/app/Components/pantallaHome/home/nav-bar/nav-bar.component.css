@@ -1,0 +1,125 @@
+@font-face {
+  font-family: brandon-black;
+  src: url(../../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+}
+
+.columna2 {
+  right: 0vw;
+  position: absolute;
+}
+
+.navMobile {
+  visibility: hidden;
+  display: none;
+}
+
+h1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 1vw;
+}
+
+.navBarHome {
+  position: relative;
+  z-index: +999;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.btn {
+  border-radius: 239px;
+}
+
+
+.cuadro {
+  width: 11px;
+  margin-right: 3vw !important;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .navDesktop {
+    visibility: hidden;
+  }
+
+  .navMobile {
+    visibility: visible;
+    overflow: hidden;
+    display: block;
+
+  }
+
+  .imagenTitulo {
+    position: absolute;
+    top: 25vw;
+    width: 50vw;
+    left: 24vw;
+  }
+
+  .imgLengua {
+    position: absolute;
+    width: 24vw;
+    top: 3vw;
+    left: 2%;
+
+  }
+
+  .menuHam {
+    position: absolute;
+    top: 4%;
+    right: 13%;
+    z-index: +99;
+  }
+
+  @font-face {
+    font-family: brandon-light;
+    src: url(../../../../../assets/fonts/brandon-grotesque-light.otf) format("opentype");
+  }
+
+
+  @font-face {
+    font-family: brandon-black;
+    src: url(../../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+  }
+
+  h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'brandon-light', 'arial', sans-serif;
+    font-size: 4vw;
+  }
+
+  h1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    font-size: 4vw;
+  }
+
+  .autorText {
+    position: absolute;
+    top: 46vw;
+    left: 25.4vw;
+  }
+
+  .contenedorIdiomas {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    z-index: +99;
+  }
+
+  .material-icons {
+    font-size: 41px;
+  }
+
+  .butHAm {
+    border: 0px;
+    background-color: transparent;
+  }
+
+}

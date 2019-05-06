@@ -1,0 +1,282 @@
+@font-face {
+  font-family: brandon-black;
+  src: url(../../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: brandon-light;
+  src: url(../../../../assets/fonts/brandon-grotesque-light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: brando-regular-italic;
+  src: url(../../../../assets/fonts/brandon-grotesque-regular-italic.otf) format("opentype");
+}
+
+
+
+.computador img,
+.computador div {
+  position: absolute;
+  width: 57vw;
+  top: 11vw;
+  left: 36vw;
+}
+
+.computador div.compu {
+  background: url(../../../../assets/potencial/parallax-computador.jpg);
+  height: 30vw;
+  width: 45vw;
+  overflow: hidden;
+  left: 42vw;
+  top: 12vw;
+  border-radius: 11px;
+  background-position-y: 0vw;
+  background-size: 45vw 44vw;
+  background-attachment: fixed;
+  /* background-repeat-x: no-repeat; */
+  background-position-x: 41.6vw;
+  background-repeat-y: repeat;
+}
+
+.computador .boton1 {
+  top: 46vw;
+  left: 59vw;
+  width: 15vw;
+}
+
+.celular img,
+.celular div {
+  position: relative;
+  width: 13vw;
+  top: 22vw;
+  left: 77.2vw;
+}
+
+.celular div {
+  background: url(../../../../assets/potencial/parallax-celular.jpg);
+  height: 25vw;
+  width: 15vw;
+  border-radius: 3.5vw;
+  position: absolute;
+  background-size: 12vw 38vw;
+  background-position-y: 0vw;
+  background-attachment: fixed;
+  background-position-x: 77.5vw;
+  background-repeat-x: no-repeat;
+  background-repeat-y: repeat;
+  top: 22.6vw;
+}
+
+.contenedorPotencial {
+  width: 31vw;
+  left: 7vw;
+  top: 14vw;
+  position: absolute;
+}
+
+.contenedorPotencial p.titulo {
+  font-size: 3vw;
+  line-height: 2.5vw;
+  color: rgb(40, 40, 40);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
+
+
+
+.contenedorPotencial p.titulo span {
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  line-height: 2.5vw;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
+
+.primerSub {
+  margin-top: 1.5vw;
+}
+
+.subtitulos p {
+  color: rgb(77, 79, 81);
+  font-size: 1.4vw;
+  line-height: 1.7vw;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-light', 'arial', sans-serif;
+}
+
+.subtitulos p span {
+  color: rgb(77, 79, 81) !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
+
+.subFinal {
+  margin-top: 6.5vw;
+}
+
+.subFinal p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brando-regular-italic', 'arial', sans-serif;
+  color: rgb(76, 76, 76) !important;
+  font-size: 1vw;
+}
+
+.footer {
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+  bottom: 10vw;
+}
+
+.footer .footerCol {
+  text-align: center;
+}
+
+.footer .nombre {
+  bottom: 3vw;
+}
+
+.footer .nombre p span {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'brandon-black', 'arial', sans-serif;
+  color: black;
+}
+
+.nombre p {
+  font-size: 3vh;
+}
+
+.footerCol.boton2 input {
+  background: url(../../../../assets/potencial/boton.png);
+  background-size: 18vw 5vw;
+  background-position: top;
+  border-radius: 5vw;
+  text-align: -webkit-left;
+  width: 14vw;
+  background-repeat: no-repeat;
+
+  font-family: 'brandon-black', 'arial', sans-serif;
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.3vw;
+  height: 3vw;
+}
+
+.footerCol.boton1 input {
+  background: url(../../../../assets/potencial/boton1.png);
+  background-size: 14vw 2.8vw;
+  background-position: center;
+  text-align: center;
+  width: 14vw;
+  background-repeat: no-repeat;
+  font-family: 'brando-regular-italic', 'arial', sans-serif;
+  color: rgb(40, 40, 40) !important;
+  height: 4vw;
+  font-size: 1.3vw;
+}
+
+.tv {
+  width: 26vw;
+}
+
+.boton1 input {
+  background: url(../../../../assets/potencial/boton2.png);
+  background-size: 14vw 2.8vw;
+  background-position: center;
+  text-align: center;
+  width: 14vw;
+  background-repeat: no-repeat;
+  font-family: 'brando-regular-italic', 'arial', sans-serif;
+  color: white !important;
+  height: 4vw;
+  font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .row.footer {
+    display: none;
+  }
+
+  .computador div.compu {
+    height: 41vw;
+    width: 45vw;
+    overflow: hidden;
+    left: 75vw;
+    top: 30vw;
+    z-index: +8;
+  }
+
+
+
+  .computador img {
+    position: absolute;
+    width: 80vw;
+    top: 29vw;
+    left: 66vw;
+    z-index: +8;
+  }
+
+  .celular div {
+    top: 12.6vw;
+    height: 25vh;
+    width: 27vw;
+    background-size: 11vw 38vw;
+    background-position-x: 89.5vw;
+    background-position-y: 0vw;
+  }
+
+  .celular img {
+    position: relative;
+    width: 21vw;
+    top: 12vw;
+    left: 88vw;
+    z-index: +7;
+  }
+
+  .contenedorPotencial {
+    width: 63vw;
+    left: 8vw;
+    top: 10vw;
+
+  }
+
+  .contenedorPotencial p.titulo {
+    font-size: 3vh;
+    line-height: 2.4vh;
+  }
+
+  .contenedorPotencial p.titulo span {
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+
+  .subtitulos {
+    margin-bottom: 1vw;
+  }
+
+  .subtitulos p {
+    font-size: 3vw;
+    line-height: 1.95vw;
+  }
+
+  .subFinal {
+    margin-top: 3.5vw;
+  }
+
+  .subFinal p {
+    font-size: 1vw;
+  }
+}

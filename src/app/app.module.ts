@@ -10,19 +10,24 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './Components/home/home.component';
-import { FooterHomeComponent } from './Components/home/footer-home/footer-home.component';
-import { EspecificacionComponent } from './Components/especificacion/especificacion.component';
-import { NavBarComponent } from './Components/home/nav-bar/nav-bar.component';
-import { FondoHomeComponent } from './Components/home/fondo-home/fondo-home.component';
-import { PotencialComponent } from './Components/potencial/potencial.component';
 import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/common';
-import { FooterComponent } from './Components/footer/footer.component';
-
 import { MatMenuModule } from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
+
+import { HomeComponent } from './Components/pantallaHome/home/home.component';
+import { EspecificacionComponent } from './Components/pantallaHome/especificacion/especificacion.component';
+import { NavBarComponent } from './Components/pantallaHome/home/nav-bar/nav-bar.component';
+import { FondoHomeComponent } from './Components/pantallaHome/home/fondo-home/fondo-home.component';
+import { PotencialComponent } from './Components/pantallaHome/potencial/potencial.component';
+import { FooterHomeComponent } from './Components/pantallaHome/home/footer-home/footer-home.component';
+import { FooterComponent } from './Components/pantallaHome/footer/footer.component';
+import { ProcesoComponent } from './Components/proceso/proceso.component';
+import { ProyectosComponent } from './Components/proyectos/proyectos.component';
+import { CreadorComponent } from './Components/creador/creador.component';
+
+
 
 
 export function createTranslateLoader(http: HttpClient) {
@@ -38,7 +43,10 @@ export function createTranslateLoader(http: HttpClient) {
     FondoHomeComponent,
     PotencialComponent,
     FooterHomeComponent,
-    FooterComponent
+    FooterComponent,
+    ProcesoComponent,
+    ProyectosComponent,
+    CreadorComponent
   ],
   imports: [
     HttpClientModule,
