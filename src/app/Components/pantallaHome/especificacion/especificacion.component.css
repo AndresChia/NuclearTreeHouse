@@ -9,7 +9,6 @@
 }
 
 
-
 .contenedortitulo {
   position: relative;
   height: 60%;
@@ -92,10 +91,17 @@
   position: absolute;
 }
 
+.row {
+  height: 100%;
+  width: 100%
+}
+
 @media only screen and (max-width: 425px) {
 
+
   .row {
-    width: auto;
+    height: 90vh;
+    width: 100%;
   }
 
   .contenedorCelular {

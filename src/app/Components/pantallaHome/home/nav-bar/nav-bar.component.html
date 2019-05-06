@@ -2,7 +2,7 @@
   <div class="row">
     <div class="columna1">
       <div>
-        <a class="btn  m-2" href="">
+        <a class="btn  m-2" (click)="router('Home')">
           <h1>Home</h1>
         </a>
       </div>
@@ -12,17 +12,17 @@
       <div class="float-right">
         <img class="m-2 cuadro" src="../../../../assets/Home/cuadro.png" alt="">
 
-        <a name="" id="" class="btn  m-2" href="#" role="button">
+        <a name="" id="" class="btn  m-2" (click)="router('Proceso')" role="button">
           <h1>{{ 'Home.menu.proceso' | translate }}</h1>
         </a>
-        <a name="" id="" class="btn  m-2" href="#" role="button">
+        <a name="" id="" class="btn  m-2" (click)="router('Proyectos')" role="button">
           <h1>{{ 'Home.menu.proyectos' | translate }}</h1>
         </a>
-        <a name="" id="" class="btn  m-2" href="#" role="button">
+        <a name="" id="" class="btn  m-2" (click)="router('Creador')" role="button">
           <h1>{{ 'Home.menu.creador' | translate }}</h1>
         </a>
-        <a name="" id="" class="btn btn-dark m-2" href="#" role="button">
-          <h1>{{ 'Home.menu.iniciarProyectos' | translate }}</h1>
+        <a name="" id="" class="btn btn-dark m-2" (click)="router('Proyectos')" role="button">
+          <h1 style="color: white">{{ 'Home.menu.iniciarProyectos' | translate }}</h1>
         </a>
       </div>
     </div>

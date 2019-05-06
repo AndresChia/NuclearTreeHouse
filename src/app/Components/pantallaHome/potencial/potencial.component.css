@@ -219,7 +219,23 @@
     z-index: +8;
   }
 
+  .boton1 input {
+    background-size: 14vw 2.8vw;
+    background-position: center;
+    text-align: center;
+    width: 18vw;
+    background-repeat: no-repeat;
+    font-family: 'brando-regular-italic', 'arial', sans-serif;
+    color: white !important;
+    height: 4vw;
+    font-size: 1.3vw;
+  }
 
+  .computador .boton1 {
+    top: 55vw;
+    left: 51vw;
+    width: 16vw;
+  }
 
   .computador img {
     position: absolute;

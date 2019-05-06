@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { ActivatedRoute, Router, RouterState } from "@angular/router";
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,8 +9,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
   title = 'nuclearTreeHouse';
-  constructor(private translate: TranslateService) { }
+  // tslint:disable-next-line:variable-name
+  constructor(private translate: TranslateService, public router: Router) { }
 
+  isHome = true;
 
   ngOnInit() {
     this.translate.setDefaultLang("es");
@@ -20,6 +24,14 @@ export class AppComponent implements OnInit {
     this.translate.use(lang);
   }
 
+  arregloRouting() {
+    const state = this.router.routerState.snapshot.url;
+    if (state + "" === "/Home") {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
 }
 

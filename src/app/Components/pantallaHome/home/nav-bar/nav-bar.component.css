@@ -32,6 +32,9 @@ h1 {
   border-radius: 239px;
 }
 
+.btn {
+  cursor: pointer;
+}
 
 .cuadro {
   width: 11px;
@@ -65,6 +68,8 @@ h1 {
     left: 2%;
 
   }
+
+
 
   .menuHam {
     position: absolute;

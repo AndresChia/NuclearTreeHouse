@@ -7,14 +7,14 @@
 }
 
 
-.ArbolIMG {
+.ArbolIMG-desktop {
   background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif);
   width: 75vw;
   height: 45vw;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  left: 10vw;
+  left: 12vw;
   max-height: 100%;
   bottom: -6%;
 }
@@ -52,6 +52,9 @@
   top: 0px;
 }
 
+.ArbolIMG-mobile {
+  display: none;
+}
 
 
 @media only screen and (max-width: 425px) {
@@ -95,7 +98,12 @@
     z-index: +999;
   }
 
-  .ArbolIMG {
+  .ArbolIMG-desktop {
+    display: none;
+  }
+
+  .ArbolIMG-mobile {
+    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif);
     width: 251vw;
     height: 91vh;
     position: absolute;
@@ -104,6 +112,9 @@
     left: -68vw;
     bottom: 0vh;
     background-position-y: bottom;
+
+    display: block;
+
   }
 
 
