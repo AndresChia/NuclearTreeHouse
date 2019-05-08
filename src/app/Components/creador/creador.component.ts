@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-creador',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreadorComponent implements OnInit {
 
-  constructor() { }
+  // tslint:disable-next-line:variable-name
+  constructor(public _router: Router) { }
 
   ngOnInit() {
   }
+
+  router(parametro) {
+    this._router.navigateByUrl('/' + parametro);
+  }
+
 
 }

@@ -53,11 +53,32 @@
       "por": "Por",
       "nombre": "Sebastian Buenaventura E.",
       "proyecto": "Iniciar Proyecto",
-      "verMas":"Ver más proyectos"
+      "verMas": "Ver más proyectos"
     }
   },
   "footer": {
     "creadorPor": "Creador por",
     "nombre": "Sebastian Buenaventura E."
+  },
+  "creador": {
+    "disenadorWeb1": "DISEÑADOR WEB",
+    "disenadorWeb2": " y creador de Nuclear Treehouse",
+    "disenadorWeb3": " Diseñador especializado en design thinking y UI/UX",
+    "habilidades": "Habilidades:",
+    "habilidadesContent": "Diseñador profesional de sitios web de alta calidad. Desarrollo de interfáz y experiencia de usuario desde las necesidades de tu cliente final.",
+    "contactos": "Contactos:",
+    "contactosContent": "Para programaciones web avanzadas, desarrollo de apps, producción de video y otros formatos cuento con aliados estrategicos de alta calidad a muy buen precio.",
+    "illustrator1": "Adobe Illustrator:",
+    "illustrator2": " Ilustraciones, logos, vectorización, UI, impresos.",
+    "photoshop1": "Adobe Photoshop:",
+    "photoshop2": " Edición de imágenes, manipulación de fotos, colorización.",
+    "effects1": "Adobe After Effects:",
+    "effects2": " Efectos de video, logos animados, post edición de video.",
+    "thinking1": "Experto en Design Thinking:",
+    "thinking2": " Procesos creativos para inovar centrados en el usuario.",
+    "quienSoy": "¿Quién soy?",
+    "nombre": "SEBASTIAN BUENAVENTURA ESPARZA",
+    "nuclear": "Nuclear Treehouse",
+    "esMarca": "Es mi marca personal; mi portafolio."
   }
 }

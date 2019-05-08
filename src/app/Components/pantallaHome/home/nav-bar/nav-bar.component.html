@@ -53,9 +53,9 @@
     <div class="col-xs-4">
 
       <div class="div-Titulo">
-        <img class="imagenTitulo" src="../../../../assets/Home/title.png" alt="" [ngStyle]="_parallax.efectoParallex()">
+        <img class="imagenTitulo" src="../../../../assets/Home/title.png" alt="">
         <div class="autorText">
-          <span style="display: -webkit-inline-box" [ngStyle]="_parallax.efectoParallex()">
+          <span style="display: -webkit-inline-box">
             <h2>{{ 'Home.footer.por' | translate }}</h2>
             <h1> Sebastian Buenaventura E.</h1>
           </span>
@@ -69,16 +69,16 @@
           <mat-icon>dehaze</mat-icon>
         </button>
         <mat-menu #menu="matMenu">
-          <button mat-menu-item>
+          <button mat-menu-item (click)="router('Proceso')">
             <h1>{{ 'Home.menu.proceso' | translate }}</h1>
           </button>
-          <button mat-menu-item>
+          <button mat-menu-item (click)="router('Proyectos')">
             <h1>{{ 'Home.menu.proyectos' | translate }}</h1>
           </button>
-          <button mat-menu-item>
+          <button mat-menu-item (click)="router('Creador')">
             <h1>{{ 'Home.menu.creador' | translate }}</h1>
           </button>
-          <button mat-menu-item>
+          <button mat-menu-item (click)="router('Proyectos')">
             <h1>{{ 'Home.menu.iniciarProyectos' | translate }}</h1>
           </button>
 

@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'Creador', component: CreadorComponent },
   { path: 'Proceso', component: ProcesoComponent },
   { path: 'Proyectos', component: ProyectosComponent },
-  { path: '**', component: AppComponent }
+  { path: '**', pathMatch: 'full', redirectTo: 'Home' }
+
 ];
 
 @NgModule({
