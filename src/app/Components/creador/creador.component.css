@@ -75,14 +75,14 @@
   width: 51vw;
   left: 5vw;
   position: relative;
-  top: 31vh;
+  top: 22vh;
 }
 
 .imagenMuneco {
   position: absolute;
-  width: 7vw;
   left: 5.4vw;
   top: -4vw;
+  width: 6vw;
 }
 
 .cuadroImg {
@@ -91,12 +91,12 @@
 }
 
 .row {
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .tv {
-  width: 63vh;
-  left: 8vw;
+  width: 33vh;
+  left: 15vw;
   position: relative;
 }
 
@@ -133,8 +133,8 @@
 
 .footerTexto {
   position: absolute;
-  bottom: 5vh;
-  left: -24vh;
+  bottom: 6vh;
+  left: 0px;
 }
 
 .footerTexto p:nth-child(1) {
@@ -159,6 +159,7 @@
   position: relative;
   width: 84%;
   left: 22vh;
+  height: 26vw;
 }
 
 
@@ -212,9 +213,10 @@
 
   .contenedorImg {
     position: relative;
-    width: 46vh;
-    left: -1vh;
+    width: 39vh;
+    left: 2vh;
     display: block;
+    height: 83vw;
   }
 
   .row .col-4 {
@@ -239,8 +241,8 @@
     position: absolute;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: 42vw;
-    right: -38vw;
+    top: 34vw;
+    right: -32vw;
   }
 
   .tituloWeb-mobile h1 {
@@ -250,7 +252,7 @@
     font-family: 'brandon-black', 'arial', sans-serif;
     color: black;
     line-height: 0px;
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
   .tituloWeb-mobile h2 {
@@ -259,7 +261,8 @@
     padding: 0;
     font-family: 'brandon-light', 'arial', sans-serif;
     color: black;
-    font-size: 7vw;
+    font-size: 6vw;
+    line-height: 1.5;
   }
 
   .tituloWeb2,
@@ -287,10 +290,11 @@
   }
 
   .tv {
+
     position: relative;
     width: 33vh;
-    bottom: -11vh;
-    left: 22vw;
+    bottom: -24vw;
+    left: 0vw;
   }
 
   .col.boton2 {
@@ -301,8 +305,8 @@
 
   .footerTexto {
     position: absolute;
-    bottom: 28vh;
-    left: -16vh;
+    bottom: 45vw;
+    left: -40vw;
   }
 
   .menuHome {
@@ -310,5 +314,55 @@
     top: 7vw;
     display: block;
     visibility: visible;
+  }
+
+
+  :host ::ng-deep app-nav-bar .menuHam {
+    right: 11%;
+  }
+
+  :host ::ng-deep app-footer {
+    margin-top: 15px;
+  }
+
+  .footerCol.boton2 {
+
+    right: 14vh;
+    top: -6vh;
+    width: 21vh;
+  }
+
+  .footerCol.boton2 input {
+    background-size: 31vw 12vw;
+    background-position: top;
+    border-radius: 5vw;
+    text-align: -webkit-left;
+    width: 28vw;
+    background-repeat: no-repeat;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.3vw;
+    height: 6vw;
+  }
+
+  .containerImgMune {
+
+    width: 100vw;
+
+  }
+
+  .containerTvMobile {
+    overflow: hidden;
+  }
+
+  .contenedorImg .quienSoy {
+
+    top: 3vw;
+    left: 9vw;
+  }
+
+  .contenedorImg .nombre {
+
+    font-size: 4.9vw;
   }
 }

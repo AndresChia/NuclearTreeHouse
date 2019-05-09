@@ -26,6 +26,7 @@ import { FooterComponent } from './Components/pantallaHome/footer/footer.compone
 import { ProcesoComponent } from './Components/proceso/proceso.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { CreadorComponent } from './Components/creador/creador.component';
+import { IniciarProyectoComponent } from './Components/iniciar-proyecto/iniciar-proyecto.component';
 
 
 
@@ -46,7 +47,8 @@ export function createTranslateLoader(http: HttpClient) {
     FooterComponent,
     ProcesoComponent,
     ProyectosComponent,
-    CreadorComponent
+    CreadorComponent,
+    IniciarProyectoComponent
   ],
   imports: [
     HttpClientModule,

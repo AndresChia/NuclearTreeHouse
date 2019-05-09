@@ -5,12 +5,14 @@ import { CreadorComponent } from './Components/creador/creador.component';
 import { ProcesoComponent } from './Components/proceso/proceso.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { AppComponent } from './app.component';
+import { IniciarProyectoComponent } from './Components/iniciar-proyecto/iniciar-proyecto.component';
 
 const routes: Routes = [
   { path: 'Home', component: AppComponent },
   { path: 'Creador', component: CreadorComponent },
   { path: 'Proceso', component: ProcesoComponent },
   { path: 'Proyectos', component: ProyectosComponent },
+  { path: 'IniciarProyecto', component: IniciarProyectoComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'Home' }
 
 ];

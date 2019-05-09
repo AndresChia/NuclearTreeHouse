@@ -57,5 +57,26 @@
   "footer": {
     "creadorPor": "Designed by",
     "nombre": "Sebastian Buenaventura E."
+  },
+  "creador": {
+    "disenadorWeb1": "WEB DEIGNER",
+    "disenadorWeb2": "and creator of Nuclear Treehouse",
+    "disenadorWeb3": "Creative strategist, design thinking expert, UX/UI designer",
+    "habilidades": "Skills:",
+    "habilidadesContent": "Profesional high quality web designer. User interface and experience development made from the needs of your final client.",
+    "contactos": "Contacts:",
+    "contactosContent": "I have strategic high quality allies and reliable teams for advanced programming, app development, video production and other formats. All at special prices!",
+    "illustrator1": "Adobe Illustrator:",
+    "illustrator2": "Illustrations, logos, vectors, UI, printed design.",
+    "photoshop1": "Adobe Photoshop:",
+    "photoshop2": "Image edit, photo manipulation, colorization.",
+    "effects1": "Adobe After Effects:",
+    "effects2": "Video FX, animated logos, motion graphics.",
+    "thinking1": "Experto en Design Thinking:",
+    "thinking2": "Creative process to innovate: user centered design.",
+    "quienSoy": "¿Who am I?",
+    "nombre": "SEBASTIAN BUENAVENTURA ESPARZA",
+    "nuclear": "Nuclear Treehouse",
+    "esMarca": "Is my personal brand; my portfolio."
   }
 }

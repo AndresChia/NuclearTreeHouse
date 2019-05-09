@@ -235,3 +235,8 @@ body {
   position: absolute;
   right: 46%;
 }
+
+html,
+body {
+  overflow-x: hidden
+}
