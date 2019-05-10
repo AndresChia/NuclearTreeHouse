@@ -159,6 +159,10 @@
   font-size: 3vh;
 }
 
+.Celular-mobile {
+  display: none;
+}
+
 .footerCol.boton2 input {
   background: url(../../../../assets/potencial/boton.png);
   background-size: 18vw 5vw;
@@ -245,6 +249,10 @@
     z-index: +8;
   }
 
+  /* .computador div {
+    visibility: hidden;
+  } */
+
   .celular div {
     top: 12.6vw;
     height: 25vh;
@@ -252,6 +260,15 @@
     background-size: 11vw 38vw;
     background-position-x: 89.5vw;
     background-position-y: 0vw;
+    visibility: hidden;
+  }
+
+  .Celular-mobile {
+    display: block;
+  }
+
+  .Celular-desk {
+    display: none;
   }
 
   .celular img {

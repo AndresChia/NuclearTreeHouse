@@ -9,9 +9,31 @@
 }
 
 
+.row.tvMobile,
+.row.tvMobile .col-4,
+.row.tvMobile .col-8 {
+  height: fit-content;
+
+}
+
+
+
+.containerImgMune {
+  height: 23vw;
+  margin-bottom: 78px;
+}
+
+.containerTvMobile {
+  height: 13vw;
+}
+
 .menuHome {
   visibility: hidden;
   display: none;
+}
+
+.contenedorSinFooter {
+  height: 100%;
 }
 
 
@@ -46,6 +68,12 @@
 
 }
 
+.botonesTexto {
+  width: 50vw;
+  display: block;
+  height: 28vw;
+}
+
 .tituloWeb3 p {
   box-sizing: border-box;
   margin: 0;
@@ -73,9 +101,8 @@
 
 .contenedor {
   width: 51vw;
-  left: 5vw;
   position: relative;
-  top: 22vh;
+  top: 35%;
 }
 
 .imagenMuneco {
@@ -95,9 +122,10 @@
 }
 
 .tv {
-  width: 33vh;
-  left: 15vw;
   position: relative;
+  width: 20vw;
+  margin-left: 28%;
+  height: 11vw;
 }
 
 .footer {
@@ -109,11 +137,12 @@
 }
 
 .footerCol.boton2 {
-  top: 50%;
-  right: -47%;
+  margin-top: 5%;
 }
 
 .footerCol.boton2 input {
+  right: 15vw;
+  position: absolute;
   background: url(../../../assets/potencial/boton.png);
   background-size: 18vw 5vw;
   background-position: top;
@@ -132,9 +161,7 @@
 
 
 .footerTexto {
-  position: absolute;
-  bottom: 6vh;
-  left: 0px;
+  margin-top: 5%;
 }
 
 .footerTexto p:nth-child(1) {
@@ -143,7 +170,7 @@
   margin: 0;
   padding: 0;
   font-family: 'brandon-black', 'arial', sans-serif;
-
+  font-size: 1vw
 }
 
 .footerTexto p:nth-child(2) {
@@ -151,15 +178,14 @@
   margin: 0;
   padding: 0;
   font-family: 'brandon-black', 'arial', sans-serif;
-
-
+  font-size: 1vw
 }
 
 .contenedorImg {
   position: relative;
-  width: 84%;
-  left: 22vh;
-  height: 26vw;
+  width: 29vw;
+  margin-left: 20%;
+  height: 29vw;
 }
 
 
@@ -210,17 +236,27 @@
     visibility: hidden;
   }
 
+  :host ::ng-deep app-root containerRoter {
+    height: auto;
+  }
+
+  .botonesTexto {
+    display: inline-flex;
+    left: 50%;
+  }
 
   .contenedorImg {
     position: relative;
     width: 39vh;
-    left: 2vh;
     display: block;
     height: 83vw;
+    left: -7vh;
   }
 
   .row .col-4 {
-    display: table;
+    display: contents;
+    width: 50vw;
+    height: 28vw;
   }
 
   .contenedor {
@@ -287,14 +323,17 @@
 
   .row.tvMobile {
     height: 65vw;
+    display: inherit;
   }
 
   .tv {
+    margin-left: 13vh;
 
-    position: relative;
+
+    height: 29vw;
     width: 33vh;
-    bottom: -24vw;
-    left: 0vw;
+    position: relative;
+
   }
 
   .col.boton2 {
@@ -305,8 +344,12 @@
 
   .footerTexto {
     position: absolute;
-    bottom: 45vw;
-    left: -40vw;
+    left: -30%;
+  }
+
+
+  .footerTexto .p {
+    font-size: 1rem;
   }
 
   .menuHome {
@@ -326,9 +369,9 @@
   }
 
   .footerCol.boton2 {
-
+    top: -7vw;
+    position: absolute;
     right: 14vh;
-    top: -6vh;
     width: 21vh;
   }
 
@@ -346,9 +389,8 @@
   }
 
   .containerImgMune {
-
     width: 100vw;
-
+    margin-bottom: 5vw;
   }
 
   .containerTvMobile {
@@ -364,5 +406,10 @@
   .contenedorImg .nombre {
 
     font-size: 4.9vw;
+  }
+
+  .containerImgMune,
+  .containerTvMobile {
+    height: fit-content;
   }
 }

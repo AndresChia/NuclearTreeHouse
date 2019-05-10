@@ -12,10 +12,16 @@ export class CreadorComponent implements OnInit {
   constructor(public _router: Router) { }
 
   ngOnInit() {
+    document.body.style.overflow = "initial";
   }
 
   router(parametro) {
     this._router.navigateByUrl('/' + parametro);
+  }
+
+  // tslint:disable-next-line:use-life-cycle-interface
+  ngOnDestroy(): void {
+    document.body.style.overflow = "visible";
   }
 
 

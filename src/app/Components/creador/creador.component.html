@@ -1,70 +1,75 @@
-<div class="menuHome">
-  <a class="btn  m-2" (click)="router('Home')">
-    <h1>Home</h1>
-  </a>
-</div>
-<app-nav-bar></app-nav-bar>
-<div class="row containerImgMune">
-  <div class="col-4">
+<div class="contenedorSinFooter">
+  <div class="menuHome">
+    <a class="btn  m-2" (click)="router('Home')">
+      <h1>Home</h1>
+    </a>
+  </div>
+  <app-nav-bar></app-nav-bar>
+  <div class="row containerImgMune">
+    <div class="col-4">
 
-    <div class="contenedorImg">
-      <img class="cuadroImg" src="../../../assets/creador/cuadro.png" alt="">
-      <div class="tituloWeb-mobile">
-        <h1>{{'creador.disenadorWeb1' | translate}}
-        </h1>
-        <h2>
+      <div class="contenedorImg">
+        <img class="cuadroImg" src="../../../assets/creador/cuadro.png" alt="">
+        <div class="tituloWeb-mobile">
+          <h1>{{'creador.disenadorWeb1' | translate}}
+          </h1>
+          <h2>
+            {{'creador.disenadorWeb2' | translate}}
+          </h2>
+          <img class="imagenMuneco-mobile" src="../../../assets/creador/Muñeco.png" alt="">
+
+        </div>
+        <h1 class="quienSoy">{{'creador.quienSoy' | translate}}</h1>
+        <h1 class="nombre">{{'creador.nombre' | translate}}</h1>
+      </div>
+
+    </div>
+    <div class="col-8">
+      <img class="imagenMuneco" src="../../../assets/creador/Muñeco.png" alt="">
+      <div class="contenedor">
+        <p class="tituloWeb"><span>{{'creador.disenadorWeb1' | translate}}</span>
           {{'creador.disenadorWeb2' | translate}}
-        </h2>
-        <img class="imagenMuneco-mobile" src="../../../assets/creador/Muñeco.png" alt="">
+        </p>
+        <p class="tituloWeb2">{{'creador.disenadorWeb3' | translate}}</p>
+        <div class="tituloWeb3">
+          <h1>{{'creador.habilidades' | translate}}</h1>
+          <p>{{'creador.habilidadesContent' | translate}}</p>
+          <h1>{{'creador.contactos' | translate}}</h1>
+          <p>{{'creador.contactosContent' | translate}}</p>
+        </div>
+
+        <div class="tituloWeb4">
+          <p><span>{{'creador.illustrator1' | translate}}</span>{{'creador.illustrator2' | translate}}</p>
+          <p><span>{{'creador.photoshop1' | translate}}</span>{{'creador.photoshop2' | translate}}</p>
+          <p><span>{{'creador.effects1' | translate}}</span>{{'creador.effects2' | translate}}</p>
+          <p><span>{{'creador.thinking1' | translate}}</span>{{'creador.thinking2' | translate}}</p>
+        </div>
 
       </div>
-      <h1 class="quienSoy">{{'creador.quienSoy' | translate}}</h1>
-      <h1 class="nombre">{{'creador.nombre' | translate}}</h1>
-    </div>
 
+
+    </div>
   </div>
-  <div class="col-8">
-    <img class="imagenMuneco" src="../../../assets/creador/Muñeco.png" alt="">
-    <div class="contenedor">
-      <p class="tituloWeb"><span>{{'creador.disenadorWeb1' | translate}}</span> {{'creador.disenadorWeb2' | translate}}
-      </p>
-      <p class="tituloWeb2">{{'creador.disenadorWeb3' | translate}}</p>
-      <div class="tituloWeb3">
-        <h1>{{'creador.habilidades' | translate}}</h1>
-        <p>{{'creador.habilidadesContent' | translate}}</p>
-        <h1>{{'creador.contactos' | translate}}</h1>
-        <p>{{'creador.contactosContent' | translate}}</p>
+  <div class="containerTvMobile">
+    <div class="row tvMobile">
+      <div class="col-4">
+        <img class="tv" src="../../../assets/creador/tv.png" alt="">
       </div>
+      <div class="col-8 botonesTexto">
 
-      <div class="tituloWeb4">
-        <p><span>{{'creador.illustrator1' | translate}}</span>{{'creador.illustrator2' | translate}}</p>
-        <p><span>{{'creador.photoshop1' | translate}}</span>{{'creador.photoshop2' | translate}}</p>
-        <p><span>{{'creador.effects1' | translate}}</span>{{'creador.effects2' | translate}}</p>
-        <p><span>{{'creador.thinking1' | translate}}</span>{{'creador.thinking2' | translate}}</p>
-      </div>
+        <div class="footerTexto">
+          <p>{{'creador.nuclear' | translate}}</p>
+          <p>{{'creador.esMarca' | translate}}</p>
+        </div>
 
-    </div>
+        <div class="col footerCol boton2">
+          <input name="butonP" id="butonP" class="btn" type="button"
+            value="{{'potencial.footer.proyecto' | translate}}">
+        </div>
 
 
-  </div>
-</div>
-<div class="containerTvMobile">
-  <div class="row tvMobile">
-    <div class="col-6">
-      <img class="tv" src="../../../assets/creador/tv.png" alt="">
-    </div>
-    <div class="col-6">
-      <div class="col footerCol boton2">
-        <input name="butonP" id="butonP" class="btn" type="button" value="{{'potencial.footer.proyecto' | translate}}">
-      </div>
-
-      <div class="footerTexto">
-        <p>{{'creador.nuclear' | translate}}</p>
-        <p>{{'creador.esMarca' | translate}}</p>
       </div>
 
     </div>
-
   </div>
 </div>
-<app-footer class="footer"></app-footer>
