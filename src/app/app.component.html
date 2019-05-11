@@ -9,7 +9,7 @@
     <app-potencial></app-potencial>
   </div>
 </div>
-<div class="containerRoter" *ngIf="!arregloRouting()">
+<div class="{{regresarClase()}}" *ngIf="!arregloRouting()">
   <router-outlet></router-outlet>
 </div>
 <div class="footer">

@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   title = 'nuclearTreeHouse';
   // tslint:disable-next-line:variable-name
   constructor(private translate: TranslateService, public router: Router) { }
-
+  estado = this.router.routerState.snapshot.url;
   isHome = true;
 
   ngOnInit() {
@@ -31,6 +31,10 @@ export class AppComponent implements OnInit {
     } else {
       return false;
     }
+  }
+
+  regresarClase() {
+    return "containerRoter " + (this.router.routerState.snapshot.url).split("/")[1];
   }
 
 }

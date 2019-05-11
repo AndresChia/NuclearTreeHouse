@@ -79,6 +79,20 @@
     "quienSoy": "¿Quién soy?",
     "nombre": "SEBASTIAN BUENAVENTURA ESPARZA",
     "nuclear": "Nuclear Treehouse",
-    "esMarca": "Es mi marca personal; mi portafolio.s"
+    "esMarca": "Es mi marca personal; mi portafolio."
+  },
+  "iniciarProyecto": {
+    "numero": "(+57) 3108120028",
+    "correo": "idea.director@nucleartreehouse.com",
+    "ubicacion": "Bogotá, Colombia",
+    "iniciarProyecto": "INICIAR PROYECTO",
+    "contacto": "/ CONTACTO",
+    "infoContacto": "Envíame un mensaje por el medio que más te sea conveniente y hagamos de esa idea una poderosa realidad. Reviso cuidadosamente todos los mensajes que llegan.",
+    "mejorOpcion": "MEJOR OPCIÓN",
+    "nombre": "Nombre",
+    "e-mail": "E-mail",
+    "queCrear": "¿Qué deseas crear?",
+    "enviar": "ENVIAR",
+    "realizarPago": "REALIZAR PAGO"
   }
 }

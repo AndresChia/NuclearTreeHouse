@@ -1,37 +1,82 @@
 <app-nav-bar></app-nav-bar>
-<div class="content-forma">
+<div class="content-forma" style="background-size: 100% 100%;">
 
-  <div class="datosContacto">
+  <div class="datos-contenedor">
+    <div class="datosContacto">
 
-    <h1></h1>
-    <h1></h1>
-    <h1></h1>
+      <div class="contenedorDatosContacto">
+        <h1>{{'iniciarProyecto.numero' | translate}}</h1>
+        <h1>{{'iniciarProyecto.correo' | translate}}</h1>
+        <h1>{{'iniciarProyecto.ubicacion' | translate}}</h1>
+      </div>
 
+
+
+    </div>
+
+    <div class="textoInferiores">
+
+      <div class="contenedorTextoInferiores">
+        <h1>{{'iniciarProyecto.iniciarProyecto' | translate}}</h1>
+        <h1>{{'iniciarProyecto.contacto' | translate}}</h1>
+        <h1>{{'iniciarProyecto.infoContacto' | translate}}</h1>
+      </div>
+
+    </div>
 
   </div>
 
-  <div class="textoInferiores">
-
-    <h1></h1>
-    <h1></h1>
-    <h1></h1>
-
-  </div>
 
 
   <div class="formulario">
     <div class="contornoFormulario">
       <div class="form-group">
         <label for=""></label>
-        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+        <input type="text" class="form-control botonForm" name="" id="" aria-describedby="helpId"
+          placeholder="{{'iniciarProyecto.nombre' | translate}}">
         <label for=""></label>
-        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+        <input type="text" class="form-control botonForm" name="" id="" aria-describedby="helpId"
+          placeholder="{{'iniciarProyecto.e-mail' | translate}}">
         <label for=""></label>
-        <textarea class="form-control" name="" id="" rows="3"></textarea>
-        <button type="button" class="btn btn-primary"></button>
+        <textarea class="form-control textAreaForm" name="" id="" rows="3"
+          placeholder="{{'iniciarProyecto.queCrear' | translate}}"></textarea>
+        <button type="button" class="btn btn-primary botonForm">{{'iniciarProyecto.enviar' | translate}}</button>
       </div>
     </div>
 
   </div>
 
+  <div class="mobileTexto upTexto">
+    <h1 class="firstH1">{{'iniciarProyecto.iniciarProyecto' | translate}}</h1>
+    <div class="contenedorDatosContacto">
+      <h1>{{'iniciarProyecto.numero' | translate}}</h1>
+      <h1>{{'iniciarProyecto.correo' | translate}}</h1>
+      <h1>{{'iniciarProyecto.ubicacion' | translate}}</h1>
+    </div>
+  </div>
+
+
+
+</div>
+<div class="contenedorRow">
+  <div class="row">
+    <div class="col">
+      <button type="button"
+        class="btn btn-primary botonForm botonPago">{{'iniciarProyecto.realizarPago' | translate}}</button>
+    </div>
+    <div class="col">
+      <img class="tituloNuclear" src="../../../assets/IniciarProyecto/tituloNuclear.png" alt="">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+<div class="mobileTexto downTexto">
+
+  <h1>{{'iniciarProyecto.infoContacto' | translate}}</h1>
+
+</div>
+<div class="contendorImgNuclear">
+  <img class="imagenNuclearHumans" src="../../../assets/IniciarProyecto/nuclearHumans.png" alt="">
 </div>
