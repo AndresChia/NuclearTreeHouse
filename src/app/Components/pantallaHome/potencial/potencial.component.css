@@ -33,7 +33,7 @@
   border-radius: 11px;
   background-position-y: 0vw;
   background-size: 45vw 44vw;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* background-repeat-x: no-repeat; */
   background-position-x: 41.6vw;
   background-repeat-y: repeat;
@@ -47,26 +47,38 @@
 
 .celular img,
 .celular div {
-  position: relative;
+  position: absolute;
   width: 13vw;
   top: 22vw;
   left: 77.2vw;
+  height: 25vw;
 }
 
-.celular div {
-  background: url(../../../../assets/potencial/parallax-celular.jpg);
+.celular img:nth-child(1) {
+  z-index: +3;
+}
+
+.celular img:nth-child(2) {
+  border-radius: 40px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.mascaraCelular {
+  background: url(../../../../assets/potencial/celular.png);
   height: 25vw;
   width: 15vw;
-  border-radius: 3.5vw;
   position: absolute;
-  background-size: 12vw 38vw;
-  background-position-y: 0vw;
-  background-attachment: fixed;
-  background-position-x: 77.5vw;
+  background-size: contain;
   background-repeat-x: no-repeat;
-  background-repeat-y: repeat;
+  background-repeat-y: no-repeat;
   top: 22.6vw;
 }
+
+.mascaraCelular .contenidoCelular {
+  background: url(../../../../assets/potencial/parallax-celular.jpg);
+}
+
 
 .contenedorPotencial {
   width: 31vw;
@@ -209,6 +221,11 @@
 }
 
 @media only screen and (max-width: 425px) {
+
+  .celular img:nth-child(1),
+  .celular img:nth-child(2) {
+    display: none;
+  }
 
   .row.footer {
     display: none;
