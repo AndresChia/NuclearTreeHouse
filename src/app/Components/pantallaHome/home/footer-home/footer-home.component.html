@@ -5,11 +5,11 @@
 
       <span style="display: -webkit-inline-box">
 
-        <div *ngIf="idiomaEsp">
+        <div *ngIf="_IdiomaService.getIdioma() == 'es'">
           <a (click)="cambioIdioma('en')">
             <img class="img-responsive imgLengua" src="../../../../assets/Home/ESP.png" alt="LenguajeEN">
           </a> </div>
-        <div *ngIf="!idiomaEsp">
+        <div *ngIf="_IdiomaService.getIdioma() != 'es'">
           <a (click)="cambioIdioma('es')">
             <img class="img-responsive imgLengua" src="../../../../assets/Home/ENG.png" alt="LenguajeES">
           </a>

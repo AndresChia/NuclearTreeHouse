@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppComponent } from 'src/app/app.component';
+import { IdiomaService } from '../../../../Services/idioma.service';
+
 @Component({
     selector: 'app-footer-home',
     templateUrl: './footer-home.component.html',
@@ -7,16 +9,14 @@ import { AppComponent } from 'src/app/app.component';
 })
 export class FooterHomeComponent implements OnInit {
 
-    idiomaEsp: boolean = true;
     // tslint:disable-next-line:variable-name
-    constructor(public appComponent: AppComponent) { }
+    constructor(public _IdiomaService: IdiomaService, public appComponent: AppComponent) { }
 
     ngOnInit() {
     }
 
     cambioIdioma(idioma) {
-        this.appComponent.cambiarLenguaje(idioma);
-        this.idiomaEsp = !this.idiomaEsp;
+        this._IdiomaService.cambiarLenguaje(idioma);
     }
 
 }

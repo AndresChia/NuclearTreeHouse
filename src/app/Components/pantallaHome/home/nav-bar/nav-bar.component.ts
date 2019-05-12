@@ -3,6 +3,8 @@ import { AppComponent } from 'src/app/app.component';
 import { DomSanitizer } from '@angular/platform-browser';
 import { ScrollParallaxService } from 'src/app/Services/scroll-parallax.service';
 import { Router } from '@angular/router';
+import { convertCompilerOptionsFromJson } from 'typescript';
+import { IdiomaService } from '../../../../Services/idioma.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,22 +13,16 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent implements OnInit {
 
-  idiomaEsp: boolean = true;
 
   // tslint:disable-next-line:variable-name
   // tslint:disable-next-line:no-unused-expression
   // tslint:disable-next-line:variable-name
   // tslint:disable-next-line:max-line-length
   // tslint:disable-next-line:variable-name
-  constructor(public appComponent: AppComponent, public _parallax: ScrollParallaxService, public _router: Router) { }
+  constructor(public _IdiomaService: IdiomaService, public _parallax: ScrollParallaxService, public _router: Router) { }
 
   ngOnInit() {
-  }
 
-
-  cambioIdioma(idioma) {
-    this.appComponent.cambiarLenguaje(idioma);
-    this.idiomaEsp = !this.idiomaEsp;
   }
 
   efectoParallex() {
@@ -38,6 +34,10 @@ export class NavBarComponent implements OnInit {
 
   router(parametro) {
     this._router.navigateByUrl('/' + parametro);
+  }
+
+  cambioIdioma(idioma) {
+    this._IdiomaService.cambiarLenguaje(idioma);
   }
 
 }

@@ -10,19 +10,15 @@ import { ActivatedRoute, Router, RouterState } from "@angular/router";
 export class AppComponent implements OnInit {
   title = 'nuclearTreeHouse';
   // tslint:disable-next-line:variable-name
-  constructor(private translate: TranslateService, public router: Router) { }
+  constructor(public router: Router) { }
   estado = this.router.routerState.snapshot.url;
   isHome = true;
 
   ngOnInit() {
-    this.translate.setDefaultLang("es");
-    this.translate.use("es");
+
   }
 
 
-  public cambiarLenguaje(lang) {
-    this.translate.use(lang);
-  }
 
   arregloRouting() {
     const state = this.router.routerState.snapshot.url;
@@ -36,6 +32,8 @@ export class AppComponent implements OnInit {
   regresarClase() {
     return "containerRoter " + (this.router.routerState.snapshot.url).split("/")[1];
   }
+
+
 
 }
 
