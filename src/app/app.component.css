@@ -52,13 +52,12 @@
   .potencial {
     background: url(../assets/potencial/Fondo.png) no-repeat;
     margin-bottom: 0vw;
-    height: 78vw;
+    height: 140vw;
     z-index: +3;
     position: relative;
-    background-position-x: 2vw;
+    background-position-x: -5vw;
     background-position-y: 0vw;
-    background-size: 124vw;
-
+    background-size: 204vw 145vw;
     overflow-x: hidden;
     width: 100%;
   }

@@ -232,12 +232,17 @@
   }
 
   .computador div.compu {
-    height: 41vw;
-    width: 45vw;
+
+    left: 58vw;
+    height: 58vw;
+    width: 56vw;
     overflow: hidden;
-    left: 75vw;
-    top: 30vw;
+    background-position-x: left;
     z-index: +8;
+    background-size: 92vw 157vw;
+
+    top: 63vw;
+
   }
 
   .boton1 input {
@@ -259,11 +264,12 @@
   }
 
   .computador img {
+    height: 71vw;
     position: absolute;
-    width: 80vw;
-    top: 29vw;
-    left: 66vw;
+    width: 103vw;
     z-index: +8;
+    left: 46vw;
+    top: 60vw;
   }
 
   /* .computador div {
@@ -292,23 +298,24 @@
 
     z-index: +7;
     position: relative;
-    width: 15vw;
-    top: 9vw;
-    left: 92vw;
-    height: 14vh;
+    width: 32vw;
+    top: 18vw;
+    left: 83vw;
+    height: 28vh;
 
   }
 
   .contenedorPotencial {
-    width: 63vw;
+
     left: 8vw;
-    top: 10vw;
+    width: 69vw;
+    top: 14vw;
 
   }
 
   .contenedorPotencial p.titulo {
     font-size: 3vh;
-    line-height: 2.4vh;
+    line-height: 1;
   }
 
   .contenedorPotencial p.titulo span {
@@ -322,7 +329,7 @@
 
   .subtitulos p {
     font-size: 3vw;
-    line-height: 1.95vw;
+    line-height: 1.2;
   }
 
   .subFinal {
