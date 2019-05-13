@@ -413,3 +413,202 @@
     height: fit-content;
   }
 }
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
+    display: none;
+    visibility: hidden;
+  }
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(1) {
+    display: none;
+    visibility: hidden;
+  }
+
+  :host ::ng-deep app-root containerRoter {
+    height: auto;
+  }
+
+  .botonesTexto {
+    display: inline-flex;
+    left: 50%;
+  }
+
+  .contenedorImg {
+    position: relative;
+    width: 56vh;
+    display: block;
+    height: 54vw;
+    left: -16vh;
+  }
+
+  .row .col-4 {
+    display: contents;
+    width: 50vw;
+    height: 28vw;
+  }
+
+  .contenedor {
+    position: initial;
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+  }
+
+  .tituloWeb {
+    display: none;
+  }
+
+  .tituloWeb-mobile {
+
+
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 16vw;
+    right: -16vw;
+
+  }
+
+  .tituloWeb-mobile h1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: black;
+    line-height: 0px;
+    font-size: 4vw;
+  }
+
+  .tituloWeb-mobile h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'brandon-light', 'arial', sans-serif;
+    color: black;
+    font-size: 3vw;
+    line-height: 2;
+  }
+
+  .tituloWeb2,
+  .tituloWeb3 p,
+  .tituloWeb3 h1,
+  .tituloWeb4 p,
+  .tituloWeb4 p span {
+    font-size: 3vw;
+  }
+
+  .imagenMuneco-mobile {
+    transform: rotate(-90deg);
+    bottom: 20%;
+    right: 2vw;
+    width: 15vw;
+    position: absolute;
+  }
+
+  .imagenMuneco {
+    display: none;
+  }
+
+  .row.tvMobile {
+    height: 65vw;
+    display: inherit;
+  }
+
+  .tv {
+
+    position: relative;
+    height: 40%;
+    width: 40%;
+    margin-left: 33%;
+
+  }
+
+  .col.boton2 {
+    right: 9vh;
+    top: -4vh;
+    width: 52vh;
+  }
+
+  .footerTexto {
+    position: absolute;
+    left: -30%;
+    margin-top: 82px;
+  }
+
+
+  .footerTexto p:nth-child(1) {
+    font-size: 5vw;
+  }
+
+  .footerTexto p:nth-child(2) {
+    font-size: 3vw;
+  }
+
+  .menuHome {
+    position: absolute;
+    top: 2vw;
+    display: block;
+    visibility: visible;
+
+  }
+
+  .menuHome h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+  }
+
+
+  :host ::ng-deep app-nav-bar .menuHam {
+    right: 11%;
+  }
+
+  :host ::ng-deep app-footer {
+    margin-top: 15px;
+  }
+
+  .footerCol.boton2 {
+    position: absolute;
+    width: 21vh;
+    right: 35%;
+    top: -2vw;
+  }
+
+  .footerCol.boton2 input {
+    font-size: 2.3vw;
+    background-size: 31vw 12vw;
+    background-position: top;
+    border-radius: 5vw;
+    text-align: -webkit-left;
+    width: 28vw;
+    background-repeat: no-repeat;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: rgb(255, 255, 255) !important;
+    height: 6vw;
+  }
+
+  .containerImgMune {
+    width: 100vw;
+    margin-bottom: 5vw;
+  }
+
+  .containerTvMobile {
+    overflow: hidden;
+  }
+
+  .contenedorImg .quienSoy {
+
+    top: 3vw;
+    left: 9vw;
+  }
+
+  .contenedorImg .nombre {
+    font-size: 2.5vw;
+  }
+
+  .containerImgMune,
+  .containerTvMobile {
+    height: fit-content;
+  }
+}
