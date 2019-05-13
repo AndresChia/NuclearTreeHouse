@@ -1,0 +1,59 @@
+@font-face {
+  font-family: brandon-black;
+  src: url(../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+}
+
+
+@media only screen and (max-width: 425px) {
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
+    display: none;
+    visibility: hidden;
+  }
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(1) {
+    display: none;
+    visibility: hidden;
+  }
+
+  .contenedorGlobo {
+    background: url(../../../assets/proceso/globo.png);
+    width: 50%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 22px;
+    margin-right: 12px;
+  }
+
+  .contenedorGlobo h1 {
+    top: 31%;
+    position: relative;
+    left: 7%;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: white;
+  }
+
+  .primerContenedor {
+    margin-top: 39px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .contenedorTexto {
+    width: 40%;
+    top: 62px;
+    position: relative;
+    height: fit-content;
+  }
+
+  .contenedorTexto h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2;
+  }
+
+  .contenedorTexto h2 {
+    font-size: 0.9rem;
+  }
+}

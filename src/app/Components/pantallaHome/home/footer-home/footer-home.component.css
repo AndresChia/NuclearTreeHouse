@@ -75,3 +75,27 @@ p {
 .rigtImage {
   text-align: right;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .contenedorTextoNuclear {
+    display: none;
+  }
+
+  .contenedorIdiomas img {
+    width: 12vh;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.2vw;
+  }
+
+  .img-titulo {
+    width: 26vw;
+  }
+
+  .imgLengua {
+    width: 10vw;
+  }
+
+}

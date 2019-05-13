@@ -59,7 +59,7 @@
 }
 
 .celular img:nth-child(2) {
-  border-radius: 40px;
+  border-radius: 2vw;
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -168,7 +168,7 @@
 }
 
 .nombre p {
-  font-size: 3vh;
+  font-size: 2vw;
 }
 
 .Celular-mobile {

@@ -128,3 +128,42 @@ h1 {
   }
 
 }
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .butHAm {
+    border: 0px;
+    background-color: transparent;
+  }
+
+  .menuHam {
+    position: absolute;
+    top: 4%;
+    right: 13%;
+    z-index: +99;
+  }
+
+  .navDesktop {
+    visibility: hidden;
+  }
+
+  .navMobile {
+    visibility: visible;
+    overflow: hidden;
+    display: block;
+
+  }
+
+  .navMobile div div.col-xs-4:nth-child(1),
+  .navMobile div div.col-xs-4:nth-child(2) {
+    visibility: hidden;
+  }
+
+
+  .material-icons {
+    font-size: 44px;
+  }
+
+  .mat-menu-content button h1 {
+    font-size: 2vw;
+  }
+}

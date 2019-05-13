@@ -5,7 +5,7 @@
 
       <span style="display: -webkit-inline-box">
 
-        <div *ngIf="_IdiomaService.getIdioma() == 'es'">
+        <div class="contenedorIdiomas" *ngIf="_IdiomaService.getIdioma() == 'es'">
           <a (click)="cambioIdioma('en')">
             <img class="img-responsive imgLengua" src="../../../../assets/Home/ESP.png" alt="LenguajeEN">
           </a> </div>
@@ -15,7 +15,7 @@
           </a>
         </div>
 
-        <div>
+        <div class="contenedorTextoNuclear">
           <p style="text-align: right;">
             Nuclear Treehouse: <br> A small, home-made project with nuclear power.
           </p>
