@@ -122,9 +122,13 @@
   }
 
   .contenedortitulo {
+
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 98vw;
+
     position: absolute;
     top: 107vh;
-    width: 106vw;
     height: 41vh;
     left: 2vw;
   }

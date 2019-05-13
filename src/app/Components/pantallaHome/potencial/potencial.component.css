@@ -289,11 +289,14 @@
   }
 
   .celular img {
-    position: relative;
-    width: 21vw;
-    top: 12vw;
-    left: 88vw;
+
     z-index: +7;
+    position: relative;
+    width: 15vw;
+    top: 9vw;
+    left: 92vw;
+    height: 14vh;
+
   }
 
   .contenedorPotencial {
