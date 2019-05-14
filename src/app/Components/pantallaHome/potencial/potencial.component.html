@@ -19,6 +19,7 @@
     <div class="subtitulos">
       <p> <span>{{'potencial.subtitulos.3' | translate}}</span>
         {{'potencial.subTextos.3' | translate}} </p>
+      <p><span> {{'potencial.subTextos.5' | translate}}</span></p>
     </div>
 
     <div class="subtitulos subFinal">
@@ -28,7 +29,7 @@
   </div>
   <div class=" col-md-6">
     <div class="computador">
-      <div class="compu"></div>
+      <div class="compu"   [ngStyle]="{'background-position-y': _ScrollParallaxService.efectoParallexFondo()}" ></div>
       <img src="../../../assets/potencial/computador.png" alt="">
 
       <div class="boton1">

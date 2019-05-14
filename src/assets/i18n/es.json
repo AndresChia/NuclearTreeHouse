@@ -47,7 +47,9 @@
       "1": "de las grandes compañias saben que la experiencia de usuario será su ventaja competitiva.",
       "2": "de las grandes compañias saben que un buen diseño lleva a mayores ventas y afinidad con clientes.",
       "3": "de las grandes compañias planean incrementar su personal de diseño en los próximos 12 meses.",
-      "4": "Fuente - KPCB Design in Tech Report, NEA Future of Design Report."
+      "4": "Fuente - KPCB Design in Tech Report, NEA Future of Design Report.",
+      "5": "Y tu?"
+
     },
     "footer": {
       "quienSoy": "¿Quién soy yo?",
@@ -58,7 +60,7 @@
     }
   },
   "footer": {
-    "creadorPor": "Creador por",
+    "creadorPor": "Creado por",
     "nombre": "Sebastian Buenaventura E."
   },
   "creador": {

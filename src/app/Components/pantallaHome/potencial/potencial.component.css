@@ -214,10 +214,10 @@
   text-align: center;
   width: 14vw;
   background-repeat: no-repeat;
-  font-family: 'brando-regular-italic', 'arial', sans-serif;
   color: white !important;
   height: 4vw;
   font-size: 1.3vw;
+  font-family: 'brandon-black', 'arial', sans-serif;
 }
 
 @media only screen and (max-width: 425px) {
@@ -252,7 +252,7 @@
     text-align: center;
     width: 33vw;
     background-repeat: no-repeat;
-    font-family: 'brando-regular-italic', 'arial', sans-serif;
+    font-family: 'brandon-black', 'arial', sans-serif;
     color: white !important;
     height: 10vw;
     font-size: 3.3vw;
@@ -339,14 +339,15 @@
   }
 
   .subFinal p {
-    font-size: 0.1rem;
+    font-size: 5px;
   }
 
 
   .footerCol.boton2 {
     position: absolute;
     left: -2vw;
-    top: 0vw;
+    top: -3vw;
+    
   }
 
   .footerCol.boton2 input {

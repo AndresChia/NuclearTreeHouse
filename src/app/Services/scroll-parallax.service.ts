@@ -26,4 +26,8 @@ export class ScrollParallaxService {
     return { 'transform': 'translate(0px,' + this.posY + 'px)' };
   }
 
+  efectoParallexFondo() {
+    return  this.posY + 'px' ;
+  }
+
 }

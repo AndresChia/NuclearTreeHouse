@@ -112,13 +112,13 @@
   }
 
   .imgCelular {
-    width: 105vw;
+    width: 108vw;
     height: 51vh;
-    top: -9.8vw;
+    top: -1.8vw;
     position: absolute;
     overflow-y: visible;
     z-index: +80;
-    left: -26vw;
+    left: -23vw;
   }
 
   .contenedortitulo {
