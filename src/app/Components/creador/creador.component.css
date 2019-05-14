@@ -243,6 +243,20 @@
   .botonesTexto {
     display: inline-flex;
     left: 50%;
+    position: absolute;
+  }
+
+  .footerTexto p:nth-child(1) {
+    font-size: 5vw;
+  }
+
+  .footerTexto p:nth-child(2) {
+    font-size: 3vw;
+  }
+
+  .footerTexto {
+    margin-top: 14%;
+
   }
 
   .contenedorImg {
@@ -327,13 +341,11 @@
   }
 
   .tv {
-    margin-left: 13vh;
-
-
-    height: 29vw;
+    margin-left: 15%;
+    height: 41vw;
     width: 33vh;
     position: relative;
-
+    top: 28%;
   }
 
   .col.boton2 {
@@ -344,11 +356,11 @@
 
   .footerTexto {
     position: absolute;
-    left: -30%;
+    left: -54%;
   }
 
 
-  .footerTexto .p {
+  .footerTexto p {
     font-size: 1rem;
   }
 
@@ -369,23 +381,24 @@
   }
 
   .footerCol.boton2 {
-    top: -7vw;
+    top: -12vw;
     position: absolute;
     right: 14vh;
     width: 21vh;
   }
 
   .footerCol.boton2 input {
-    background-size: 31vw 12vw;
+    background-size: 60vw 19vw;
     background-position: top;
     border-radius: 5vw;
     text-align: -webkit-left;
-    width: 28vw;
+    width: 53vw;
     background-repeat: no-repeat;
     font-family: 'brandon-black', 'arial', sans-serif;
     color: rgb(255, 255, 255) !important;
-    font-size: 1.3vw;
-    height: 6vw;
+    font-size: 3.3vw;
+    height: 12vw;
+    right: -11%;
   }
 
   .containerImgMune {

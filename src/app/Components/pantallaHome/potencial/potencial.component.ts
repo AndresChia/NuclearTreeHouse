@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-potencial',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PotencialComponent implements OnInit {
 
-  constructor() { }
+  // tslint:disable-next-line:variable-name
+  constructor(public _router: Router) { }
 
   ngOnInit() {
   }
 
+  router(parametro) {
+    this._router.navigateByUrl('/' + parametro);
+  }
 }

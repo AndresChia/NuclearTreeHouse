@@ -227,7 +227,8 @@
     display: none;
   }
 
-  .row.footer {
+  .row.footer div:nth-child(1),
+  .row.footer div:nth-child(2) {
     display: none;
   }
 
@@ -246,21 +247,21 @@
   }
 
   .boton1 input {
-    background-size: 14vw 2.8vw;
+    background-size: 32vw 8.8vw;
     background-position: center;
     text-align: center;
-    width: 18vw;
+    width: 33vw;
     background-repeat: no-repeat;
     font-family: 'brando-regular-italic', 'arial', sans-serif;
     color: white !important;
-    height: 4vw;
-    font-size: 1.3vw;
+    height: 10vw;
+    font-size: 3.3vw;
   }
 
   .computador .boton1 {
-    top: 55vw;
-    left: 51vw;
-    width: 16vw;
+    top: 75vw;
+    left: 17vw;
+    width: 39vw;
   }
 
   .computador img {
@@ -334,9 +335,30 @@
 
   .subFinal {
     margin-top: 3.5vw;
+    width: 38vw;
   }
 
   .subFinal p {
-    font-size: 1vw;
+    font-size: 0.1rem;
+  }
+
+
+  .footerCol.boton2 {
+    position: absolute;
+    left: -2vw;
+    top: 0vw;
+  }
+
+  .footerCol.boton2 input {
+    background-size: 46vw 15vw;
+    background-position: top;
+    border-radius: 5vw;
+    text-align: -webkit-left;
+    width: 37vw;
+    background-repeat: no-repeat;
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: rgb(255, 255, 255) !important;
+    font-size: 3.3vw;
+    height: 10vw;
   }
 }

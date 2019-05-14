@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-iniciar-proyecto',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IniciarProyectoComponent implements OnInit {
 
-  constructor() { }
+  // tslint:disable-next-line:variable-name
+  constructor(private _router: Router) { }
 
   ngOnInit() {
   }
 
+
+  router(parametro) {
+    this._router.navigateByUrl('/' + parametro);
+  }
 }
