@@ -23,6 +23,23 @@
   left: 36vw;
 }
 
+.celular div {
+  background: url(../../../../assets/potencial/parallax-celular.jpg);
+  height: 25vw;
+  width: 15vw;
+  border-radius: 3.5vw;
+  position: absolute;
+  background-size: 11vw 38vw;
+  background-position-y: 0vw;
+  background-attachment: fixed;
+  background-position-x: 77.4vw;
+  background-repeat-x: no-repeat;
+  background-repeat-y: repeat;
+  top: 22.6vw;
+
+}
+
+
 .computador div.compu {
   background: url(../../../../assets/potencial/parallax-computador.jpg);
   height: 30vw;
@@ -222,10 +239,10 @@
 
 @media only screen and (max-width: 425px) {
 
-  .celular img:nth-child(1),
+  /* .celular img:nth-child(1),
   .celular img:nth-child(2) {
     display: none;
-  }
+  } */
 
   .row.footer div:nth-child(1),
   .row.footer div:nth-child(2) {
@@ -278,13 +295,13 @@
   } */
 
   .celular div {
-    top: 12.6vw;
+    top: 19.6vw;
     height: 25vh;
-    width: 27vw;
-    background-size: 11vw 38vw;
-    background-position-x: 89.5vw;
+    width: 20vw;
+    background-size: 15vw 38vw;
+    background-position-x: 86.5vw;
     background-position-y: 0vw;
-    visibility: hidden;
+    left: 90vw;
   }
 
   .Celular-mobile {
@@ -347,7 +364,7 @@
     position: absolute;
     left: -2vw;
     top: -3vw;
-    
+
   }
 
   .footerCol.boton2 input {

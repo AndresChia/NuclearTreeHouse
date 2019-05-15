@@ -10,7 +10,7 @@ import { ScrollParallaxService } from 'src/app/Services/scroll-parallax.service'
 export class PotencialComponent implements OnInit {
 
   // tslint:disable-next-line:variable-name
-  constructor(public _router: Router,public _ScrollParallaxService:ScrollParallaxService) { }
+  constructor(public _router: Router, public _ScrollParallaxService: ScrollParallaxService) { }
 
   ngOnInit() {
   }

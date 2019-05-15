@@ -59,6 +59,11 @@
 
 @media only screen and (max-width: 425px) {
 
+  app-nav-bar .col-xs-4:nth-child(2) {
+    display: none;
+    visibility: hidden;
+  }
+
   .fondoIMG {
     width: 199%;
     height: 76%;
@@ -103,18 +108,16 @@
   }
 
   .ArbolIMG-mobile {
-    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif);
+    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif), url(../../../../../assets/Home/tituloNuclear.png);
     width: 251vw;
-    height: 91vh;
+    height: 105vh;
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
     left: -68vw;
-    bottom: 0vh;
+    bottom: -5vh;
     background-position-y: bottom;
-
     display: block;
-
   }
 
 
