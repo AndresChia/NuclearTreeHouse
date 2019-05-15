@@ -27,14 +27,14 @@
 
   background: url(../../../../assets/potencial/parallax-celular.jpg);
   border-radius: 1.5vw;
-  background-size: 15% 38vw;
+  background-size: 100% 47vw;
   background-position-y: 0vw;
-  background-attachment: fixed;
-  background-position-x: 76vw;
+  /* background-attachment: fixed; */
+  background-position-x: 77vw;
   background-repeat-x: repeat;
   background-repeat-y: repeat;
   width: 11vw !important;
-  left: 78vw !important;
+  left: 78.2vw !important;
 
 }
 
