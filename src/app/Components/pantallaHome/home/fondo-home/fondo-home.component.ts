@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ScrollParallaxService } from 'src/app/Services/scroll-parallax.service';
 import { ViewEncapsulation } from '@angular/core';
+import { IdiomaService } from '../../../../Services/idioma.service';
 
 @Component({
   selector: 'app-fondo-home',
@@ -12,7 +13,7 @@ import { ViewEncapsulation } from '@angular/core';
 export class FondoHomeComponent implements OnInit {
 
   // tslint:disable-next-line:variable-name
-  constructor(public _parallax: ScrollParallaxService) { }
+  constructor(public _parallax: ScrollParallaxService, public _IdiomaService: IdiomaService) { }
 
   ngOnInit() {
   }

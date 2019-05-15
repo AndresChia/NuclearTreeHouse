@@ -107,8 +107,8 @@
     display: none;
   }
 
-  .ArbolIMG-mobile {
-    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif), url(../../../../../assets/Home/tituloNuclear.png);
+  .ArbolIMG-mobile.arbolESP {
+    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif), url(../../../../../assets/Home/tituloNuclear-Español.png);
     width: 251vw;
     height: 105vh;
     position: absolute;
@@ -119,6 +119,31 @@
     background-position-y: bottom;
     display: block;
   }
+
+  .ArbolIMG-mobile.arbolENG {
+    background: url(../../../../../assets/Home/CAPA-2-ARBOL.gif), url(../../../../../assets/Home/tituloNuclear-Ingles.png);
+    width: 251vw;
+    height: 105vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -68vw;
+    bottom: -5vh;
+    background-position-y: bottom;
+    display: block;
+  }
+
+  /* .ArbolIMG-mobile {
+    width: 251vw;
+    height: 105vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -68vw;
+    bottom: -5vh;
+    background-position-y: bottom;
+    display: block;
+  } */
 
 
 

@@ -5,7 +5,9 @@
 
   </span>
 
-  <span parallax [config]="{initialValue: 120, ratio: .5}" class="ArbolIMG-mobile">
+  <span parallax [config]="{initialValue: 120, ratio: .5}"
+    [ngClass]="{'arbolESP': _IdiomaService.getIdioma() == 'es', 'arbolENG': _IdiomaService.getIdioma() == 'en'}"
+    class="ArbolIMG-mobile">
 
   </span>
 
