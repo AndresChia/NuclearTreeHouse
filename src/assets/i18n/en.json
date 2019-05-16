@@ -82,18 +82,17 @@
     "esMarca": "Is my personal brand; my portfolio."
   },
   "iniciarProyecto": {
-    "mejorOpcion": "BEST OPTION",
     "numero": "(+57) 3108120028",
     "correo": "idea.director@nucleartreehouse.com",
     "ubicacion": "Bogotá, Colombia",
     "iniciarProyecto": "START PROJECT",
     "contacto": "/ CONTACT",
     "infoContacto": "Send me a message and lets turn that idea into a powerful reality.I check carefully all the delivered message. If you are outside Colombia, dont worry! write me an E-Mail.",
-    "mejorOpcion": "MEJOR OPCIÓN",
+    "mejorOpcion": "BEST OPTION",
     "nombre": "Name",
     "e-mail": "E-mail",
     "queCrear": "¿What do you wish to create?",
     "enviar": "SEND",
-    "realizarPago": "REALIZAR PAGO"
+    "realizarPago": "Make a payment"
   }
 }

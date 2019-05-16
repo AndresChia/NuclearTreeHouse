@@ -295,7 +295,7 @@ Mobile
     width: 60%;
     left: 19%;
     top: 6%;
-    height: 37%;
+    height: 40%;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -317,8 +317,8 @@ Mobile
 
   .mobileTexto.upTexto {
     position: absolute;
-    width: 100%;
-    top: 49%;
+    width: 95%;
+    top: 54%;
   }
 
   .mobileTexto.upTexto h1.firstH1 {
