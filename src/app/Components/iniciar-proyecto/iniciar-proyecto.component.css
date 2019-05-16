@@ -178,13 +178,16 @@
 .contenedorRow {
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: -30px;
   margin-bottom: 5vw;
 }
 
 .mobileTexto {
   display: none;
 }
+
+
+
 
 /* 
 
@@ -255,8 +258,8 @@ Mobile
 
   .mobileTexto.upTexto {
     position: absolute;
-    top: 46%;
     width: 100%;
+    top: 49%;
   }
 
   .mobileTexto.upTexto h1.firstH1 {
@@ -275,15 +278,15 @@ Mobile
   }
 
   .mobileTexto.downTexto {
-    width: 50%;
+    width: 45%;
     margin-left: 4vw;
-    margin-top: 6vw;
+    margin-top: 18vw;
   }
 
   .contendorImgNuclear {
-    position: absolute;
-    bottom: 0px;
 
+    position: absolute;
+    bottom: -3vh;
     width: 14%;
     width: 100%;
     margin-bottom: 0px;
@@ -295,6 +298,68 @@ Mobile
     left: 52%;
     position: relative;
     margin: 0px
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  .formulario {
+    z-index: +99;
+    width: 38%;
+    height: 56%;
+    left: 57%;
+    position: relative;
+    background-color: white;
+    box-shadow: 4px 5px 12px 0px black;
+    padding: 23px 28px 27px 28px;
+    top: 22%;
+
+  }
+
+  .contenedorRow {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 5vw;
+  }
+
+
+  :host ::ng-deep app-nav-bar .navMobile {
+    height: 33px;
+  }
+
+  .imagenNuclearHumans {
+    position: absolute;
+    bottom: 0px;
+    margin-right: 4vw;
+    right: 0px;
+    width: 30%;
+    margin-bottom: 4vw;
+  }
+
+
+  .tituloNuclear {
+    width: 88%;
+    position: relative;
+    margin-top: 1vw;
+    left: 0%;
+  }
+
+
+  .botonPago {
+    border: 0px;
+    width: 20vw;
+    position: relative;
+    top: 3vw;
+    left: 21%;
+    border-radius: 3vw;
+    line-height: 1;
+    font-size: 2vw;
+    background-size: cover;
+    height: 5vw;
   }
 
 }

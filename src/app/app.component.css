@@ -14,7 +14,7 @@
 }
 
 .IniciarProyecto {
-  height: calc(100% - 4vw);
+  height: -webkit-fill-available;
 }
 
 .especificacion {

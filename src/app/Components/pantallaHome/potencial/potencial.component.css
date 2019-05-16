@@ -61,13 +61,25 @@
   width: 15vw;
 }
 
-.celular img,
+
 .celular div {
   position: absolute;
   width: 13vw;
   top: 22vw;
   left: 77.2vw;
-  height: 25vw;
+  height: 23.5vw;
+
+}
+
+
+
+
+.celular img {
+  position: absolute;
+  width: 13vw;
+  top: 22vw;
+  left: 77.2vw;
+
 }
 
 .celular img:nth-child(1) {

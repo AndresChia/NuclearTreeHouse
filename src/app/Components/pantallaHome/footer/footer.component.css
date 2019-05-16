@@ -22,3 +22,56 @@ p span {
   font-family: 'brandon-black', 'arial', sans-serif;
   color: white;
 }
+
+.IniciarProyectoClass {
+  display: block !important;
+  visibility: visible !important;
+}
+
+
+.imagenNuclearHumans {
+  position: absolute;
+  bottom: 0px;
+  margin-right: 10vw;
+  right: 0px;
+  width: 17%;
+  margin-bottom: 4vw;
+}
+
+.contendorImgNuclear {
+  display: none;
+  visibility: hidden;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+
+
+
+  .imagenNuclearHumans {
+    width: 56%;
+    margin-bottom: 0px;
+    margin-right: -19px;
+  }
+
+  .contendorImgNuclear {
+
+    position: absolute;
+    bottom: 5.6vh;
+    width: 100%;
+    margin-bottom: 0px;
+    z-index: +1;
+    overflow: hidden;
+  }
+
+
+
+  .contendorImgNuclear .imagenNuclearHumans {
+    width: 56%;
+    left: 52%;
+    position: relative;
+    margin: 0px
+  }
+}

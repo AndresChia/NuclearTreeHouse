@@ -33,8 +33,8 @@
       <img src="../../../assets/potencial/computador.png" alt="">
 
       <div class="boton1">
-        <input name="butonQ" (click)="router('Proyectos')" id="butonQ" class="btn" type="button"
-          value="{{'potencial.footer.verMas' | translate}}" (click)="router('Proyectos')">
+        <input name="butonQ" id="butonQ" class="btn" type="button" value="{{'potencial.footer.verMas' | translate}}"
+          (click)="router('Proyectos')">
       </div>
 
 
@@ -42,7 +42,7 @@
     <div class="celular">
 
 
-      <div  [ngStyle]="{'background-position-y': _ScrollParallaxService.efectoParallexFondo()}"></div>
+      <div [ngStyle]="{'background-position-y': _ScrollParallaxService.efectoParallexFondo()}"></div>
       <img src="../../../assets/potencial/celular.png" alt="">
 
     </div>
@@ -62,7 +62,7 @@
       <p> {{'potencial.footer.por' | translate}} <span> {{'potencial.footer.nombre' | translate}}</span> </p>
     </div>
     <div class="col footerCol boton2">
-      <input name="butonP" id="butonP" class="btn" type="button" (click)="router('Proyectos')"
+      <input name="butonP" id="butonP" class="btn" type="button" (click)="router('IniciarProyecto')"
         value="{{'potencial.footer.proyecto' | translate}}">
     </div>
   </div>
