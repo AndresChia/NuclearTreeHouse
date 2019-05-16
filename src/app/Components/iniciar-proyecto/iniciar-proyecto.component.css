@@ -191,6 +191,11 @@
   display: none;
 }
 
+.menuHome {
+  display: none;
+  visibility: hidden;
+}
+
 .contenedorMejorOpcion {
   position: absolute;
   top: -7%;
@@ -220,6 +225,16 @@ Mobile
 */
 @media only screen and (max-width: 425px) {
 
+  .menuHome {
+    display: block;
+    visibility: visible;
+  }
+
+  .menuHome h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+  }
+
+
   .contenedorMejorOpcion {
     display: none;
     visibility: hidden;
@@ -243,6 +258,11 @@ Mobile
   :host ::ng-deep app-nav-bar .col-xs-4:nth-child(1) {
     display: none;
     visibility: hidden;
+  }
+
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(3) .menuHam {
+    top: 1%;
   }
 
   .mobileTexto {
@@ -344,6 +364,19 @@ Mobile
 
 
 @media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(3) .menuHam {
+    top: 1%;
+  }
+
+  .menuHome {
+    display: block;
+    visibility: visible;
+  }
+
+  .menuHome h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+  }
 
   .formulario {
     z-index: +99;
