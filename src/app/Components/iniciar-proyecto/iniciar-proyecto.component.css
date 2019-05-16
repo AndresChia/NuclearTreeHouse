@@ -175,6 +175,11 @@
   background-size: cover;
 }
 
+.contacto {
+  display: none;
+  visibility: hidden;
+}
+
 .contenedorRow {
   position: absolute;
   width: 100%;
@@ -186,7 +191,26 @@
   display: none;
 }
 
+.contenedorMejorOpcion {
+  position: absolute;
+  top: -7%;
+  left: 25%;
+  display: inline-flex;
+  font-size: 1vw;
+}
 
+.contenedorMejorOpcion::after,
+.contenedorMejorOpcion::before {
+  content: "";
+  display: block;
+  background: url(../../../assets/IniciarProyecto/iconArrow.png) no-repeat;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-size: contain;
+  background-position: right;
+}
 
 
 /* 
@@ -195,6 +219,21 @@ Mobile
 
 */
 @media only screen and (max-width: 425px) {
+
+  .contenedorMejorOpcion {
+    display: none;
+    visibility: hidden;
+  }
+
+  .contacto {
+    display: block;
+    visibility: visible;
+  }
+
+  .contacto p {
+    font-family: 'brandon-black', 'arial', sans-serif;
+    font-size: 4vw;
+  }
 
   :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
     display: none;
