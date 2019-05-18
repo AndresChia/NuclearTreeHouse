@@ -254,8 +254,11 @@
 
   .botonesTexto {
     display: inline-flex;
-    left: 50%;
-    position: absolute;
+    bottom: 0%;
+    left: 12vw;
+    width: 53vw;
+    top: -21vw;
+    position: relative;
   }
 
   .footerTexto p:nth-child(1) {
@@ -268,15 +271,16 @@
 
   .footerTexto {
     margin-top: 14%;
-
+    left: -75%;
   }
+
 
   .contenedorImg {
     position: relative;
     width: 39vh;
     display: block;
-    height: 83vw;
-    left: -7vh;
+    height: 97vw;
+    left: -21vh;
   }
 
   .row .col-4 {
@@ -304,8 +308,8 @@
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     top: 34vw;
-    right: -32vw;
-  }
+    right: -28vw;
+    }
 
   .tituloWeb-mobile h1 {
     box-sizing: border-box;
@@ -353,11 +357,11 @@
   }
 
   .tv {
-    margin-left: 15%;
+    margin-left: -4%;
     height: 41vw;
     width: 33vh;
     position: relative;
-    top: 28%;
+    top: 29vw;
   }
 
   .col.boton2 {
@@ -366,10 +370,7 @@
     width: 52vh;
   }
 
-  .footerTexto {
-    position: absolute;
-    left: -54%;
-  }
+ 
 
 
   .footerTexto p {
@@ -395,8 +396,8 @@
   .footerCol.boton2 {
     top: -12vw;
     position: absolute;
-    right: 14vh;
     width: 21vh;
+    right: 0vh;
   }
 
   .footerCol.boton2 input {
@@ -411,6 +412,7 @@
     font-size: 3.3vw;
     height: 12vw;
     right: -11%;
+        position: relative;
   }
 
   .containerImgMune {
@@ -418,19 +420,25 @@
     margin-bottom: 5vw;
   }
 
+  .contenedorSinFooter {
+    height: auto;
+  }
+
   .containerTvMobile {
     overflow: hidden;
   }
 
   .contenedorImg .quienSoy {
-
-    top: 3vw;
-    left: 9vw;
+    top: 4vw;
+    left: 12vw;
   }
 
   .contenedorImg .nombre {
-
-    font-size: 4.9vw;
+    width: 4vw;
+    bottom: 4vw;
+    margin-left: 16%;
+    line-height: 90%;
+    font-size: 5.9vw;
   }
 
   .containerImgMune,
@@ -462,16 +470,20 @@
 
   .contenedorImg {
     position: relative;
-    width: 56vh;
+    width: 75vw;
     display: block;
-    height: 54vw;
-    left: -16vh;
+    height: 81vw;
+    left: -47%;
   }
 
   .row .col-4 {
     display: contents;
     width: 50vw;
     height: 28vw;
+  }
+
+  .contenedorSinFooter{
+    height: auto;
   }
 
   .contenedor {
@@ -540,15 +552,15 @@
   .row.tvMobile {
     height: 65vw;
     display: inherit;
+    margin-bottom: 16vw;
   }
 
   .tv {
-
     position: relative;
     height: 40%;
-    width: 40%;
-    margin-left: 33%;
-
+    width: 87%;
+    margin-left: -8vw;
+    bottom: -21vw;
   }
 
   .col.boton2 {
@@ -559,8 +571,8 @@
 
   .footerTexto {
     position: absolute;
-    left: -30%;
-    margin-top: 82px;
+    left: -75%;
+    margin-top: -31vw;
   }
 
 
@@ -601,16 +613,17 @@
   }
 
   .footerCol.boton2 input {
-    font-size: 2.3vw;
-    background-size: 31vw 12vw;
+    font-size: 3.8vw;
+    background-size: 54vw 14vw;
     background-position: top;
     border-radius: 5vw;
     text-align: -webkit-left;
-    width: 28vw;
+    width: 43vw;
     background-repeat: no-repeat;
     font-family: 'brandon-black', 'arial', sans-serif;
     color: rgb(255, 255, 255) !important;
-    height: 6vw;
+    height: 8vw;
+    bottom: 36vw;
   }
 
   .containerImgMune {
@@ -623,13 +636,13 @@
   }
 
   .contenedorImg .quienSoy {
-
-    top: 3vw;
-    left: 9vw;
+    top: 4vw;
+    left: 10vw;
   }
 
   .contenedorImg .nombre {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    bottom: 2vw;
   }
 
   .containerImgMune,
