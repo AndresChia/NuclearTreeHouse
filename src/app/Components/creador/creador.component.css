@@ -9,6 +9,7 @@
 }
 
 
+
 .row.tvMobile,
 .row.tvMobile .col-4,
 .row.tvMobile .col-8 {
@@ -19,8 +20,10 @@
 
 
 .containerImgMune {
+
   height: 23vw;
-  margin-bottom: 78px;
+  margin-bottom: 2px;
+
 }
 
 .containerTvMobile {
@@ -33,7 +36,7 @@
 }
 
 .contenedorSinFooter {
-  height: 100%;
+  height: 94vh;
 }
 
 
@@ -69,9 +72,12 @@
 }
 
 .botonesTexto {
+  bottom: -65%;
+
   width: 50vw;
   display: block;
   height: 28vw;
+
 }
 
 .tituloWeb3 p {
@@ -102,14 +108,14 @@
 .contenedor {
   width: 51vw;
   position: relative;
-  top: 35%;
+  top: 21%;
 }
 
 .imagenMuneco {
   position: absolute;
-  left: 5.4vw;
+  left: 0.4vw;
+  width: 3.5vw;
   top: -4vw;
-  width: 6vw;
 }
 
 .cuadroImg {
@@ -117,15 +123,20 @@
   height: 100%;
 }
 
-.row {
-  margin-top: 7vh;
+
+.row.containerImgMune {
+  margin-top: 9vh;
 }
 
+
+
 .tv {
+
   position: relative;
-  width: 20vw;
-  margin-left: 28%;
-  height: 11vw;
+  width: 22vw;
+  margin-left: 39%;
+  height: 13vw;
+
 }
 
 .footer {
@@ -136,9 +147,13 @@
   width: 100%;
 }
 
+
 .footerCol.boton2 {
-  margin-top: 5%;
+  top: -139%;
+  position: absolute;
+
 }
+
 
 .footerCol.boton2 input {
   right: 15vw;
@@ -160,9 +175,6 @@
 }
 
 
-.footerTexto {
-  margin-top: 5%;
-}
 
 .footerTexto p:nth-child(1) {
   color: rgb(255, 184, 0);
@@ -183,9 +195,10 @@
 
 .contenedorImg {
   position: relative;
-  width: 29vw;
-  margin-left: 20%;
-  height: 29vw;
+  width: 19vw;
+  margin-left: 48%;
+  height: 21vw;
+
 }
 
 
@@ -205,8 +218,7 @@
 
 .contenedorImg .quienSoy {
   top: 1vw;
-  left: 4vw;
-
+  left: 3vw;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -216,9 +228,9 @@
 
 .contenedorImg .nombre {
   width: 4vw;
-  bottom: 2vw;
+  bottom: 1vw;
   margin-left: 16%;
-  font-size: 1.9vw;
+  font-size: 1.4vw;
   line-height: 90%;
 }
 
