@@ -27,7 +27,7 @@
 
   background: url(../../../../assets/potencial/parallax-celular.jpg);
   border-radius: 1.5vw;
-  background-size: 100% 33vw;
+  background-size: 100% 34vw;
   background-position-y: 0vw;
   /* background-attachment: fixed; */
   background-position-x: 77vw;
@@ -35,6 +35,8 @@
   background-repeat-y: repeat;
   width: 11vw !important;
   left: 78.2vw !important;
+
+
 
 }
 
@@ -47,9 +49,11 @@
   left: 42vw;
   top: 12vw;
   border-radius: 11px;
-  background-size: 44vw 48vw;
-  background-position-x: 44.6vw;
+  background-position-y: 0vw;
+  background-size: 45vw 50vw;
+  background-position-x: 0vw;
   background-repeat-y: repeat;
+  background-repeat-x: no-repeat;
 }
 
 .computador .boton1 {
@@ -305,7 +309,7 @@
     top: 19.6vw;
     height: 25vh;
     width: 20vw !important;
-    background-size: 15vw 38vw;
+    background-size: 29vw 84vw;
     background-position-x: 86.5vw;
     background-position-y: 0vw;
     left: 90vw !important;
