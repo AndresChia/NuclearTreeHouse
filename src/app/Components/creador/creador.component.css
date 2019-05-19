@@ -308,8 +308,8 @@
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     top: 34vw;
-    right: -28vw;
-    }
+    right: -29vw;
+  }
 
   .tituloWeb-mobile h1 {
     box-sizing: border-box;
@@ -370,7 +370,7 @@
     width: 52vh;
   }
 
- 
+
 
 
   .footerTexto p {
@@ -412,7 +412,7 @@
     font-size: 3.3vw;
     height: 12vw;
     right: -11%;
-        position: relative;
+    position: relative;
   }
 
   .containerImgMune {
@@ -482,7 +482,7 @@
     height: 28vw;
   }
 
-  .contenedorSinFooter{
+  .contenedorSinFooter {
     height: auto;
   }
 
