@@ -42,7 +42,7 @@
 
   .contenedorTexto {
     width: 40%;
-    top: 62px;
+    top: 19px;
     position: relative;
     height: fit-content;
   }
@@ -55,5 +55,34 @@
 
   .contenedorTexto h2 {
     font-size: 0.9rem;
+  }
+
+
+  .contenedorHablemos {}
+
+  .botonHablemos {
+    background: url(../../../assets/proceso/botonHablemos.png);
+    width: 48vw;
+    height: 9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .segundoContenedor {
+    margin-left: 8vw;
+    margin-right: 26vw;
+    margin-top: 2vw;
+  }
+
+  .segundoContenedor::before {
+    background: url(../../../assets/proceso/botonHablemosCLICK.png);
+    content: "";
+    width: 91px;
+    height: 39px;
+    background-size: 22vw 9vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 69vw;
+    left: 2vw;
   }
 }
