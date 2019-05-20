@@ -97,5 +97,16 @@
     "queCrear": "¿Qué deseas crear?",
     "enviar": "ENVIAR",
     "realizarPago": "REALIZAR PAGO"
+  },
+  "proceso": {
+    "buenaIdea": "YOU’R GREAT IDEA",
+    "proceso": "PROCESO",
+    "reunionCreativa": "Reunión creativa /",
+    "disenoCliente": "Diseño de cliente(s) /",
+    "branding": "Branding /",
+    "disenoWeb": "Diseño web/",
+    "hablemos": "HABLEMOS",
+    "pongamonosContacto": "Pongámonos en contacto y cuéntame acerca de esa gran idea que tienes."
+
   }
 }

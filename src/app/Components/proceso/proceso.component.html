@@ -1,3 +1,8 @@
+<div class="menuHome">
+  <a class="btn  m-2" (click)="router('Home')">
+    <h1>Home</h1>
+  </a>
+</div>
 <app-nav-bar></app-nav-bar>
 <div class="primerContenedor">
 
@@ -6,11 +11,11 @@
   </div>
 
   <div class="contenedorTexto">
-    <h1>PROCESO</h1>
-    <h2>Reunión creativa /</h2>
-    <h2>Diseño de cliente(s) /</h2>
-    <h2>Branding /</h2>
-    <h2>Diseño web</h2>
+    <h1>{{"proceso.proceso" | translate}}</h1>
+    <h2>{{"proceso.reunionCreativa" | translate}}</h2>
+    <h2>{{"proceso.disenoCliente" | translate}}</h2>
+    <h2>{{"proceso.branding" | translate}}</h2>
+    <h2>{{"proceso.disenoWeb" | translate}}</h2>
   </div>
 
 
@@ -20,7 +25,7 @@
 
 <div class="segundoContenedor">
 
-  <button type="button" class="btn botonHablemos">HABLEMOS</button>
-  <h1>Pongámonos en contacto y cuéntame acerca de esa gran idea que tienes.</h1>
+  <button type="button" class="btn botonHablemos">{{"proceso.hablemos" | translate}}</button>
+  <h1>{{"proceso.pongamonosContacto" | translate}}</h1>
 
 </div>

@@ -94,5 +94,15 @@
     "queCrear": "¿What do you wish to create?",
     "enviar": "SEND",
     "realizarPago": "Make a payment"
+  },
+  "proceso": {
+    "buenaIdea": "YOU’R GREAT IDEA",
+    "proceso": "OUR PROCESS",
+    "reunionCreativa": "Creative meeting /",
+    "disenoCliente": "User design /",
+    "branding": "Branding /",
+    "disenoWeb": "Web design",
+    "hablemos": "LETS TALK",
+    "pongamonosContacto": "Lets get in touch and tell me about that great idea."
   }
 }

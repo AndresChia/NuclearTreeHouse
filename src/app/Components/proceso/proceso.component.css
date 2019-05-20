@@ -3,6 +3,11 @@
   src: url(../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
 }
 
+.menuHome {
+  display: none;
+  visibility: hidden;
+}
+
 
 @media only screen and (max-width: 425px) {
 
@@ -85,4 +90,18 @@
     top: 69vw;
     left: 2vw;
   }
+
+  .menuHome {
+    position: absolute;
+    top: 7vw;
+    display: block;
+    visibility: visible;
+
+  }
+
+  .menuHome h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+    color: black;
+  }
+
 }
