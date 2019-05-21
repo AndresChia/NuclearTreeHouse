@@ -277,9 +277,9 @@
 
   .contenedorImg {
     position: relative;
-    width: 39vh;
+    width: 35vh;
     display: block;
-    height: 97vw;
+    height: 77vw;
     left: -21vh;
   }
 
@@ -301,14 +301,12 @@
   }
 
   .tituloWeb-mobile {
-
-
     display: block;
     position: absolute;
-    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: 34vw;
-    right: -29vw;
+    top: 22vw;
+    right: -20vw;
+
   }
 
   .tituloWeb-mobile h1 {
@@ -327,8 +325,8 @@
     padding: 0;
     font-family: 'brandon-light', 'arial', sans-serif;
     color: black;
-    font-size: 6vw;
-    line-height: 1.5;
+    font-size: 4vw;
+    margin-top: 2vw;
   }
 
   .tituloWeb2,
@@ -341,8 +339,8 @@
 
   .imagenMuneco-mobile {
     transform: rotate(-90deg);
-    bottom: 20%;
-    right: 2vw;
+    bottom: 40%;
+    right: -19vw;
     width: 15vw;
     position: absolute;
   }
@@ -434,11 +432,13 @@
   }
 
   .contenedorImg .nombre {
+
     width: 4vw;
     bottom: 4vw;
     margin-left: 16%;
     line-height: 90%;
-    font-size: 5.9vw;
+    font-size: 4.9vw;
+
   }
 
   .containerImgMune,

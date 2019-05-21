@@ -316,9 +316,9 @@ Mobile
   }
 
   .mobileTexto.upTexto {
-    position: absolute;
+    position: relative;
     width: 95%;
-    top: 54%;
+    top: 66%;
   }
 
   .mobileTexto.upTexto h1.firstH1 {
@@ -340,6 +340,7 @@ Mobile
     width: 45%;
     margin-left: 4vw;
     margin-top: 18vw;
+    margin-bottom: 3vw;
   }
 
   .contendorImgNuclear {
