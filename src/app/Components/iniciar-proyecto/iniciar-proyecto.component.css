@@ -294,10 +294,15 @@ Mobile
     position: absolute;
     width: 60%;
     left: 19%;
-    top: 6%;
+    top: 9%;
     height: 40%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .contenedorDatosContacto h1:nth-child(1),
+  .contenedorDatosContacto h1:nth-child(2) {
+    margin-bottom: 21px;
   }
 
   .contornoFormulario input {
@@ -318,7 +323,7 @@ Mobile
   .mobileTexto.upTexto {
     position: relative;
     width: 95%;
-    top: 66%;
+    top: 61%;
   }
 
   .mobileTexto.upTexto h1.firstH1 {
@@ -327,7 +332,8 @@ Mobile
     font-size: 1.7rem;
     margin-left: 12%;
     position: relative;
-    margin-bottom: 19px;
+    margin-bottom: 33px;
+
   }
 
   .contenedorDatosContacto h1 {
@@ -339,8 +345,8 @@ Mobile
   .mobileTexto.downTexto {
     width: 45%;
     margin-left: 4vw;
-    margin-top: 18vw;
-    margin-bottom: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 12vw;
   }
 
   .contendorImgNuclear {

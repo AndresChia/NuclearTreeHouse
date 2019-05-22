@@ -8,7 +8,9 @@
   src: url(../../../assets/fonts/brandon-grotesque-light.otf) format("opentype");
 }
 
-
+.menuHome h1 {
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
 
 .row.tvMobile,
 .row.tvMobile .col-4,
@@ -304,8 +306,10 @@
     display: block;
     position: absolute;
     transform: rotate(90deg);
-    top: 22vw;
+    top: 23vw;
     right: -20vw;
+
+
 
   }
 
@@ -340,9 +344,9 @@
   .imagenMuneco-mobile {
     transform: rotate(-90deg);
     bottom: 40%;
-    right: -19vw;
     width: 15vw;
     position: absolute;
+    right: -17vw;
   }
 
   .imagenMuneco {
