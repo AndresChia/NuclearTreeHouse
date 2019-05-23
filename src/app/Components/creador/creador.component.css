@@ -321,6 +321,8 @@
     color: black;
     line-height: 0px;
     font-size: 6vw;
+    width: max-content;
+
   }
 
   .tituloWeb-mobile h2 {

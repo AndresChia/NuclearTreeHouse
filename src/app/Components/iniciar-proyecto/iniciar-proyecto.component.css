@@ -292,9 +292,10 @@ Mobile
 
   .formulario {
     position: absolute;
-    width: 60%;
+    width: 61vw;
     left: 19%;
     top: 9%;
+    padding-top: 14%;
     height: 40%;
     padding-left: 20px;
     padding-right: 20px;
@@ -344,7 +345,7 @@ Mobile
 
   .mobileTexto.downTexto {
     width: 45%;
-    margin-left: 4vw;
+    margin-left: 6vw;
     margin-top: 6vw;
     margin-bottom: 12vw;
   }
