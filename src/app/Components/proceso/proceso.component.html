@@ -41,7 +41,9 @@
 </div>
 
 
-<div class="cuartoContenedor">
+<div
+  [ngClass]="{'esCuartoContenedor': _IdiomaService.getIdioma() == 'es', 'enCuartoContenedor': _IdiomaService.getIdioma() == 'en'}"
+  class="cuartoContenedor">
   <p>{{"proceso.analisisDeCliente1" | translate}} <span>{{"proceso.analisisDeCliente2" | translate}} </span></p>
   <p>{{"proceso.analisisDeCliente3" | translate}} </p>
 </div>

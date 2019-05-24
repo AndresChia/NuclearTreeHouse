@@ -139,7 +139,7 @@
   .tercerContenedor {
 
     width: 55vw;
-    height: 85vw;
+    height: 80vw;
     margin-left: 9vw;
     padding-top: 20vw;
     padding-left: 4vw;
@@ -184,7 +184,27 @@
 
   }
 
-  .cuartoContenedor {}
+  .cuartoContenedor.esCuartoContenedor {
+    background: url(../../../assets/proceso/analisisClienteES.png);
+    background-size: 84vw 44vw;
+    background-repeat: no-repeat;
+
+  }
+
+  .cuartoContenedor.enCuartoContenedor {
+    background: url(../../../assets/proceso/analisisClienteEN.png);
+    background-size: 84vw 44vw;
+    background-repeat: no-repeat;
+  }
+
+  .cuartoContenedor {
+    width: 88vw;
+    height: 57vw;
+    margin-left: 9vw;
+    padding-top: 11vw;
+    padding-left: 3vw;
+    padding-right: 36vw;
+  }
 
   .cuartoContenedor p span {
     font-family: 'brandon-bold-italic', 'arial', sans-serif;
