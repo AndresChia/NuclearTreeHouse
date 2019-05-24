@@ -62,12 +62,12 @@
 
   .contenedorTexto h1 {
     font-family: 'brandon-black', 'arial', sans-serif;
-    font-size: 1.5rem;
+    font-size: 8vw;
     line-height: 1.3;
   }
 
   .contenedorTexto h2 {
-    font-size: 0.8rem;
+    font-size: 4vw;
   }
 
 
@@ -86,7 +86,7 @@
   }
 
   .segundoContenedor h1 {
-    font-size: 0.7rem;
+    font-size: 3.5vw;
     margin-top: 3px;
     margin-left: 1px;
   }
@@ -101,8 +101,8 @@
     background: url(../../../assets/proceso/botonHablemosCLICK.png);
     content: "";
     width: 91px;
-    height: 39px;
-    background-size: 22vw 9vw;
+    height: 29px;
+    background-size: 20vw 7vw;
     position: absolute;
     background-repeat: no-repeat;
     top: 62vw;
@@ -122,33 +122,58 @@
     color: black;
   }
 
+  .tercerContenedor.esTercerContenedor {
+    background: url(../../../assets/proceso/ReuniocreativaES.png);
+    background-size: 55vw 80vw;
+    background-repeat: no-repeat;
+
+  }
+
+  .tercerContenedor.enTercerContenedor {
+    background: url(../../../assets/proceso/ReuniocreativaEN.png);
+    background-size: 55vw 80vw;
+    background-repeat: no-repeat;
+
+  }
+
   .tercerContenedor {
-    background: url(../../../assets/proceso/Recurso6.png);
+
     width: 55vw;
-    height: 76vw;
-    background-size: 55vw 75vw;
+    height: 85vw;
     margin-left: 9vw;
-    padding-top: 18vw;
+    padding-top: 20vw;
     padding-left: 4vw;
     padding-right: 3vw;
-    background-repeat: no-repeat;
   }
 
 
   .tercerContenedor p {
-    font-size: 0.7rem;
+    font-size: 3.5vw;
   }
 
   .tercerContenedor p span {
     font-family: 'brandon-bold-italic', 'arial', sans-serif;
     color: black;
-    font-size: 0.7rem;
+    font-size: 3.5vw;
+
   }
 
   .tercerContenedor h1 {
     font-family: 'brandon-black', 'arial', sans-serif;
     color: orange;
-    font-size: 0.7rem;
+    font-size: 3.5vw;
+  }
+
+  .tercerContenedor h1::before {
+    background: url(../../../assets/proceso/botonHablemos.png);
+    content: "";
+    width: 100px;
+    height: 5px;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    display: block;
+    margin-left: 9vw;
+    background-size: cover;
   }
 
   .tercerContenedor img {
@@ -157,6 +182,18 @@
     top: -44vw;
     right: -48vw;
 
+  }
+
+  .cuartoContenedor {}
+
+  .cuartoContenedor p span {
+    font-family: 'brandon-bold-italic', 'arial', sans-serif;
+    color: black;
+    font-size: 3.5vw;
+  }
+
+  .cuartoContenedor p {
+    font-size: 3.5vw;
   }
 
 }

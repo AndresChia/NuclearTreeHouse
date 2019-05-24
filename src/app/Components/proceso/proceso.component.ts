@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { IdiomaService } from 'src/app/Services/idioma.service';
 
 @Component({
   selector: 'app-proceso',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 export class ProcesoComponent implements OnInit {
 
   // tslint:disable-next-line:variable-name
-  constructor(private _router: Router) { }
+  constructor(private _router: Router, public _IdiomaService: IdiomaService) { }
 
   ngOnInit() {
   }

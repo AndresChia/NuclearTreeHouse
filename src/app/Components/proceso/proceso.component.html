@@ -30,10 +30,26 @@
 
 </div>
 
-<div class="tercerContenedor">
+<div
+  [ngClass]="{'esTercerContenedor': _IdiomaService.getIdioma() == 'es', 'enTercerContenedor': _IdiomaService.getIdioma() == 'en'}"
+  class="tercerContenedor">
   <p> {{"proceso.reunionCreativa1" | translate}} <span>{{"proceso.reunionCreativa2" | translate}}</span></p>
   <h1>{{"proceso.reunionCreativa3" | translate}}</h1>
   <p>{{"proceso.reunionCreativa4" | translate}} <span>{{"proceso.reunionCreativa5" | translate}}</span></p>
 
   <img src="../../../assets/proceso/postIt.png" alt="">
+</div>
+
+
+<div class="cuartoContenedor">
+  <p>{{"proceso.analisisDeCliente1" | translate}} <span>{{"proceso.analisisDeCliente2" | translate}} </span></p>
+  <p>{{"proceso.analisisDeCliente3" | translate}} </p>
+</div>
+
+<div class="quintoContenedor">
+
+  <h1></h1>
+  <p></p>
+  <h1></h1>
+  <p></p>
 </div>

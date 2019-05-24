@@ -81,4 +81,8 @@
     height: auto;
   }
 
+  .containerRoter.Proceso {
+    overflow: hidden;
+  }
+
 }
