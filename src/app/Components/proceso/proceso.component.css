@@ -263,7 +263,21 @@
   }
 
 
-  .sextoContenedor button {}
+  .sextoContenedor {
+    padding-left: 10vw;
+  }
+
+  .sextoContenedor button {
+    width: 58vw;
+    height: 11vw;
+    position: relative;
+    bottom: 4vw;
+    background: url(../../../assets/proceso/button.png);
+    background-repeat: no-repeat;
+    background-size: 61vw 18vw;
+    padding: 0px;
+    border: 0px;
+  }
 
   .sextoContenedor img {
     width: 13vw;
