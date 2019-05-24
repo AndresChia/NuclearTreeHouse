@@ -48,10 +48,18 @@
   <p>{{"proceso.analisisDeCliente3" | translate}} </p>
 </div>
 
-<div class="quintoContenedor">
+<div
+  [ngClass]="{'esQuintoContenedor': _IdiomaService.getIdioma() == 'es', 'enQuintoContenedor': _IdiomaService.getIdioma() == 'en'}"
+  class="quintoContenedor">
 
-  <h1></h1>
-  <p></p>
-  <h1></h1>
-  <p></p>
+  <h1>{{"proceso.disenoYDesarrollo1" | translate}} </h1>
+  <p>{{"proceso.disenoYDesarrollo2" | translate}} </p>
+  <h1 class="beforeH1">{{"proceso.disenoYDesarrollo3" | translate}}</h1>
+  <p>{{"proceso.disenoYDesarrollo4" | translate}} </p>
+</div>
+
+
+<div class="sextoContenedor">
+  <img src="../../../assets/proceso/muneco.png" alt="">
+  <button type="button" name="" id="butonStartPro" class="btn btn-primary"></button>
 </div>

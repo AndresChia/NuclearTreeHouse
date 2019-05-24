@@ -199,9 +199,9 @@
 
   .cuartoContenedor {
     width: 88vw;
-    height: 57vw;
+    height: 45vw;
     margin-left: 9vw;
-    padding-top: 11vw;
+    padding-top: 9vw;
     padding-left: 3vw;
     padding-right: 36vw;
   }
@@ -214,6 +214,59 @@
 
   .cuartoContenedor p {
     font-size: 3.5vw;
+  }
+
+  .quintoContenedor.esQuintoContenedor {
+    background: url(../../../assets/proceso/disenoDesarrolloES.png);
+    background-size: 88vw 67vw;
+    background-repeat: no-repeat;
+
+  }
+
+  .quintoContenedor.enQuintoContenedor {
+    background: url(../../../assets/proceso/disenoDesarrolloEN.png);
+    background-size: 88vw 67vw;
+    background-repeat: no-repeat;
+  }
+
+  .quintoContenedor {
+    width: 88vw;
+    height: 67vw;
+    margin-left: 9vw;
+    padding-top: 8vw;
+    padding-left: 3vw;
+    padding-right: 36vw;
+    margin-bottom: 8vw;
+  }
+
+  .quintoContenedor h1 {
+    font-size: 3.5vw;
+    color: orange;
+    font-family: 'brandon-black', 'arial', sans-serif;
+  }
+
+  .quintoContenedor p {
+    font-size: 3.5vw;
+  }
+
+
+  .quintoContenedor h1.beforeH1::before {
+    background: url(../../../assets/proceso/botonHablemos.png);
+    content: "";
+    width: 100px;
+    height: 5px;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    display: block;
+    margin-left: 9vw;
+    background-size: cover;
+  }
+
+
+  .sextoContenedor button {}
+
+  .sextoContenedor img {
+    width: 13vw;
   }
 
 }
