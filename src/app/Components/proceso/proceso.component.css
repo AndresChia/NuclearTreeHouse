@@ -13,8 +13,84 @@
   visibility: hidden;
 }
 
+.contenedordesktop {
+  display: block;
+  visibility: visible;
+  margin-top: 60px;
+}
+
+.contenedormobile {
+  display: none;
+  visibility: hidden;
+}
+
+.contenedorUnoDesk {
+  background: url(../../../assets/proceso/desk/globo.png);
+  width: 14vw;
+  height: 16vw;
+  background-size: 14vw 16vw;
+  background-repeat: no-repeat;
+  margin-left: 22%;
+}
+
+.div-contenedor {
+  display: inline-flex;
+  width: 100%;
+}
+
+
+.contenedorDosDesk {
+  background: url(../../../assets/proceso/desk/Contenedor2.png);
+  width: 59vw;
+  height: 28vw;
+  background-size: 59vw 28vw;
+  background-repeat: no-repeat;
+  margin-left: 22%;
+  top: -9.1vw;
+  position: relative;
+}
+
+.contenedorTresDesk {
+  background: url(../../../assets/proceso/desk/Contenedor3.png);
+  width: 42vw;
+  height: 40vw;
+  background-size: 42vw 40vw;
+  background-repeat: no-repeat;
+  margin-left: 37%;
+  top: -9.2vw;
+  position: relative;
+}
+
+
+
+#butonStartPro {
+
+  background: url(../../../assets/proceso/button.png);
+  width: 26vw;
+  height: 4vw;
+  position: relative;
+  bottom: 4vw;
+  background-repeat: no-repeat;
+  background-size: 29vw 7vw;
+  padding: 0px;
+  background-position-x: -1.5vw;
+  border: 0px;
+  margin-left: 37%;
+}
+
 
 @media only screen and (max-width: 425px) {
+
+
+  .contenedordesktop {
+    display: none;
+    visibility: hidden;
+  }
+
+  .contenedormobile {
+    display: block;
+    visibility: visible;
+  }
 
   :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
     display: none;

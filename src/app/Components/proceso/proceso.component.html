@@ -4,63 +4,86 @@
   </a>
 </div>
 <app-nav-bar></app-nav-bar>
-<div class="primerContenedor">
 
-  <div class="contenedorGlobo">
-    <h1>YOU’R GREAT IDEA</h1>
+
+<div class="contenedormobile">
+
+  <div class="primerContenedor">
+    <div class="contenedorGlobo">
+      <h1>YOU’R GREAT IDEA</h1>
+    </div>
+    <div class="contenedorTexto">
+      <h1>{{"proceso.proceso" | translate}}</h1>
+      <h2>{{"proceso.reunionCreativa" | translate}}</h2>
+      <h2>{{"proceso.disenoCliente" | translate}}</h2>
+      <h2>{{"proceso.branding" | translate}}</h2>
+      <h2>{{"proceso.disenoWeb" | translate}}</h2>
+    </div>
+  </div>
+  <div class="segundoContenedor">
+    <button type="button" class="btn botonHablemos">{{"proceso.hablemos" | translate}}</button>
+    <h1>{{"proceso.pongamonosContacto" | translate}}</h1>
+  </div>
+  <div
+    [ngClass]="{'esTercerContenedor': _IdiomaService.getIdioma() == 'es', 'enTercerContenedor': _IdiomaService.getIdioma() == 'en'}"
+    class="tercerContenedor">
+    <p> {{"proceso.reunionCreativa1" | translate}} <span>{{"proceso.reunionCreativa2" | translate}}</span></p>
+    <h1>{{"proceso.reunionCreativa3" | translate}}</h1>
+    <p>{{"proceso.reunionCreativa4" | translate}} <span>{{"proceso.reunionCreativa5" | translate}}</span></p>
+    <img src="../../../assets/proceso/postIt.png" alt="">
+  </div>
+  <div
+    [ngClass]="{'esCuartoContenedor': _IdiomaService.getIdioma() == 'es', 'enCuartoContenedor': _IdiomaService.getIdioma() == 'en'}"
+    class="cuartoContenedor">
+    <p>{{"proceso.analisisDeCliente1" | translate}} <span>{{"proceso.analisisDeCliente2" | translate}} </span></p>
+    <p>{{"proceso.analisisDeCliente3" | translate}} </p>
+  </div>
+  <div
+    [ngClass]="{'esQuintoContenedor': _IdiomaService.getIdioma() == 'es', 'enQuintoContenedor': _IdiomaService.getIdioma() == 'en'}"
+    class="quintoContenedor">
+    <h1>{{"proceso.disenoYDesarrollo1" | translate}} </h1>
+    <p>{{"proceso.disenoYDesarrollo2" | translate}} </p>
+    <h1 class="beforeH1">{{"proceso.disenoYDesarrollo3" | translate}}</h1>
+    <p>{{"proceso.disenoYDesarrollo4" | translate}} </p>
+  </div>
+  <div class="sextoContenedor">
+    <img src="../../../assets/proceso/muneco.png" alt="">
+    <button type="button" name="" id="butonStartPro" (click)="router('IniciarProyecto')"
+      class="btn btn-primary">{{"proceso.iniciarproyecto" | translate}}</button>
   </div>
 
-  <div class="contenedorTexto">
-    <h1>{{"proceso.proceso" | translate}}</h1>
-    <h2>{{"proceso.reunionCreativa" | translate}}</h2>
-    <h2>{{"proceso.disenoCliente" | translate}}</h2>
-    <h2>{{"proceso.branding" | translate}}</h2>
-    <h2>{{"proceso.disenoWeb" | translate}}</h2>
+</div>
+
+
+<div class="contenedordesktop">
+
+  <div class="div-contenedor">
+    <div class="contenedorUnoDesk">
+      <h1>YOU’R GREAT IDEA</h1>
+    </div>
+
+    <div class="textoTitulo">
+      <h1>{{"proceso.proceso" | translate}}</h1>
+      <p>{{"proceso.reunionCreativa" | translate}} {{"proceso.disenoCliente" | translate}}
+        {{"proceso.branding" | translate}} {{"proceso.disenoWeb" | translate}}</p>
+    </div>
+
+  </div>
+
+  <div class="contenedorDosDesk">
+
+
+
+  </div>
+
+  <div class="contenedorTresDesk">
+
+
   </div>
 
 
-</div>
-
-
-
-<div class="segundoContenedor">
-
-  <button type="button" class="btn botonHablemos">{{"proceso.hablemos" | translate}}</button>
-  <h1>{{"proceso.pongamonosContacto" | translate}}</h1>
-
-</div>
-
-<div
-  [ngClass]="{'esTercerContenedor': _IdiomaService.getIdioma() == 'es', 'enTercerContenedor': _IdiomaService.getIdioma() == 'en'}"
-  class="tercerContenedor">
-  <p> {{"proceso.reunionCreativa1" | translate}} <span>{{"proceso.reunionCreativa2" | translate}}</span></p>
-  <h1>{{"proceso.reunionCreativa3" | translate}}</h1>
-  <p>{{"proceso.reunionCreativa4" | translate}} <span>{{"proceso.reunionCreativa5" | translate}}</span></p>
-
-  <img src="../../../assets/proceso/postIt.png" alt="">
-</div>
-
-
-<div
-  [ngClass]="{'esCuartoContenedor': _IdiomaService.getIdioma() == 'es', 'enCuartoContenedor': _IdiomaService.getIdioma() == 'en'}"
-  class="cuartoContenedor">
-  <p>{{"proceso.analisisDeCliente1" | translate}} <span>{{"proceso.analisisDeCliente2" | translate}} </span></p>
-  <p>{{"proceso.analisisDeCliente3" | translate}} </p>
-</div>
-
-<div
-  [ngClass]="{'esQuintoContenedor': _IdiomaService.getIdioma() == 'es', 'enQuintoContenedor': _IdiomaService.getIdioma() == 'en'}"
-  class="quintoContenedor">
-
-  <h1>{{"proceso.disenoYDesarrollo1" | translate}} </h1>
-  <p>{{"proceso.disenoYDesarrollo2" | translate}} </p>
-  <h1 class="beforeH1">{{"proceso.disenoYDesarrollo3" | translate}}</h1>
-  <p>{{"proceso.disenoYDesarrollo4" | translate}} </p>
-</div>
-
-
-<div class="sextoContenedor">
-  <img src="../../../assets/proceso/muneco.png" alt="">
   <button type="button" name="" id="butonStartPro" (click)="router('IniciarProyecto')"
     class="btn btn-primary">{{"proceso.iniciarproyecto" | translate}}</button>
+
+
 </div>

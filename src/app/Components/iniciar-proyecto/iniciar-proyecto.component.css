@@ -287,16 +287,15 @@ Mobile
     margin-top: 7vw;
     margin-right: 0px;
     width: 96vw;
-    height: 108vw;
     margin-left: 5vw;
   }
 
   .formulario {
-    position: relative;
+    position: absolute;
     width: 61vw;
     left: 19%;
-    top: -19vw;
-    padding-top: 12vw;
+    top: 27vw;
+    padding-top: 14%;
     height: 79vw;
     padding-left: 20px;
     padding-right: 20px;
@@ -304,7 +303,7 @@ Mobile
 
   .contenedorDatosContacto h1:nth-child(1),
   .contenedorDatosContacto h1:nth-child(2) {
-    margin-bottom: 5vw;
+    margin-bottom: 21px;
   }
 
   .contornoFormulario input {
@@ -325,7 +324,7 @@ Mobile
   .mobileTexto.upTexto {
     position: relative;
     width: 95%;
-    top: -16vw;
+    top: 61%;
   }
 
   .mobileTexto.upTexto h1.firstH1 {
@@ -334,7 +333,7 @@ Mobile
     font-size: 1.7rem;
     margin-left: 12%;
     position: relative;
-    margin-bottom: 3vw;
+    margin-bottom: 33px;
 
   }
 
