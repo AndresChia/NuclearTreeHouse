@@ -18,4 +18,8 @@ export class IniciarProyectoComponent implements OnInit {
   router(parametro) {
     this._router.navigateByUrl('/' + parametro);
   }
+
+  sendMail() {
+
+  }
 }
