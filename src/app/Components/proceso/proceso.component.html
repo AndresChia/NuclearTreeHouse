@@ -83,7 +83,9 @@
       </div>
     </div>
 
-    <div class="ContenedorReunionCreativa">
+    <div
+      [ngClass]="{'esContenedorReunionCreativa': _IdiomaService.getIdioma() == 'es', 'enContenedorReunionCreativa': _IdiomaService.getIdioma() == 'en'}"
+      class="ContenedorReunionCreativa">
       <p>{{"proceso.reunionCreativa1" | translate}}<span>{{"proceso.reunionCreativa2" | translate}}</span></p>
       <h1>{{"proceso.reunionCreativa3" | translate}}</h1>
       <p>{{"proceso.reunionCreativa4" | translate}} {{"proceso.reunionCreativa5" | translate}}</p>

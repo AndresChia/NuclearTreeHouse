@@ -55,7 +55,8 @@
         <label for=""></label>
         <textarea class="form-control textAreaForm" name="" id="" rows="3"
           placeholder="{{'iniciarProyecto.queCrear' | translate}}"></textarea>
-        <button type="button" class="btn btn-primary botonForm">{{'iniciarProyecto.enviar' | translate}}</button>
+        <button (click)="sendMail()" type="button"
+          class="btn btn-primary botonForm">{{'iniciarProyecto.enviar' | translate}}</button>
       </div>
     </div>
 

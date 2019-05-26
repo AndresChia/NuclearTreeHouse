@@ -84,8 +84,16 @@
 .ContenedorReunionCreativa {
   position: relative;
   top: 3vw;
-  left: 20.4vw;
+
   width: 19vw;
+}
+
+.esContenedorReunionCreativa {
+  left: 20.4vw;
+}
+
+.enContenedorReunionCreativa {
+  left: 19.4vw;
 }
 
 .ContenedorReunionCreativa p {
@@ -502,6 +510,15 @@
 
   .sextoContenedor img {
     width: 13vw;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  .contenedordesktop {
+    margin-top: -152px;
   }
 
 }
