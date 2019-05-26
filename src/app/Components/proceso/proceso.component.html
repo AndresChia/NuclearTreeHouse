@@ -10,7 +10,7 @@
 
   <div class="primerContenedor">
     <div class="contenedorGlobo">
-      <h1>YOU’R GREAT IDEA</h1>
+      <h1>{{"proceso.buenaIdea" | translate}}</h1>
     </div>
     <div class="contenedorTexto">
       <h1>{{"proceso.proceso" | translate}}</h1>
@@ -59,7 +59,7 @@
 
   <div class="div-contenedor">
     <div class="contenedorUnoDesk">
-      <h1>YOU’R GREAT IDEA</h1>
+      <h1>{{"proceso.buenaIdea" | translate}}</h1>
     </div>
 
     <div class="textoTitulo">
@@ -70,19 +70,48 @@
 
   </div>
 
-  <div class="contenedorDosDesk">
+  <div
+    [ngClass]="{'esDosContenedor': _IdiomaService.getIdioma() == 'es', 'enDosContenedor': _IdiomaService.getIdioma() == 'en'}"
+    class="contenedorDosDesk">
 
+    <div class="ContenedorHablemos">
+      <div class="button">
+        <h1>{{"proceso.hablemos" | translate}}</h1>
+      </div>
+      <div class="textoDownButton">
+        <p>{{"proceso.pongamonosContacto" | translate}}</p>
+      </div>
+    </div>
+
+    <div class="ContenedorReunionCreativa">
+      <p>{{"proceso.reunionCreativa1" | translate}}<span>{{"proceso.reunionCreativa2" | translate}}</span></p>
+      <h1>{{"proceso.reunionCreativa3" | translate}}</h1>
+      <p>{{"proceso.reunionCreativa4" | translate}} {{"proceso.reunionCreativa5" | translate}}</p>
+    </div>
+
+    <div class="ContenedorAnalisisCLiente">
+      <p>{{"proceso.analisisDeCliente1" | translate}} {{"proceso.analisisDeCliente2" | translate}}
+        {{"proceso.analisisDeCliente3" | translate}} </p>
+    </div>
 
 
   </div>
 
-  <div class="contenedorTresDesk">
+  <div
+    [ngClass]="{'esTresContenedor': _IdiomaService.getIdioma() == 'es', 'enTresContenedor': _IdiomaService.getIdioma() == 'en'}"
+    class="contenedorTresDesk">
 
+    <div class="ContenedorAnalisisDesarrollo">
+      <h1>{{"proceso.disenoYDesarrollo1" | translate}}</h1>
+      <p>{{"proceso.disenoYDesarrollo2" | translate}}</p>
+      <h1>{{"proceso.disenoYDesarrollo3" | translate}}</h1>
+      <p>{{"proceso.disenoYDesarrollo4" | translate}}</p>
+    </div>
 
   </div>
 
 
-  <button type="button" name="" id="butonStartPro" (click)="router('IniciarProyecto')"
+  <button type="button" name="" id="butonStartProDesk" (click)="router('IniciarProyecto')"
     class="btn btn-primary">{{"proceso.iniciarproyecto" | translate}}</button>
 
 

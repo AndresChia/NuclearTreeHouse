@@ -25,57 +25,201 @@
 }
 
 .contenedorUnoDesk {
-  background: url(../../../assets/proceso/desk/globo.png);
-  width: 14vw;
-  height: 16vw;
-  background-size: 14vw 16vw;
+  background: url(../../../assets/proceso/desk/globoLarge.png);
+  width: 13vw;
+  height: 17vw;
+  background-size: 13vw 20vw;
   background-repeat: no-repeat;
   margin-left: 22%;
+  margin-bottom: 2vw;
 }
+
+.contenedorUnoDesk h1 {
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 1vw;
+  color: white;
+  top: 5vw;
+  position: relative;
+  left: 3vw;
+}
+
+.textoTitulo h1 {
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 2vw;
+  top: 4vw;
+  left: 3vw;
+  position: relative;
+
+}
+
+.textoTitulo p {
+  font-size: 1vw;
+  top: 4vw;
+  left: 3vw;
+  position: relative;
+
+}
+
 
 .div-contenedor {
   display: inline-flex;
   width: 100%;
 }
 
+.ContenedorHablemos {
+  position: relative;
+  top: 9.4vw;
+  left: 1vw;
+  width: 17vw;
+}
+
+.ContenedorHablemos .button h1 {
+  position: relative;
+  left: 5vw;
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 1vw;
+  color: white;
+}
+
+.ContenedorReunionCreativa {
+  position: relative;
+  top: 3vw;
+  left: 20.4vw;
+  width: 19vw;
+}
+
+.ContenedorReunionCreativa p {
+  font-size: 1.2vw;
+}
+
+.ContenedorReunionCreativa h1 {
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  margin-bottom: 1vw;
+  color: orange;
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
+
+.ContenedorReunionCreativa h1::before {
+  background: url(../../../assets/proceso/botonHablemos.png);
+  content: "";
+  width: 157px;
+  height: 0.5vw;
+  background-size: 13vw 9px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 7.7vw;
+  left: 3vw;
+  background-position-x: -1vw;
+}
+
+
+.ContenedorAnalisisCLiente {
+  position: relative;
+  top: -1vw;
+  left: 42.1vw;
+  width: 16vw;
+  font-size: 1.2vw;
+}
+
+.contenedorDosDesk .textoDownButton {
+  position: relative;
+  top: 1vw;
+  width: 18vw;
+  font-size: 1.1vw;
+}
+
+.esDosContenedor {
+  background: url(../../../assets/proceso/desk/Contenedor2ES.png);
+  background-size: 59vw 37vw;
+  background-repeat: no-repeat;
+}
+
+.enDosContenedor {
+  background: url(../../../assets/proceso/desk/Contenedor2EN.png);
+  background-size: 59vw 37vw;
+  background-repeat: no-repeat;
+}
 
 .contenedorDosDesk {
-  background: url(../../../assets/proceso/desk/Contenedor2.png);
   width: 59vw;
-  height: 28vw;
-  background-size: 59vw 28vw;
-  background-repeat: no-repeat;
-  margin-left: 22%;
+  height: 37vw;
+  margin-left: 19%;
   top: -9.1vw;
   position: relative;
 }
 
-.contenedorTresDesk {
-  background: url(../../../assets/proceso/desk/Contenedor3.png);
-  width: 42vw;
-  height: 40vw;
-  background-size: 42vw 40vw;
+.esTresContenedor {
+  background: url(../../../assets/proceso/desk/Contenedor3ES.png);
+  background-size: 42vw 36vw;
   background-repeat: no-repeat;
+}
+
+.enTresContenedor {
+  background: url(../../../assets/proceso/desk/Contenedor3EN.png);
+  background-size: 42vw 36vw;
+  background-repeat: no-repeat;
+}
+
+.contenedorTresDesk {
+  width: 42vw;
+  height: 36vw;
   margin-left: 37%;
-  top: -9.2vw;
+  top: -18vw;
   position: relative;
 }
 
 
 
-#butonStartPro {
+.ContenedorAnalisisDesarrollo {
+  top: 14vw;
+  position: relative;
+  left: 6vw;
+  width: 17vw;
+}
+
+
+.ContenedorAnalisisDesarrollo p {
+  font-size: 1.2vw;
+
+}
+
+.ContenedorAnalisisDesarrollo h1 {
+  font-size: 1.2vw;
+  color: orange;
+  font-family: 'brandon-black', 'arial', sans-serif;
+}
+
+.ContenedorAnalisisDesarrollo p:nth-child(2) {
+  margin-bottom: 3vw;
+}
+
+.ContenedorAnalisisDesarrollo h1:nth-child(3)::before {
+  background: url(../../../assets/proceso/botonHablemos.png);
+  content: "";
+  width: 157px;
+  height: 0.5vw;
+  background-size: 13vw 9px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 9.7vw;
+  left: 3vw;
+  background-position-x: -1vw;
+}
+
+#butonStartProDesk {
 
   background: url(../../../assets/proceso/button.png);
   width: 26vw;
   height: 4vw;
   position: relative;
-  bottom: 4vw;
+  bottom: 10vw;
   background-repeat: no-repeat;
   background-size: 29vw 7vw;
   padding: 0px;
   background-position-x: -1.5vw;
   border: 0px;
-  margin-left: 37%;
+  margin-left: 41%;
 }
 
 
