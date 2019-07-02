@@ -7,6 +7,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,6 +29,7 @@ import { ProcesoComponent } from './Components/proceso/proceso.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { CreadorComponent } from './Components/creador/creador.component';
 import { IniciarProyectoComponent } from './Components/iniciar-proyecto/iniciar-proyecto.component';
+import { MessageService } from './Services/message.service';
 
 
 
@@ -58,6 +61,7 @@ export function createTranslateLoader(http: HttpClient) {
     MatMenuModule,
     ParallaxModule,
     BrowserAnimationsModule,
+    SlickCarouselModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -67,7 +71,8 @@ export function createTranslateLoader(http: HttpClient) {
     })
   ],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' },
-  { provide: LocationStrategy, useClass: HashLocationStrategy }
+  { provide: LocationStrategy, useClass: HashLocationStrategy },
+    MessageService
   ],
   bootstrap: [AppComponent]
 

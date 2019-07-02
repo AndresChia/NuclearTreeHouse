@@ -1,3 +1,65 @@
-<p>
-  proyectos works!
-</p>
+<div class="menuHome">
+  <a class="btn  m-2" (click)="router('Home')">
+    <h1>Home</h1>
+  </a>
+</div>
+<app-nav-bar></app-nav-bar>
+
+<!-- 
+<div class="scene">
+
+  <div id="carousel" class="carousel">
+
+    <div class="next" (click)="moverCarousel('izquierda')"></div>
+
+
+    <img class="carouselItem Zoom-1 " [src]="arregloFoto[0]">
+    <img class="carouselItem Zoom-2 " [src]="arregloFoto[1]">
+    <img class="carouselItem Zoom-3 " [src]="arregloFoto[2]">
+    <img class="carouselItem Zoom-4 " [src]="arregloFoto[3]">
+    <img class="carouselItem Zoom-3 " [src]="arregloFoto[4]">
+    <img class="carouselItem Zoom-2 " [src]="arregloFoto[5]">
+    <img class="carouselItem Zoom-1 " [src]="arregloFoto[6]">
+
+    <div class="before" (click)="moverCarousel('derecha')"></div>
+
+  </div>
+</div>
+
+
+<button (click)="moverCarousel('derecha')" type="button" class="btn btn-primary">DERECHA</button>
+<button (click)="moverCarousel('izquierda')" type="button" class="btn btn-primary">IZQUIERDA</button> -->
+
+
+<div id="app">
+
+
+
+  <div data-reactroot="" id="carousel" class="noselect">
+    <div class="arrow arrow-left" (click)="moverCarousel('izquierda')"><i class="fi-arrow-left"></i></div>
+    <span class="contenedorCelulares">
+      <div id="item-1" class="item {{arregloClass[arrItems[0]]}}">
+        <img src="{{arregloFoto[1]}}" alt="">
+      </div>
+      <div id="item-2" class="item {{arregloClass[arrItems[1]]}}">
+        <img src="{{arregloFoto[2]}}" alt="">
+      </div>
+      <div id="item-3" class="item {{arregloClass[arrItems[2]]}}">
+        <img src="{{arregloFoto[3]}}" alt="">
+      </div>
+      <div id="item-4" class="item {{arregloClass[arrItems[3]]}}">
+        <img src="{{arregloFoto[4]}}" alt="">
+      </div>
+      <div id="item-5" class="item {{arregloClass[arrItems[4]]}}">
+        <img src="{{arregloFoto[5]}}" alt="">
+      </div>
+      <div id="item-6" class="item {{arregloClass[arrItems[5]]}}">
+        <img src="{{arregloFoto[6]}}" alt="">
+      </div>
+      <div id="item-7" class="item {{arregloClass[arrItems[6]]}}">
+        <img src="{{arregloFoto[7]}}" alt="">
+      </div>
+    </span>
+    <div class="arrow arrow-right" (click)="moverCarousel('derecha')"><i class="fi-arrow-right"></i></div>
+  </div>
+</div>
