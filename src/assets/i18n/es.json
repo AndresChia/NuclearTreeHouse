@@ -122,5 +122,16 @@
     "disenoYDesarrollo4": "Uniremos el diseño con la programación para lograr lo que desees que haga tu cliente potencial en tu página web: comprar, llenar formulario, etc. con todo el lenguaje e identidad de tu marca.",
     "iniciarproyecto": "Iniciar Proyecto"
 
+  },
+  "proyecto": {
+    "titulo": "WORKBLOCKS",
+    "parrafo": {
+      "1": "Desarrollo de Idea.",
+      "2": "Logo & Branding.",
+      "3": "Diseño de página web.",
+      "4": "Desarrollo de página web.",
+      "5": "Copywrite de página web en inglés.",
+      "6": "Análisis de clientes"
+    }
   }
 }

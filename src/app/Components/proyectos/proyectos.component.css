@@ -111,13 +111,13 @@
 
 #app {
   position: relative;
-  height: calc(100vh - 78px);
+  height: calc(100vh - 101px);
   width: 100vw;
 }
 
 .nodosIntermedios {
-  height: 24.2vw;
-  width: 13vw;
+  height: 20.2vw;
+  width: 10vw;
   top: 65px;
 }
 
@@ -130,7 +130,7 @@
 
 #carousel {
   position: relative;
-  height: 30vw;
+  height: 28vw;
   width: 88vw;
   margin: auto;
   left: 0;
@@ -156,24 +156,27 @@ div.item img {
   height: 100%;
 }
 
-.arrow {
+
+
+.arrow-right {
+  left: 97%;
   position: absolute;
+  bottom: 10px;
   width: 30px;
   height: 30px;
   background-color: white;
-  text-align: center;
-  font-size: 25px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 20px;
-  color: #228291;
-  line-height: 30px;
-  margin-top: 85px;
   z-index: 1000;
 }
 
-.arrow-right {
-  left: 780px;
+.arrow-left {
+  position: absolute;
+  bottom: 14px;
+  left: 19px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  line-height: 30px;
+  z-index: 1000;
 }
 
 .item {
@@ -187,43 +190,81 @@ div.item img {
 
 .level-3 {
   line-height: 24.2vw;
-  left: 5vw;
+  left: 12vw;
   z-index: 0;
 }
 
 
 .level-2 {
   line-height: 24.2vw;
-  left: 15vw;
+  left: 19vw;
   z-index: +10;
 }
 
 .level-1 {
   line-height: 24.2vw;
-  left: 25vw;
+  left: 26vw;
   z-index: +20;
 }
 
 .level0 {
   line-height: 288px;
-  left: 35vw;
+  left: 34.6vw;
   z-index: +30;
 }
 
 .level1 {
   line-height: 24.2vw;
-  left: 51vw;
+  left: 52vw;
   z-index: +20;
 }
 
 .level2 {
   line-height: 24.2vw;
-  left: 61vw;
+  left: 59vw;
   z-index: +10;
 }
 
 .level3 {
   line-height: 24.2vw;
-  left: 71vw;
+  left: 65vw;
   z-index: 0;
+}
+
+
+@font-face {
+  font-family: brandon-black;
+  src: url(../../../assets/fonts/brandon-grotesque-black.otf) format("opentype");
+}
+
+.contenedorTitulo {
+  position: absolute;
+  top: 32vw;
+  z-index: +9999999;
+  left: 12vw;
+}
+
+.contenedorTitulo h1 {
+  font-family: 'brandon-black', 'arial', sans-serif;
+  font-size: 4vw;
+
+}
+
+.contenedorParrafo {
+  position: absolute;
+  top: 32vw;
+  z-index: +9999999;
+  left: 61vw;
+
+  width: 15vw;
+}
+
+.contenedorParrafo ol {
+  list-style-type: none;
+}
+
+.contenedorParrafo h2 {
+  font-size: 1vw;
+  font-family: 'brandon-black', 'arial', sans-serif;
+
 }
