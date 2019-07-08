@@ -240,7 +240,6 @@ div.item img {
 .contenedorTitulo {
   position: absolute;
   top: 32vw;
-  z-index: +9999999;
   left: 12vw;
 }
 
@@ -267,4 +266,73 @@ div.item img {
   font-size: 1vw;
   font-family: 'brandon-black', 'arial', sans-serif;
 
+}
+
+@media only screen and (max-width: 425px) {
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
+    display: none;
+    visibility: hidden;
+  }
+
+  :host ::ng-deep app-nav-bar .col-xs-4:nth-child(1) {
+    display: none;
+    visibility: hidden;
+  }
+
+
+  #carousel {
+    height: 72vw;
+    top: 18vw;
+  }
+
+  .nodosIntermedios {
+    height: 40.2vw;
+    width: 22vw;
+    top: 65px;
+  }
+
+  .nodoCentral {
+    top: 32px;
+    width: 41.8vw;
+    height: 75.4vw;
+  }
+
+
+  .level0 {
+    left: 25.6vw;
+  }
+
+  .level-1 {
+    left: 18vw;
+  }
+
+  .level-2 {
+    left: 12vw;
+  }
+
+  .level-3 {
+    left: 7vw;
+  }
+
+  .contenedorParrafo {
+    position: absolute;
+    top: 135vw;
+    z-index: +9999999;
+    left: 37vw;
+    width: 55vw;
+  }
+
+  .contenedorParrafo h2 {
+    font-size: 4vw;
+  }
+
+  .contenedorTitulo {
+    top: 119vw;
+    left: 19vw;
+  }
+
+  .contenedorTitulo h1 {
+    font-size: 10vw;
+  }
 }
