@@ -123,7 +123,7 @@
 
 .nodoCentral {
   top: 37px;
-  width: 18.8vw;
+  width: 16.8vw;
   height: 33.4vw;
 }
 
@@ -156,15 +156,23 @@ div.item img {
   height: 100%;
 }
 
+.btn {
+  border: 0px;
+  color: white;
+  background: transparent;
+}
+
+.item {
+  cursor: pointer;
+}
 
 
 .arrow-right {
-  left: 97%;
+  left: 92%;
   position: absolute;
-  bottom: 10px;
+  bottom: 14px;
   width: 30px;
   height: 30px;
-  background-color: white;
   z-index: 1000;
 }
 
@@ -174,7 +182,6 @@ div.item img {
   left: 19px;
   width: 30px;
   height: 30px;
-  background-color: white;
   line-height: 30px;
   z-index: 1000;
 }
@@ -209,7 +216,7 @@ div.item img {
 
 .level0 {
   line-height: 288px;
-  left: 34.6vw;
+  left: 35.6vw;
   z-index: +30;
 }
 

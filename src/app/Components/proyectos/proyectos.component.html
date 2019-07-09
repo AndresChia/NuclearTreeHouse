@@ -36,32 +36,36 @@
 
 
   <div data-reactroot="" id="carousel" class="noselect">
-    <div class="arrow arrow-left" (click)="moverCarousel('izquierda')"><i class="fi-arrow-left"></i></div>
+    <div class="arrow arrow-left" (click)="moverCarousel('izquierda')">
+      <button type="button" class="btn ">{{'proyecto.anterior' | translate}}</button>
+    </div>
     <span class="contenedorCelulares">
-      <div id="item-1" class="item {{arregloClass[arrItems[0]]}}">
+      <div id="item-1" (click)="irACelular(6)" class="item {{arregloClass[arrItems[0]]}}">
         <img src="{{arregloFoto[1]}}" alt="">
       </div>
-      <div id="item-2" class="item {{arregloClass[arrItems[1]]}}">
+      <div id="item-2" (click)="irACelular(5)" class="item {{arregloClass[arrItems[1]]}}">
         <img src="{{arregloFoto[2]}}" alt="">
       </div>
-      <div id="item-3" class="item {{arregloClass[arrItems[2]]}}">
+      <div id="item-3" (click)="irACelular(4)" class="item {{arregloClass[arrItems[2]]}}">
         <img src="{{arregloFoto[3]}}" alt="">
       </div>
-      <div id="item-4" class="item {{arregloClass[arrItems[3]]}}">
+      <div id="item-4" (click)="irACelular(3)" class="item {{arregloClass[arrItems[3]]}}">
         <img src="{{arregloFoto[4]}}" alt="">
       </div>
-      <div id="item-5" class="item {{arregloClass[arrItems[4]]}}">
+      <div id="item-5" (click)="irACelular(2)" class="item {{arregloClass[arrItems[4]]}}">
         <img src="{{arregloFoto[5]}}" alt="">
       </div>
-      <div id="item-6" class="item {{arregloClass[arrItems[5]]}}">
+      <div id="item-6" (click)="irACelular(1)" class="item {{arregloClass[arrItems[5]]}}">
         <img src="{{arregloFoto[6]}}" alt="">
       </div>
-      <div id="item-7" class="item {{arregloClass[arrItems[6]]}}">
+      <div id="item-7" (click)="irACelular(0)" class="item {{arregloClass[arrItems[6]]}}">
         <img src="{{arregloFoto[7]}}" alt="">
       </div>
     </span>
 
-    <div class="arrow arrow-right" (click)="moverCarousel('derecha')"><i class="fi-arrow-right"></i></div>
+    <div class="arrow arrow-right" (click)="moverCarousel('derecha')">
+      <button type="button" class="btn ">{{'proyecto.siguiente' | translate}}</button>
+    </div>
   </div>
 </div>
 

@@ -116,9 +116,26 @@ export class ProyectosComponent implements OnInit {
     }
 
 
+
+
   }
 
 
-
+  irACelular(numeroItem) {
+    let bandera = true;
+    let arrItem = this.arrItems[this.arrItems.findIndex(element => element == numeroItem)];
+    while (bandera) {
+      if (arrItem == this.arrItems[3]) {
+        bandera = false;
+      } else {
+        this.swapArrayElements(this.arrItems, 5, 6);
+        this.swapArrayElements(this.arrItems, 4, 5);
+        this.swapArrayElements(this.arrItems, 3, 4);
+        this.swapArrayElements(this.arrItems, 2, 3);
+        this.swapArrayElements(this.arrItems, 1, 2);
+        this.swapArrayElements(this.arrItems, 0, 1);
+      }
+    }
+  }
 
 }
