@@ -168,19 +168,21 @@ div.item img {
 
 
 .arrow-right {
-  left: 92%;
+  left: 90%;
   position: absolute;
   bottom: 14px;
-  width: 30px;
-  height: 30px;
+  width: 110px;
+  display: inline-flex;
+  height: 41px;
   z-index: 1000;
 }
 
 .arrow-left {
   position: absolute;
   bottom: 14px;
+  display: inline-flex;
   left: 19px;
-  width: 30px;
+  width: 95px;
   height: 30px;
   line-height: 30px;
   z-index: 1000;
@@ -274,6 +276,30 @@ div.item img {
   font-family: 'brandon-black', 'arial', sans-serif;
 
 }
+
+
+.arrow-left::before {
+  content: "";
+  display: block;
+  height: 39px;
+  width: 68px;
+  background-size: contain;
+  background: url(../../../assets/Proyectos/flechatoizq.png) no-repeat;
+  transform: translate(0px, -4px);
+
+}
+
+.arrow-right::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 68px;
+  background-size: contain;
+  background: url(../../../assets/Proyectos/flechatoizq.png) no-repeat;
+  transform: translate(-2px, -22px) rotate(180deg);
+
+}
+
 
 @media only screen and (max-width: 425px) {
 
