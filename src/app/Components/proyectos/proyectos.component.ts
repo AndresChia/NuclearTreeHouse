@@ -1,6 +1,8 @@
 import { Component, OnInit, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
+
+
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
@@ -10,34 +12,41 @@ export class ProyectosComponent implements OnInit {
   selectedIndex = 0;
   theta: number = 80;
   valorActual = 0;
-
+  TemaActual = "KuroiTako";
   // tslint:disable-next-line:variable-name
   constructor(private _router: Router, private zone: NgZone) { }
 
   arregloFoto = [
-    "../../../assets/Proyectos/celular-1.png",
-    "../../../assets/Proyectos/celular-2.png",
-    "../../../assets/Proyectos/celular-3.png",
-    "../../../assets/Proyectos/celular-4.png",
-    "../../../assets/Proyectos/celular-5.png",
-    "../../../assets/Proyectos/celular-6.png",
-    "../../../assets/Proyectos/celular-7.png",
-    "../../../assets/Proyectos/celular-8.png",
-    "../../../assets/Proyectos/celular-9.png",
-    "../../../assets/Proyectos/celular-10.png",
+    { link: "../../../assets/Proyectos/celular-1.png", tema: "SqueakyGhost" },
+    { link: "../../../assets/Proyectos/celular-2.png", tema: "Paradisso" },
+    { link: "../../../assets/Proyectos/celular-3.png", tema: "Capsula" },
+    { link: "../../../assets/Proyectos/celular-4.png", tema: "HijaDePalenquera" },
+    { link: "../../../assets/Proyectos/celular-5.png", tema: "LatidoConcluso" },
+    { link: "../../../assets/Proyectos/celular-6.png", tema: "42Magazine" },
+    { link: "../../../assets/Proyectos/celular-7.png", tema: "KuroiTako" },
+    { link: "../../../assets/Proyectos/celular-8.png", tema: "BonusBread" },
+    { link: "../../../assets/Proyectos/celular-9.png", tema: "Hoov" },
+    { link: "../../../assets/Proyectos/celular-10.png", tema: "2Juice" },
+    { link: "../../../assets/Proyectos/celular-11.png", tema: "DNews" },
+    { link: "../../../assets/Proyectos/celular-12.png", tema: "Rolas" },
   ];
 
   arregloClass = [
-    "level3 nodosIntermedios",
-    "level2 nodosIntermedios",
-    "level1 nodosIntermedios",
+    "Niveloculto",
+    "Niveloculto",
+    "Niveloculto",
+    "level3 nodosIntermedios derecha 3",
+    "level2 nodosIntermedios derecha 2",
+    "level1 nodosIntermedios derecha 1",
     "level0 nodoCentral",
-    "level-1 nodosIntermedios",
-    "level-2 nodosIntermedios",
-    "level-3 nodosIntermedios"
+    "level-1 nodosIntermedios izquierda 1",
+    "level-2 nodosIntermedios izquierda 2",
+    "level-3 nodosIntermedios izquierda 3",
+    "Niveloculto",
+    "Niveloculto"
   ];
 
-  arrItems = [0, 1, 2, 3, 4, 5, 6];
+  arrItems = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 
 
@@ -58,62 +67,42 @@ export class ProyectosComponent implements OnInit {
 
 
   moverCarousel(movimiento) {
-
+    let index = this.arregloFoto.findIndex(elemento => elemento.tema === this.TemaActual);
     if (movimiento === 'izquierda') {
-
+      this.swapArrayElements(this.arrItems, 10, 11);
+      this.swapArrayElements(this.arrItems, 9, 10);
+      this.swapArrayElements(this.arrItems, 8, 9);
+      this.swapArrayElements(this.arrItems, 7, 8);
+      this.swapArrayElements(this.arrItems, 6, 7);
       this.swapArrayElements(this.arrItems, 5, 6);
       this.swapArrayElements(this.arrItems, 4, 5);
       this.swapArrayElements(this.arrItems, 3, 4);
       this.swapArrayElements(this.arrItems, 2, 3);
       this.swapArrayElements(this.arrItems, 1, 2);
       this.swapArrayElements(this.arrItems, 0, 1);
-
-
-      // const primerElemento = document.getElementById("item-1").classList;
-      // const ultimoElemento = document.getElementById("item-4").classList;
-
-      // primerElemento.add("right-leave");
-      // primerElemento.add("right-leave-active");
-      // ultimoElemento.add("right-enter");
-      // ultimoElemento.add("right-enter-active");
-
-      // setTimeout(() => {
-      //   primerElemento.remove("right-leave");
-      //   primerElemento.remove("right-leave-active");
-      //   ultimoElemento.remove("right-enter-active");
-      //   ultimoElemento.remove("right-enter");
-      //   this.valorActual += 1;
-      // }, 1000);
-
-
+      if (this.arregloFoto.length <= index + 1) {
+        index = -1;
+      }
+      this.TemaActual = this.arregloFoto[index + 1].tema;
     }
     if (movimiento === 'derecha') {
-
-
       this.swapArrayElements(this.arrItems, 0, 1);
       this.swapArrayElements(this.arrItems, 1, 2);
       this.swapArrayElements(this.arrItems, 2, 3);
       this.swapArrayElements(this.arrItems, 3, 4);
       this.swapArrayElements(this.arrItems, 4, 5);
       this.swapArrayElements(this.arrItems, 5, 6);
-
-      // const primerElemento = document.getElementById("item-1").classList;
-      // const ultimoElemento = document.getElementById("item-5").classList;
-      // ultimoElemento.add("left-leave");
-      // ultimoElemento.add("left-leave-active");
-      // primerElemento.add("left-enter");
-      // primerElemento.add("left-enter-active");
-
-      // setTimeout(() => {
-      //   document.getElementById("item-5").classList.remove("left-leave");
-      //   document.getElementById("item-5").classList.remove("left-leave-active");
-      //   document.getElementById("item-1").classList.remove("left-enter-active");
-      //   document.getElementById("item-1").classList.remove("left-enter");
-      //   this.valorActual -= 1;
-      // }, 1000);
-
-
+      this.swapArrayElements(this.arrItems, 6, 7);
+      this.swapArrayElements(this.arrItems, 7, 8);
+      this.swapArrayElements(this.arrItems, 8, 9);
+      this.swapArrayElements(this.arrItems, 9, 10);
+      this.swapArrayElements(this.arrItems, 10, 11);
+      if (0 > index - 1) {
+        index = this.arregloFoto.length;
+      }
+      this.TemaActual = this.arregloFoto[index - 1].tema;
     }
+
 
 
 
@@ -121,13 +110,27 @@ export class ProyectosComponent implements OnInit {
   }
 
 
-  irACelular(numeroItem) {
-    let bandera = true;
-    let arrItem = this.arrItems[this.arrItems.findIndex(element => element == numeroItem)];
-    while (bandera) {
-      if (arrItem == this.arrItems[3]) {
-        bandera = false;
-      } else {
+
+  irACelular(item: HTMLElement, arregloItem) {
+    let derecha = false;
+
+    if (item.classList.contains("level0")) {
+      return;
+    }
+
+    if (item.classList.contains("derecha")) {
+      derecha = true;
+    }
+
+    const veces = parseInt(item.classList[4], 10);
+
+    if (!derecha) {
+      for (let index = 0; index < veces; index++) {
+        this.swapArrayElements(this.arrItems, 10, 11);
+        this.swapArrayElements(this.arrItems, 9, 10);
+        this.swapArrayElements(this.arrItems, 8, 9);
+        this.swapArrayElements(this.arrItems, 7, 8);
+        this.swapArrayElements(this.arrItems, 6, 7);
         this.swapArrayElements(this.arrItems, 5, 6);
         this.swapArrayElements(this.arrItems, 4, 5);
         this.swapArrayElements(this.arrItems, 3, 4);
@@ -135,7 +138,25 @@ export class ProyectosComponent implements OnInit {
         this.swapArrayElements(this.arrItems, 1, 2);
         this.swapArrayElements(this.arrItems, 0, 1);
       }
+    } else {
+      for (let index = 0; index < veces; index++) {
+        this.swapArrayElements(this.arrItems, 0, 1);
+        this.swapArrayElements(this.arrItems, 1, 2);
+        this.swapArrayElements(this.arrItems, 2, 3);
+        this.swapArrayElements(this.arrItems, 3, 4);
+        this.swapArrayElements(this.arrItems, 4, 5);
+        this.swapArrayElements(this.arrItems, 5, 6);
+        this.swapArrayElements(this.arrItems, 6, 7);
+        this.swapArrayElements(this.arrItems, 7, 8);
+        this.swapArrayElements(this.arrItems, 8, 9);
+        this.swapArrayElements(this.arrItems, 9, 10);
+        this.swapArrayElements(this.arrItems, 10, 11);
+      }
     }
+
+
+    this.TemaActual = arregloItem.tema;
+
   }
 
 }

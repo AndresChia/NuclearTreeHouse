@@ -3,111 +3,6 @@
   display: none;
 }
 
-/* .menuHome {
-  visibility: hidden;
-  display: none;
-}
-
-.carousel {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform: translateZ(-260px);
-  transform-style: preserve-3d;
-  transition: transform 1s;
-}
-
-.scene {
-  border: 1px solid #CCC;
-  margin: 40px 0;
-  position: relative;
-  width: 210px;
-  height: 140px;
-  margin: 80px auto;
-  perspective: 1000px;
-}
-
-.carouselItem {
-  position: absolute;
-  width: 190px;
-  height: 120px;
-  left: 10px;
-  top: 10px;
-  border: 2px solid black;
-  line-height: 116px;
-  font-size: 80px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  transition: transform 1s, opacity 1s;
-}
-
-/* .Zoom-4 {
-  height: 24vw;
-}
-
-.noZoom {
-  position: relative;
-  top: -17%;
-} 
-
-.next {
-  position: absolute;
-  width: 6vw;
-  height: 24vw;
-}
-
-.before {
-  position: absolute;
-  width: 6vw;
-  height: 24vw;
-}
-
-
-.slick-slider {
-  width: 90%;
-  margin: auto;
-  background: #000;
-}
-
-.nav-btn {
-  height: 47px;
-  position: absolute;
-  width: 26px;
-  cursor: pointer;
-  top: 100px !important;
-}
-
-
-.carouselItem:nth-child(1) {
-  transform: rotateY(51deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(2) {
-  transform: rotateY(102deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(3) {
-  transform: rotateY(153deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(4) {
-  transform: rotateY(204deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(5) {
-  transform: rotateY(255deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(6) {
-  transform: rotateY(206deg) translateZ(260px);
-}
-
-.carouselItem:nth-child(7) {
-  transform: rotateY(357deg) translateZ(260px);
-}
-
-*/
 
 #app {
   position: relative;
@@ -141,7 +36,11 @@
   background: url("../../../assets/Proyectos/FondoCelulares.png")
 }
 
-
+.Niveloculto,
+.item-oculto {
+  display: none;
+  visibility: hidden;
+}
 
 .contenedorCelulares {
   position: absolute;
@@ -160,6 +59,12 @@ div.item img {
   border: 0px;
   color: white;
   background: transparent;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
 }
 
 .item {
@@ -249,7 +154,9 @@ div.item img {
 .contenedorTitulo {
   position: absolute;
   top: 32vw;
-  left: 12vw;
+  left: 7vw;
+  width: 34vw;
+
 }
 
 .contenedorTitulo h1 {
@@ -317,6 +224,7 @@ div.item img {
   #carousel {
     height: 72vw;
     top: 18vw;
+    margin: 0vw 0vw 0vw 4vw;
   }
 
   .nodosIntermedios {
@@ -333,7 +241,7 @@ div.item img {
 
 
   .level0 {
-    left: 25.6vw;
+    left: 25vw;
   }
 
   .level-1 {
@@ -350,10 +258,11 @@ div.item img {
 
   .contenedorParrafo {
     position: absolute;
-    top: 135vw;
+    top: 143vw;
     z-index: +9999999;
-    left: 37vw;
-    width: 55vw;
+    left: 9vw;
+    width: 83vw;
+    text-align: center;
   }
 
   .contenedorParrafo h2 {
@@ -362,10 +271,33 @@ div.item img {
 
   .contenedorTitulo {
     top: 119vw;
-    left: 19vw;
+    left: 8vw;
+    width: 83vw;
   }
 
   .contenedorTitulo h1 {
     font-size: 10vw;
+    text-align: center;
   }
+
+  .arrow-left {
+    width: 87px;
+    left: 12px;
+  }
+
+  .arrow-left::before {
+    transform: translate(5px, -5px);
+  }
+
+  .arrow-right {
+    height: 30px;
+    width: 92px;
+    left: 73.4%;
+  }
+
+  .arrow-right::after {
+    height: 59px;
+    transform: translate(-8px, -19px) rotate(180deg)
+  }
+
 }

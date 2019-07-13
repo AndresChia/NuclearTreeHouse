@@ -31,9 +31,9 @@ export class IniciarProyectoComponent implements OnInit {
       // tslint:disable-next-line:semicolon
     }
 
-    this._MessageService.sendMessage(form).subscribe(() => {
-      console.log("enviado");
-    });
+    // this._MessageService.sendMessage(form).subscribe(() => {
+    //   console.log("enviado");
+    // });
 
 
   }

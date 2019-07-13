@@ -40,28 +40,62 @@
       <button type="button" class="btn ">{{'proyecto.anterior' | translate}}</button>
     </div>
     <span class="contenedorCelulares">
-      <div id="item-1" (click)="irACelular(6)" class="item {{arregloClass[arrItems[0]]}}">
-        <img src="{{arregloFoto[1]}}" alt="">
+      <div #item1 id="item-1" (click)="irACelular(item1,arregloFoto[0])" attr.data-tema="arregloFoto[0].tema"
+        class="item {{arregloClass[arrItems[0]]}}">
+        <img src="{{arregloFoto[0].link}}" alt="">
       </div>
-      <div id="item-2" (click)="irACelular(5)" class="item {{arregloClass[arrItems[1]]}}">
-        <img src="{{arregloFoto[2]}}" alt="">
+      <div #item2 id="item-2" (click)="irACelular(item2,arregloFoto[1])" attr.data-tema="arregloFoto[1].tema"
+        class="item {{arregloClass[arrItems[1]]}}">
+        <img src="{{arregloFoto[1].link}}" alt="">
       </div>
-      <div id="item-3" (click)="irACelular(4)" class="item {{arregloClass[arrItems[2]]}}">
-        <img src="{{arregloFoto[3]}}" alt="">
+      <div #item3 id="item-3" (click)="irACelular(item3,arregloFoto[2])" attr.data-tema="arregloFoto[2].tema"
+        class="item {{arregloClass[arrItems[2]]}}">
+        <img src="{{arregloFoto[2].link}}" alt="">
       </div>
-      <div id="item-4" (click)="irACelular(3)" class="item {{arregloClass[arrItems[3]]}}">
-        <img src="{{arregloFoto[4]}}" alt="">
+      <!--  -->
+      <div #item4 id="item-4" (click)="irACelular(item4,arregloFoto[3])" attr.data-tema="{{arregloFoto[3].tema}}"
+        class="item {{arregloClass[arrItems[3]]}}">
+        <img src="{{arregloFoto[3].link}}" alt="">
       </div>
-      <div id="item-5" (click)="irACelular(2)" class="item {{arregloClass[arrItems[4]]}}">
-        <img src="{{arregloFoto[5]}}" alt="">
+      <div #item5 id="item-5" (click)="irACelular(item5,arregloFoto[4])" attr.data-tema="{{arregloFoto[4].tema}}"
+        class="item {{arregloClass[arrItems[4]]}}">
+        <img src="{{arregloFoto[4].link}}" alt="">
       </div>
-      <div id="item-6" (click)="irACelular(1)" class="item {{arregloClass[arrItems[5]]}}">
-        <img src="{{arregloFoto[6]}}" alt="">
+      <div #item6 id="item-6" (click)="irACelular(item6,arregloFoto[5])" attr.data-tema="{{arregloFoto[5].tema}}"
+        class="item {{arregloClass[arrItems[5]]}}">
+        <img src="{{arregloFoto[5].link}}" alt="">
       </div>
-      <div id="item-7" (click)="irACelular(0)" class="item {{arregloClass[arrItems[6]]}}">
-        <img src="{{arregloFoto[7]}}" alt="">
+      <div #item7 id="item-7" (click)="irACelular(item7,arregloFoto[6])" attr.data-tema="{{arregloFoto[6].tema}}"
+        class="item {{arregloClass[arrItems[6]]}}">
+        <img src="{{arregloFoto[6].link}}" alt="">
       </div>
+      <div #item8 id="item-8" (click)="irACelular(item8,arregloFoto[7])" attr.data-tema="{{arregloFoto[7].tema}}"
+        class="item {{arregloClass[arrItems[7]]}}">
+        <img src="{{arregloFoto[7].link}}" alt="">
+      </div>
+      <div #item9 id="item-9" (click)="irACelular(item9,arregloFoto[8])" attr.data-tema="{{arregloFoto[8].tema}}"
+        class="item {{arregloClass[arrItems[8]]}}">
+        <img src="{{arregloFoto[8].link}}" alt="">
+      </div>
+      <div #item10 id="item-10" (click)="irACelular(item10,arregloFoto[9])" attr.data-tema="{{arregloFoto[9].tema}}"
+        class="item {{arregloClass[arrItems[9]]}}">
+        <img src="{{arregloFoto[9].link}}" alt="">
+      </div>
+      <!--  -->
+      <div #item11 id="item-oculto" (click)="irACelular(item11,arregloFoto[10])"
+        attr.data-tema="{{arregloFoto[10].tema}}" class="item {{arregloClass[arrItems[10]]}}">
+        <img src="{{arregloFoto[10].link}}" alt="">
+      </div>
+      <div #item12 id="item-oculto" (click)="irACelular(item12,arregloFoto[11])"
+        attr.data-tema="{{arregloFoto[11].tema}}" class="item {{arregloClass[arrItems[11]]}}">
+        <img src="{{arregloFoto[11].link}}" alt="">
+      </div>
+      <!-- <div #item13 id="item-oculto" (click)="irACelular(item13,arregloFoto[13].tema)"
+        class="item {{arregloClass[arrItems[12]]}}">
+        <img src="{{arregloFoto[12].link}}" alt="">
+      </div> -->
     </span>
+
 
     <div class="arrow arrow-right" (click)="moverCarousel('derecha')">
       <button type="button" class="btn ">{{'proyecto.siguiente' | translate}}</button>
@@ -70,29 +104,29 @@
 </div>
 
 <div class="contenedorTitulo">
-  <h1>{{'proyecto.titulo' | translate}}</h1>
+  <h1>{{   'proyecto.parrafo.'+TemaActual+'.titulo' | translate}}</h1>
 </div>
 
 <div class="contenedorParrafo">
 
   <ol>
     <li>
-      <h2>{{'proyecto.parrafo.1' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.1' | translate}}</h2>
     </li>
     <li>
-      <h2>{{'proyecto.parrafo.2' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.2' | translate}}</h2>
     </li>
     <li>
-      <h2>{{'proyecto.parrafo.3' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.3' | translate}}</h2>
     </li>
     <li>
-      <h2>{{'proyecto.parrafo.4' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.4' | translate}}</h2>
     </li>
     <li>
-      <h2>{{'proyecto.parrafo.5' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.5' | translate}}</h2>
     </li>
     <li>
-      <h2>{{'proyecto.parrafo.6' | translate}}</h2>
+      <h2>{{'proyecto.parrafo.'+TemaActual+'.6' | translate}}</h2>
     </li>
   </ol>
 

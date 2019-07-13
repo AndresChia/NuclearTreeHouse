@@ -124,14 +124,133 @@
 
   },
   "proyecto": {
-    "titulo": "WORKBLOCKS",
     "parrafo": {
-      "1": "Desarrollo de Idea.",
-      "2": "Logo & Branding.",
-      "3": "Diseño de página web.",
-      "4": "Desarrollo de página web.",
-      "5": "Copywrite de página web en inglés.",
-      "6": "Análisis de clientes"
+      "SqueakyGhost": {
+        "titulo": "Squeaky Ghost",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "Paradisso": {
+        "titulo": "Paradisso",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "Web Mockup",
+        "5": "",
+        "6": ""
+      },
+      "42Magazine": {
+        "titulo": "42Magazine",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding",
+        "4": "Web Mockup",
+        "5": "",
+        "6": ""
+      },
+      "2Juice": {
+        "titulo": "2Juice",
+        "1": "Lenguaje de Marca",
+        "2": "Branding",
+        "3": "App Mockup",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "KuroiTako": {
+        "titulo": "Kuroi Tako",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "Web Mockup",
+        "5": "",
+        "6": ""
+      },
+      "Hoov": {
+        "titulo": "Hoov",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "App Mockup",
+        "5": "",
+        "6": ""
+      },
+      "DNews": {
+        "titulo": "DNews (Discovery)",
+        "1": "Lenguaje de Comunicación",
+        "2": "Branding",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "Orion": {
+        "titulo": "Orion",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "App Mockup",
+        "5": "",
+        "6": ""
+      },
+      "LaTravesiaDeJuana": {
+        "titulo": "La Travesía De Juana",
+        "1": "Lenguaje de Marca",
+        "2": "Branding & Naming",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "HijaDePalenquera": {
+        "titulo": "Hija De Palenquera",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "LatidoConcluso": {
+        "titulo": "Latido Concluso",
+        "1": "Branding & Naming",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "BonusBread": {
+        "titulo": "Bonus Bread",
+        "1": "Desarrollo de Idea",
+        "2": "Lenguaje de Marca",
+        "3": "Branding & Naming",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "Rolas": {
+        "titulo": "Rolas",
+        "1": "Branding & Naming",
+        "2": "Web Mockup",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      },
+      "Capsula": {
+        "titulo": "Capsula: Laboratorio Creativo",
+        "1": "Lenguaje de Marca",
+        "2": "Branding",
+        "3": "Web Mockup",
+        "4": "",
+        "5": "",
+        "6": ""
+      }
     },
     "anterior": "Anterior",
     "siguiente": "Siguiente"
