@@ -123,12 +123,14 @@
 
   .contenedortitulo {
 
+    text-align: -webkit-center;
+
     padding-right: 0px;
     padding-left: 0px;
     width: 98vw;
 
     position: absolute;
-    top: 107vh;
+    top: 113vh;
     height: 41vh;
     left: 2vw;
   }
@@ -139,18 +141,22 @@
   }
 
   .contenedortitulo p.subEnxabezado {
-    width: 47vw;
     font-size: 4vw;
     line-height: 4vw;
+
+    text-align: justify;
+    top: 10vw;
+    position: relative;
+    width: 61vw;
   }
 
   .subtitulos-div {
-
-    display: inline-block;
+    display: none;
+    /* display: inline-block;
     width: 39vw;
     position: absolute;
     right: 4vh;
-    top: 39vw;
+    top: 39vw; */
   }
 
   .contenedortitulo .subtitulos-div .subtitulos p {

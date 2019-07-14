@@ -210,6 +210,18 @@ div.item img {
 
 @media only screen and (max-width: 425px) {
 
+  .menuHome {
+    visibility: visible;
+    display: block;
+    top: 8vw;
+    position: absolute;
+    z-index: +9999999;
+  }
+
+  .menuHome h1 {
+    font-family: 'brandon-black', 'arial', sans-serif;
+  }
+
   :host ::ng-deep app-nav-bar .col-xs-4:nth-child(2) {
     display: none;
     visibility: hidden;
@@ -235,13 +247,13 @@ div.item img {
 
   .nodoCentral {
     top: 32px;
-    width: 41.8vw;
+    width: 36vw;
     height: 75.4vw;
   }
 
 
   .level0 {
-    left: 25vw;
+    left: 28vw;
   }
 
   .level-1 {
