@@ -352,24 +352,22 @@
 
   .tercerContenedor.esTercerContenedor {
     background: url(../../../assets/proceso/ReuniocreativaES.png);
-    background-size: 55vw 80vw;
+    background-size: 55vw 72vw;
     background-repeat: no-repeat;
-
   }
 
   .tercerContenedor.enTercerContenedor {
     background: url(../../../assets/proceso/ReuniocreativaEN.png);
-    background-size: 55vw 80vw;
+    background-size: 55vw 72vw;
     background-repeat: no-repeat;
-
   }
 
   .tercerContenedor {
 
     width: 55vw;
-    height: 80vw;
+    height: 73vw;
     margin-left: 9vw;
-    padding-top: 20vw;
+    padding-top: 15vw;
     padding-left: 4vw;
     padding-right: 3vw;
   }
@@ -414,22 +412,22 @@
 
   .cuartoContenedor.esCuartoContenedor {
     background: url(../../../assets/proceso/analisisClienteES.png);
-    background-size: 84vw 44vw;
+    background-size: 84vw 39vw;
     background-repeat: no-repeat;
 
   }
 
   .cuartoContenedor.enCuartoContenedor {
     background: url(../../../assets/proceso/analisisClienteEN.png);
-    background-size: 84vw 44vw;
+    background-size: 84vw 39vw;
     background-repeat: no-repeat;
   }
 
   .cuartoContenedor {
     width: 88vw;
-    height: 45vw;
+    height: 40vw;
     margin-left: 9vw;
-    padding-top: 9vw;
+    padding-top: 7vw;
     padding-left: 3vw;
     padding-right: 36vw;
   }
@@ -446,22 +444,22 @@
 
   .quintoContenedor.esQuintoContenedor {
     background: url(../../../assets/proceso/disenoDesarrolloES.png);
-    background-size: 88vw 67vw;
+    background-size: 88vw 77vw;
     background-repeat: no-repeat;
 
   }
 
   .quintoContenedor.enQuintoContenedor {
     background: url(../../../assets/proceso/disenoDesarrolloEN.png);
-    background-size: 88vw 67vw;
+    background-size: 88vw 77vw;
     background-repeat: no-repeat;
   }
 
   .quintoContenedor {
     width: 88vw;
-    height: 67vw;
+    height: 81vw;
     margin-left: 9vw;
-    padding-top: 8vw;
+    padding-top: 14vw;
     padding-left: 3vw;
     padding-right: 36vw;
     margin-bottom: 8vw;

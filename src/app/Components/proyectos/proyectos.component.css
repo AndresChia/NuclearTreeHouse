@@ -13,11 +13,11 @@
 .nodosIntermedios {
   height: 20.2vw;
   width: 10vw;
-  top: 65px;
+  top: 6vw;
 }
 
 .nodoCentral {
-  top: 37px;
+  top: 3vw;
   width: 16.8vw;
   height: 33.4vw;
 }
@@ -73,12 +73,12 @@ div.item img {
 
 
 .arrow-right {
-  left: 90%;
+  right: 2px;
   position: absolute;
   bottom: 14px;
   width: 110px;
   display: inline-flex;
-  height: 41px;
+  height: 30px;
   z-index: 1000;
 }
 
@@ -152,11 +152,11 @@ div.item img {
 }
 
 .contenedorTitulo {
-  position: absolute;
-  top: 32vw;
+  position: relative;
+  bottom: 0vw;
   left: 7vw;
   width: 34vw;
-
+  display: inline-flex;
 }
 
 .contenedorTitulo h1 {
@@ -166,12 +166,12 @@ div.item img {
 }
 
 .contenedorParrafo {
-  position: absolute;
-  top: 32vw;
+  position: relative;
+  bottom: 1vw;
   z-index: +9999999;
-  left: 61vw;
-
+  left: 27vw;
   width: 15vw;
+  display: inline-flex;
 }
 
 .contenedorParrafo ol {
@@ -203,12 +203,13 @@ div.item img {
   height: 68px;
   background-size: contain;
   background: url(../../../assets/Proyectos/flechatoizq.png) no-repeat;
-  transform: translate(-2px, -22px) rotate(180deg);
-
+  transform: translate(0px, -29px) rotate(180deg);
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
+
+
 
   .menuHome {
     visibility: visible;
@@ -270,11 +271,12 @@ div.item img {
 
   .contenedorParrafo {
     position: absolute;
-    top: 143vw;
+    top: 131vw;
     z-index: +9999999;
     left: 9vw;
     width: 83vw;
     text-align: center;
+    display: block;
   }
 
   .contenedorParrafo h2 {
@@ -282,9 +284,10 @@ div.item img {
   }
 
   .contenedorTitulo {
-    top: 119vw;
+    top: 36vw;
     left: 8vw;
     width: 83vw;
+    display: block;
   }
 
   .contenedorTitulo h1 {
@@ -305,6 +308,7 @@ div.item img {
     height: 30px;
     width: 92px;
     left: 73.4%;
+
   }
 
   .arrow-right::after {

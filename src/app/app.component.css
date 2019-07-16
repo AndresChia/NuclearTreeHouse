@@ -86,3 +86,12 @@
   }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .Proyectos~.footer {
+    bottom: -700px;
+  }
+
+}
