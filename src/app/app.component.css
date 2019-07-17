@@ -88,10 +88,11 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 426px) {
 
   .Proyectos~.footer {
-    bottom: -700px;
+    /* bottom: -700px; */
+    visibility: hidden
   }
 
 }
