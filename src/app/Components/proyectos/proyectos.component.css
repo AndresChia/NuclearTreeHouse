@@ -26,7 +26,7 @@
 #carousel {
   position: relative;
   height: 28vw;
-  width: 88vw;
+  width: 100vw;
   margin: auto;
   left: 0;
   right: 0;
@@ -104,44 +104,44 @@ div.item img {
 
 .level-3 {
   line-height: 24.2vw;
-  left: 12vw;
+  left: 14vw;
   z-index: 0;
 }
 
 
 .level-2 {
   line-height: 24.2vw;
-  left: 19vw;
+  left: 23vw;
   z-index: +10;
 }
 
 .level-1 {
   line-height: 24.2vw;
-  left: 26vw;
+  left: 32vw;
   z-index: +20;
 }
 
 .level0 {
   line-height: 288px;
-  left: 35.6vw;
+  left: 41vw;
   z-index: +30;
 }
 
 .level1 {
   line-height: 24.2vw;
-  left: 52vw;
+  left: 57vw;
   z-index: +20;
 }
 
 .level2 {
   line-height: 24.2vw;
-  left: 59vw;
+  left: 66vw;
   z-index: +10;
 }
 
 .level3 {
   line-height: 24.2vw;
-  left: 65vw;
+  left: 75vw;
   z-index: 0;
 }
 
@@ -154,7 +154,7 @@ div.item img {
 .contenedorTitulo {
   position: relative;
   bottom: 0vw;
-  left: 7vw;
+  left: 8vw;
   width: 34vw;
   display: inline-flex;
 }
@@ -237,7 +237,6 @@ div.item img {
   #carousel {
     height: 72vw;
     top: 18vw;
-    margin: 0vw 0vw 0vw 4vw;
   }
 
   .nodosIntermedios {
@@ -254,11 +253,11 @@ div.item img {
 
 
   .level0 {
-    left: 28vw;
+    left: 33vw;
   }
 
   .level-1 {
-    left: 18vw;
+    left: 22vw;
   }
 
   .level-2 {
@@ -266,7 +265,7 @@ div.item img {
   }
 
   .level-3 {
-    left: 7vw;
+    left: 3vw;
   }
 
   .contenedorParrafo {

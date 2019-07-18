@@ -143,8 +143,7 @@
   .contenedortitulo p.subEnxabezado {
     font-size: 4vw;
     line-height: 4vw;
-
-    text-align: justify;
+    text-align: -webkit-left;
     top: 10vw;
     position: relative;
     width: 61vw;
