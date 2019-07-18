@@ -3,21 +3,27 @@
   display: none;
 }
 
+.footer {
+  background: rgb(40, 40, 40);
+  position: relative;
+  width: 100%;
+  height: 4vw;
+}
 
 #app {
   position: relative;
-  height: calc(100vh - 101px);
+  height: calc(100vh - 85px);
   width: 100vw;
 }
 
 .nodosIntermedios {
   height: 20.2vw;
   width: 10vw;
-  top: 6vw;
+  top: 4vw;
 }
 
 .nodoCentral {
-  top: 3vw;
+  top: 1vw;
   width: 16.8vw;
   height: 33.4vw;
 }
@@ -25,15 +31,11 @@
 
 #carousel {
   position: relative;
-  height: 28vw;
-  width: 100vw;
-  margin: auto;
+  height: 27.4vw;
+  width: 99%;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background: url("../../../assets/Proyectos/FondoCelulares.png")
+  background: url("../../../assets/Proyectos/FondoCelulares.png") center/100vw 28vw no-repeat !important;
 }
 
 .Niveloculto,
@@ -47,6 +49,7 @@
   height: 100%;
   width: 100%;
   padding-top: 20px;
+  left: 0px;
 }
 
 div.item img {
@@ -206,6 +209,14 @@ div.item img {
   transform: translate(0px, -29px) rotate(180deg);
 }
 
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  .footer {
+    top: 141vw;
+
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -237,6 +248,7 @@ div.item img {
   #carousel {
     height: 72vw;
     top: 18vw;
+    background: url("../../../assets/Proyectos/FondoCelulares.png") center/100vw 73vw no-repeat !important;
   }
 
   .nodosIntermedios {
@@ -313,6 +325,10 @@ div.item img {
   .arrow-right::after {
     height: 59px;
     transform: translate(-8px, -19px) rotate(180deg)
+  }
+
+  .footer {
+    height: 10vw;
   }
 
 }
