@@ -47,14 +47,15 @@
 
       <div class="form-group">
         <label for=""></label>
-        <input type="text" class="form-control botonForm" name="" id="" aria-describedby="helpId"
-          placeholder="{{'iniciarProyecto.nombre' | translate}}">
+        <input type="text" class="form-control botonForm" id="inputNombre" aria-describedby="helpId"
+          placeholder="{{'iniciarProyecto.nombre' | translate}}" [(ngModel)]="form.nombre">
         <label for=""></label>
-        <input type="text" class="form-control botonForm" name="" id="" aria-describedby="helpId"
-          placeholder="{{'iniciarProyecto.e-mail' | translate}}">
+        <input type="email" class="form-control botonForm" name="" id="inputEmail" aria-describedby="helpId"
+          placeholder="{{'iniciarProyecto.e-mail' | translate}}" [(ngModel)]="form.email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$">
         <label for=""></label>
-        <textarea class="form-control textAreaForm" name="" id="" rows="3"
-          placeholder="{{'iniciarProyecto.queCrear' | translate}}"></textarea>
+        <textarea class="form-control textAreaForm" name="" id="inputMensaje" rows="3"
+          placeholder="{{'iniciarProyecto.queCrear' | translate}}" [(ngModel)]="form.mensaje"></textarea>
         <button (click)="sendMail()" type="button"
           class="btn btn-primary botonForm">{{'iniciarProyecto.enviar' | translate}}</button>
       </div>

@@ -8,6 +8,11 @@
   src: url(../../../assets/fonts/brandon-grotesque-light.otf) format("opentype");
 }
 
+
+.faltante {
+  background-color: #d4181861;
+}
+
 .content-forma {
   margin-left: 10vw;
   margin-right: 10vw;

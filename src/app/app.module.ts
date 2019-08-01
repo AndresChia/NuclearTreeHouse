@@ -30,6 +30,7 @@ import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { CreadorComponent } from './Components/creador/creador.component';
 import { IniciarProyectoComponent } from './Components/iniciar-proyecto/iniciar-proyecto.component';
 import { MessageService } from './Services/message.service';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -54,6 +55,7 @@ export function createTranslateLoader(http: HttpClient) {
     IniciarProyectoComponent
   ],
   imports: [
+    FormsModule,
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
