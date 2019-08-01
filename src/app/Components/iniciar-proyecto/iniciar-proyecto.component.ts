@@ -20,12 +20,16 @@ export class IniciarProyectoComponent implements OnInit {
 
 
   // tslint:disable-next-line:variable-name
-  constructor(private _router: Router, public _MessageService: MessageService) { }
+  constructor(private _router: Router, public _MessageService: MessageService, private _snackBar: MatSnackBar) { }
 
   ngOnInit() {
   }
 
-
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action, {
+      duration: 2000,
+    });
+  }
 
   router(parametro) {
     this._router.navigateByUrl('/' + parametro);
@@ -69,7 +73,7 @@ export class IniciarProyectoComponent implements OnInit {
         asunto: "Nuevo mensaje: NUCLEAR TREE HOUSE",
         mensaje: ""
       };
-
+      this.openSnackBar("Correo enviado", "cerrar");
     }
 
 

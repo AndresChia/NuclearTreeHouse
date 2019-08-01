@@ -32,6 +32,9 @@ import { IniciarProyectoComponent } from './Components/iniciar-proyecto/iniciar-
 import { MessageService } from './Services/message.service';
 import { FormsModule } from '@angular/forms';
 
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 
@@ -55,6 +58,8 @@ export function createTranslateLoader(http: HttpClient) {
     IniciarProyectoComponent
   ],
   imports: [
+    MatFormFieldModule,
+    MatSnackBarModule,
     FormsModule,
     HttpClientModule,
     BrowserModule,
