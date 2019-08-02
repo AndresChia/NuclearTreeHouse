@@ -12,6 +12,17 @@
   font-family: 'brandon-black', 'arial', sans-serif;
 }
 
+.contenedorSociales {
+  left: 18.9vw;
+  position: relative;
+  z-index: +23;
+  top: 0.4vw;
+}
+
+.contenedorSociales a img {
+  width: 4.1vw;
+}
+
 .row.tvMobile,
 .row.tvMobile .col-4,
 .row.tvMobile .col-8 {
@@ -254,6 +265,22 @@
     height: auto;
   }
 
+  .contenedorSociales {
+    left: 18.9vw;
+    position: absolute;
+    z-index: +23;
+    top: 108.4vw;
+    width: 35vw;
+  }
+
+  .contenedorSociales a img {
+    width: 11.1vw;
+  }
+
+  .containerImgMune .col-8 {
+    top: 7vw;
+  }
+
   .botonesTexto {
     display: inline-flex;
     bottom: 0%;
@@ -468,6 +495,23 @@
   :host ::ng-deep app-root containerRoter {
     height: auto;
   }
+
+
+  .contenedorSociales {
+    left: 18.9vw;
+    position: absolute;
+    z-index: +23;
+    top: 93.4vw;
+  }
+
+  .contenedorSociales a img {
+    width: 11.1vw;
+  }
+
+  .containerImgMune .col-8 {
+    top: 9vw;
+  }
+
 
   .botonesTexto {
     display: inline-flex;
