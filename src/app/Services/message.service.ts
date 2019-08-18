@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 
 export class MessageService {
-  url: string = "https://fihgp8aw9j.execute-api.us-east-1.amazonaws.com/Implementada/";
+  url: string = "https://fihgp8aw9j.execute-api.us-east-1.amazonaws.com/EtapaFinal";
   // tslint:disable-next-line:variable-name
   constructor(private http: HttpClient) { }
 
@@ -17,9 +17,9 @@ export class MessageService {
 
   enviarMensaje(datos) {
     // tslint:disable-next-line:max-line-length
-    const params = new HttpParams().set("email", datos.email).set("nombre", datos.nombre).set("asunto", datos.asunto).set("mensaje", datos.mensaje);
+    const params = new HttpParams().set("email", datos.email + "").set("nombre", datos.nombre + "").set("mensaje", datos.mensaje + "");
 
-    return this.http.get(this.url + "sendcorreo", { params }).map(res => {
+    return this.http.get(this.url, { params }).map(res => {
 
     });
   }

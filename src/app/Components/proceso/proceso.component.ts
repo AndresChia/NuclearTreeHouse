@@ -18,4 +18,6 @@ export class ProcesoComponent implements OnInit {
   router(parametro) {
     this._router.navigateByUrl('/' + parametro);
   }
+
+
 }

@@ -13,10 +13,10 @@
 }
 
 .contenedorSociales {
-  left: 18.9vw;
-  position: relative;
+  left: 17.6vw;
+  position: absolute;
   z-index: +23;
-  top: 0.4vw;
+  top: 29.4vw;
 }
 
 .contenedorSociales a img {
@@ -266,15 +266,15 @@
   }
 
   .contenedorSociales {
-    left: 18.9vw;
+    left: 9vw;
     position: absolute;
     z-index: +23;
     top: 108.4vw;
-    width: 35vw;
+    width: 56vw;
   }
 
   .contenedorSociales a img {
-    width: 11.1vw;
+    width: 17.1vw;
   }
 
   .containerImgMune .col-8 {
@@ -498,18 +498,18 @@
 
 
   .contenedorSociales {
-    left: 18.9vw;
+    left: 7.9vw;
     position: absolute;
     z-index: +23;
     top: 93.4vw;
   }
 
   .contenedorSociales a img {
-    width: 11.1vw;
+    width: 18.4vw;
   }
 
   .containerImgMune .col-8 {
-    top: 9vw;
+    top: 13vw;
   }
 
 
