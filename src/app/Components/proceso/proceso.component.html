@@ -75,7 +75,7 @@
     [ngClass]="{'esDosContenedor': _IdiomaService.getIdioma() == 'es', 'enDosContenedor': _IdiomaService.getIdioma() == 'en'}"
     class="contenedorDosDesk">
 
-    <div class="ContenedorHablemos">
+    <div class="ContenedorHablemos" (click)="router('IniciarProyecto')" style="cursor: pointer">
       <div class="button">
         <h1>{{"proceso.hablemos" | translate}}</h1>
       </div>
